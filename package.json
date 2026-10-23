@@ -1,0 +1,27 @@
+{
+  "name": "atlante-strumenti",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Atlante degli strumenti gratuiti e open source per architettura, urbanistica e paesaggio.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check-links": "node scripts/check-links.mjs",
+    "fetch-favicons": "node scripts/fetch-favicons.mjs",
+    "og-image": "node scripts/make-og-image.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.2",
+    "fuse.js": "^7.5.0"
+  },
+  "devDependencies": {
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@lucide/astro": "^1.61.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

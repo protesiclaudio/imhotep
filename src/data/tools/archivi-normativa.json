@@ -1,0 +1,526 @@
+[
+  {
+    "id": "old-maps-online",
+    "name": "Old Maps Online",
+    "url": "https://www.oldmapsonline.org",
+    "description_it": "Motore di ricerca di centinaia di migliaia di mappe storiche delle biblioteche di tutto il mondo, per luogo e data.",
+    "description_en": "Search engine for hundreds of thousands of historic maps from libraries worldwide, by place and date.",
+    "category": "archivi-normativa",
+    "tags": [
+      "cartografia storica",
+      "mappe"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "david-rumsey",
+    "name": "David Rumsey Map Collection",
+    "url": "https://www.davidrumsey.com",
+    "description_it": "Oltre 150.000 mappe storiche digitalizzate ad alta risoluzione, molte georeferenziate.",
+    "description_en": "Over 150,000 high-resolution digitised historic maps, many georeferenced.",
+    "category": "archivi-normativa",
+    "tags": [
+      "cartografia storica",
+      "alta risoluzione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "JPG",
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "europeana",
+    "name": "Europeana",
+    "url": "https://www.europeana.eu",
+    "description_it": "Il patrimonio culturale digitale europeo: foto storiche, disegni, mappe e documenti di migliaia di istituzioni.",
+    "description_en": "Europe's digital cultural heritage: historic photos, drawings, maps and documents from thousands of institutions.",
+    "category": "archivi-normativa",
+    "tags": [
+      "archivio",
+      "patrimonio",
+      "Europa"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "JPG"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "internet-archive",
+    "name": "Internet Archive",
+    "url": "https://archive.org",
+    "description_it": "Biblioteca digitale con libri, riviste di architettura storiche, film e la Wayback Machine dei siti web.",
+    "description_en": "Digital library with books, historic architecture magazines, films and the Wayback Machine for websites.",
+    "category": "archivi-normativa",
+    "tags": [
+      "archivio",
+      "libri",
+      "riviste"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "gallica",
+    "name": "Gallica (BnF)",
+    "url": "https://gallica.bnf.fr",
+    "description_it": "Biblioteca digitale della Biblioteca nazionale di Francia: trattati di architettura, mappe e stampe storiche.",
+    "description_en": "Digital library of the National Library of France: architectural treatises, maps and historic prints.",
+    "category": "archivi-normativa",
+    "tags": [
+      "archivio",
+      "trattati",
+      "cartografia storica"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PDF",
+      "JPG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "map-warper",
+    "name": "Map Warper",
+    "url": "https://mapwarper.net",
+    "source": "https://github.com/timwaters/mapwarper",
+    "description_it": "Georeferenzia mappe storiche o scansioni sovrapponendole alla cartografia attuale.",
+    "description_en": "Georeferences historic maps or scans by overlaying them on current maps.",
+    "category": "archivi-normativa",
+    "tags": [
+      "georeferenziazione",
+      "cartografia storica"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "KML"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "allmaps",
+    "name": "Allmaps",
+    "url": "https://allmaps.org",
+    "source": "https://github.com/allmaps/allmaps",
+    "description_it": "Georeferenzia e sovrappone le mappe storiche IIIF delle biblioteche direttamente nel browser.",
+    "description_en": "Georeferences and overlays libraries' IIIF historic maps right in the browser.",
+    "category": "archivi-normativa",
+    "tags": [
+      "georeferenziazione",
+      "IIIF",
+      "cartografia storica"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "libreria"
+    ],
+    "formats": [
+      "GeoJSON"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "castore-toscana",
+    "name": "CASTORE – Catasti storici della Toscana",
+    "url": "https://www.regione.toscana.it/-/castore",
+    "description_it": "Mappe dei catasti storici toscani dell'Ottocento georeferenziate e sovrapponibili alla cartografia attuale.",
+    "description_en": "Georeferenced 19th-century Tuscan cadastral maps that overlay current maps.",
+    "category": "archivi-normativa",
+    "tags": [
+      "catasto storico",
+      "cartografia storica",
+      "Toscana",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "archivio-luce",
+    "name": "Archivio Storico Istituto Luce",
+    "url": "https://www.archivioluce.com",
+    "description_it": "Filmati e fotografie storiche italiane del Novecento: città, cantieri, paesaggi e architetture.",
+    "description_en": "Historic 20th-century Italian films and photographs: cities, building sites, landscapes and architecture.",
+    "category": "archivi-normativa",
+    "tags": [
+      "archivio",
+      "foto storiche",
+      "video",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "lombardia-beni-culturali",
+    "name": "Lombardia Beni Culturali – Architetture",
+    "url": "https://www.lombardiabeniculturali.it/architetture/",
+    "description_it": "Schede di catalogo di migliaia di architetture lombarde, con storia, descrizione e immagini.",
+    "description_en": "Catalogue records of thousands of Lombard buildings, with history, description and images.",
+    "category": "archivi-normativa",
+    "tags": [
+      "patrimonio",
+      "catalogo",
+      "Lombardia",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "normattiva",
+    "name": "Normattiva",
+    "url": "https://www.normattiva.it",
+    "description_it": "Il portale ufficiale della legge italiana: testi vigenti e storici di leggi e decreti, anche urbanistici ed edilizi.",
+    "description_en": "The official portal of Italian law: current and historical texts of laws and decrees, including planning and building.",
+    "category": "archivi-normativa",
+    "tags": [
+      "normativa",
+      "leggi",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "gazzetta-ufficiale",
+    "name": "Gazzetta Ufficiale",
+    "url": "https://www.gazzettaufficiale.it",
+    "description_it": "La Gazzetta Ufficiale della Repubblica Italiana, consultabile gratuitamente (es. NTC 2018, bandi pubblici).",
+    "description_en": "The Official Gazette of the Italian Republic, free to consult (e.g. building codes, public tenders).",
+    "category": "archivi-normativa",
+    "tags": [
+      "normativa",
+      "bandi",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "eur-lex",
+    "name": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu",
+    "description_it": "Accesso gratuito al diritto dell'Unione europea: direttive su energia, appalti, ambiente e prodotti da costruzione.",
+    "description_en": "Free access to EU law: directives on energy, procurement, environment and construction products.",
+    "category": "archivi-normativa",
+    "tags": [
+      "normativa",
+      "Europa"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PDF",
+      "HTML"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sitap",
+    "name": "SITAP – Vincoli paesaggistici",
+    "url": "https://sitap.cultura.gov.it",
+    "description_it": "Sistema informativo del Ministero della Cultura sui vincoli paesaggistici, consultabili su mappa.",
+    "description_en": "Ministry of Culture information system on landscape constraints, viewable on a map.",
+    "category": "archivi-normativa",
+    "tags": [
+      "vincoli",
+      "paesaggio",
+      "beni culturali",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "vincoli-in-rete",
+    "name": "Vincoli in Rete",
+    "url": "http://vincoliinrete.beniculturali.it",
+    "description_it": "Banca dati del Ministero della Cultura sui beni architettonici e archeologici vincolati (accessibile dalle 7 alle 20).",
+    "description_en": "Ministry of Culture database of listed architectural and archaeological heritage (available 7am to 8pm).",
+    "category": "archivi-normativa",
+    "tags": [
+      "vincoli",
+      "beni culturali",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "siape",
+    "name": "SIAPE – Attestati di prestazione energetica",
+    "url": "https://siape.enea.it",
+    "description_it": "Sistema informativo nazionale dell'ENEA con statistiche sugli attestati di prestazione energetica degli edifici.",
+    "description_en": "ENEA national information system with statistics on building energy performance certificates.",
+    "category": "archivi-normativa",
+    "tags": [
+      "energia",
+      "APE",
+      "statistica",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "edilportale-normativa",
+    "name": "Edilportale – Normativa",
+    "url": "https://www.edilportale.com/normativa",
+    "description_it": "Banca dati della normativa edilizia nazionale e regionale con notizie e commenti aggiornati.",
+    "description_en": "Database of national and regional Italian building regulations with up-to-date news and commentary.",
+    "category": "archivi-normativa",
+    "tags": [
+      "normativa",
+      "edilizia",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "biblus-acca",
+    "name": "BibLus (ACCA)",
+    "url": "https://biblus.acca.it",
+    "description_it": "Articoli e guide gratuite su normativa, BIM, strutture, sicurezza ed energia per tecnici italiani.",
+    "description_en": "Free articles and guides on regulations, BIM, structures, safety and energy for Italian practitioners.",
+    "category": "archivi-normativa",
+    "tags": [
+      "normativa",
+      "guide",
+      "BIM",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "mappa-prezzari",
+    "name": "Mappa dei prezzari d'Italia (Ediltecnico)",
+    "url": "https://ediltecnico.it/arriva-la-mappa-dei-prezzari-d-italia-di-ediltecnico-it",
+    "description_it": "Mappa con i link ai prezzari ufficiali delle opere pubbliche di tutte le regioni italiane.",
+    "description_en": "Map linking to the official public works price lists of every Italian region.",
+    "category": "archivi-normativa",
+    "tags": [
+      "prezzari",
+      "computi",
+      "opere pubbliche",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "prezzario-piemonte",
+    "name": "Prezzario Regione Piemonte",
+    "url": "https://www.regione.piemonte.it/web/temi/protezione-civile-difesa-suolo-opere-pubbliche/prezzario-regione-piemonte-annualita-dal-2000-al-2026",
+    "description_it": "Prezzario regionale delle opere pubbliche del Piemonte, con tutte le annualità dal 2000.",
+    "description_en": "Piedmont regional public works price list, with every edition since 2000.",
+    "category": "archivi-normativa",
+    "tags": [
+      "prezzari",
+      "computi",
+      "Piemonte",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PDF",
+      "XLSX"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "prezzario-lombardia",
+    "name": "Prezzario Regione Lombardia",
+    "url": "https://www.regione.lombardia.it/infrastrutture-trasporti-e-mobilita/opere-pubbliche/prezzario-regionale-dei-lavori-pubblici",
+    "description_it": "Prezzario regionale dei lavori pubblici della Lombardia, con circa 40.000 voci e analisi dei prezzi.",
+    "description_en": "Lombardy regional public works price list, with about 40,000 items and price breakdowns.",
+    "category": "archivi-normativa",
+    "tags": [
+      "prezzari",
+      "computi",
+      "Lombardia",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PDF",
+      "XLSX"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "prezzario-toscana",
+    "name": "Prezzario dei lavori pubblici della Toscana",
+    "url": "https://www.regione.toscana.it/it/prezzario-lavori-pubblici",
+    "description_it": "Prezzario regionale toscano consultabile online e scaricabile in formato open data senza registrazione.",
+    "description_en": "Tuscan regional price list, browsable online and downloadable as open data without registration.",
+    "category": "archivi-normativa",
+    "tags": [
+      "prezzari",
+      "computi",
+      "Toscana",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "XLSX",
+      "CSV"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cnappc",
+    "name": "Consiglio Nazionale degli Architetti (CNAPPC)",
+    "url": "https://www.awn.it",
+    "description_it": "Il portale del Consiglio nazionale degli architetti: normativa professionale, bandi, concorsi e formazione.",
+    "description_en": "Portal of the Italian National Council of Architects: professional rules, tenders, competitions and training.",
+    "category": "archivi-normativa",
+    "tags": [
+      "professione",
+      "concorsi",
+      "normativa",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

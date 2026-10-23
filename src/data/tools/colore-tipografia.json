@@ -1,0 +1,462 @@
+[
+  {
+    "id": "coolors",
+    "name": "Coolors",
+    "url": "https://coolors.co",
+    "description_it": "Generatore di palette rapidissimo: premi la barra spaziatrice, blocca i colori che ti piacciono, esporta.",
+    "description_en": "Lightning-fast palette generator: hit the spacebar, lock the colours you like, export.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "ASE",
+      "SVG",
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "adobe-color",
+    "name": "Adobe Color",
+    "url": "https://color.adobe.com",
+    "description_it": "Ruota dei colori con armonie, estrazione di palette da immagini e controllo dell'accessibilità.",
+    "description_en": "Colour wheel with harmonies, palette extraction from images and accessibility checks.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette",
+      "armonie",
+      "accessibilità"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "ASE"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "google-fonts",
+    "name": "Google Fonts",
+    "url": "https://fonts.google.com",
+    "description_it": "Oltre 1.700 famiglie di caratteri open source, da scaricare o usare sul web.",
+    "description_en": "Over 1,700 open-source font families to download or use on the web.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "tipografia"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "TTF",
+      "WOFF2"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "fontshare",
+    "name": "Fontshare",
+    "url": "https://www.fontshare.com",
+    "description_it": "Caratteri professionali della Indian Type Foundry gratuiti anche per uso commerciale.",
+    "description_en": "Professional typefaces from the Indian Type Foundry, free for commercial use too.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "tipografia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "OTF",
+      "WOFF2"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "colorbrewer",
+    "name": "ColorBrewer",
+    "url": "https://colorbrewer2.org",
+    "source": "https://github.com/axismaps/colorbrewer",
+    "description_it": "Scale cromatiche sequenziali, divergenti e qualitative pensate per mappe tematiche leggibili.",
+    "description_en": "Sequential, diverging and qualitative colour schemes designed for legible thematic maps.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette",
+      "cartografia",
+      "mappe tematiche"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "ASE",
+      "CSS"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "paletton",
+    "name": "Paletton",
+    "url": "https://paletton.com",
+    "description_it": "Costruisce schemi di colore monocromatici, complementari e triadici con anteprima su esempi.",
+    "description_en": "Builds monochromatic, complementary and triadic colour schemes with live previews.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette",
+      "armonie"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "color-hunt",
+    "name": "Color Hunt",
+    "url": "https://colorhunt.co",
+    "description_it": "Raccolta curata di palette di quattro colori, sfogliabili per tema e popolarità.",
+    "description_en": "Curated collection of four-colour palettes, browsable by theme and popularity.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette",
+      "ispirazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "webaim-contrast",
+    "name": "WebAIM Contrast Checker",
+    "url": "https://webaim.org/resources/contrastchecker/",
+    "description_it": "Verifica il contrasto tra testo e sfondo secondo le WCAG: utile per tavole e presentazioni leggibili.",
+    "description_en": "Checks text/background contrast against WCAG: useful for legible boards and presentations.",
+    "category": "colore-tipografia",
+    "tags": [
+      "accessibilità",
+      "contrasto"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "huemint",
+    "name": "Huemint",
+    "url": "https://huemint.com",
+    "description_it": "Genera palette con l'intelligenza artificiale e le mostra applicate a esempi di grafica.",
+    "description_en": "Generates palettes with AI and previews them applied to sample graphics.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette",
+      "intelligenza artificiale"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "chroma-palette-helper",
+    "name": "Chroma.js Color Palette Helper",
+    "url": "https://gka.github.io/palettes/",
+    "source": "https://github.com/gka/palettes",
+    "description_it": "Crea scale di colore percettivamente uniformi e sicure per i daltonici, per grafici e mappe.",
+    "description_en": "Builds perceptually uniform, colour-blind-safe scales for charts and maps.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette",
+      "daltonismo",
+      "mappe tematiche"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "viz-palette",
+    "name": "Viz Palette",
+    "url": "https://projects.susielu.com/viz-palette",
+    "description_it": "Testa una palette su grafici e mappe di esempio e simula come la vedono le persone daltoniche.",
+    "description_en": "Tests a palette on sample charts and maps and simulates how colour-blind people see it.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette",
+      "daltonismo"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "scientific-colour-maps",
+    "name": "Scientific Colour Maps",
+    "url": "https://www.fabiocrameri.ch/colourmaps/",
+    "description_it": "Scale di colore scientifiche percettivamente uniformi (batlow, roma…) per mappe di dati e DEM.",
+    "description_en": "Perceptually uniform scientific colour maps (batlow, roma…) for data maps and DEMs.",
+    "category": "colore-tipografia",
+    "tags": [
+      "palette",
+      "cartografia",
+      "DEM"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "QML",
+      "CPT"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "encycolorpedia",
+    "name": "Encycolorpedia",
+    "url": "https://encycolorpedia.com",
+    "description_it": "Enciclopedia dei colori con conversioni tra HEX, RGB, RAL, NCS e Pantone e corrispondenze con le pitture.",
+    "description_en": "Colour encyclopedia with conversions between HEX, RGB, RAL, NCS and Pantone, plus paint matches.",
+    "category": "colore-tipografia",
+    "tags": [
+      "RAL",
+      "NCS",
+      "conversione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "font-squirrel",
+    "name": "Font Squirrel",
+    "url": "https://www.fontsquirrel.com",
+    "description_it": "Caratteri gratuiti selezionati per uso commerciale, con identificatore di font da immagine.",
+    "description_en": "Hand-picked free fonts for commercial use, with a font identifier from images.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "tipografia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "OTF",
+      "TTF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "velvetyne",
+    "name": "Velvetyne",
+    "url": "https://velvetyne.fr",
+    "description_it": "Fonderia francese di caratteri sperimentali e open source, per titoli e grafica di carattere.",
+    "description_en": "French foundry of experimental, open-source typefaces for headlines and expressive graphics.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "sperimentale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "OTF",
+      "WOFF2"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "collletttivo",
+    "name": "Collletttivo",
+    "url": "https://www.collletttivo.it",
+    "description_it": "Collettivo italiano di type designer che pubblica caratteri open source di qualità.",
+    "description_en": "Italian collective of type designers publishing quality open-source typefaces.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "tipografia"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "OTF",
+      "WOFF2"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "fontsource",
+    "name": "Fontsource",
+    "url": "https://fontsource.org",
+    "source": "https://github.com/fontsource/fontsource",
+    "description_it": "Caratteri open source impacchettati per l'uso nei siti web senza servizi esterni.",
+    "description_en": "Open-source fonts packaged for self-hosting on websites without external services.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "web"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "libreria"
+    ],
+    "formats": [
+      "WOFF2"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "use-and-modify",
+    "name": "Use & Modify",
+    "url": "https://usemodify.com",
+    "description_it": "Selezione curata di caratteri open source di qualità, con link ai progetti originali.",
+    "description_en": "Curated selection of quality open-source typefaces, with links to the original projects.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "tipografia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "whatthefont",
+    "name": "WhatTheFont",
+    "url": "https://www.myfonts.com/pages/whatthefont",
+    "description_it": "Riconosce il carattere tipografico da una fotografia o da uno screenshot.",
+    "description_en": "Identifies a typeface from a photo or screenshot.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "riconoscimento"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web",
+      "mobile"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "typescale",
+    "name": "Typescale",
+    "url": "https://typescale.com",
+    "description_it": "Calcola una scala tipografica armonica (titoli, testo, note) a partire da un rapporto.",
+    "description_en": "Calculates a harmonious type scale (headings, body, notes) from a ratio.",
+    "category": "colore-tipografia",
+    "tags": [
+      "tipografia",
+      "scala"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSS"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "fontjoy",
+    "name": "Fontjoy",
+    "url": "https://fontjoy.com",
+    "description_it": "Suggerisce abbinamenti di caratteri Google Fonts con il machine learning.",
+    "description_en": "Suggests Google Fonts pairings using machine learning.",
+    "category": "colore-tipografia",
+    "tags": [
+      "caratteri",
+      "abbinamenti"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

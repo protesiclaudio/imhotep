@@ -1,0 +1,284 @@
+[
+  {
+    "id": "librecad",
+    "name": "LibreCAD",
+    "url": "https://librecad.org",
+    "source": "https://github.com/LibreCAD/LibreCAD",
+    "description_it": "CAD 2D open source leggero e multipiattaforma, con layer, quote e blocchi; lavora nativamente in DXF.",
+    "description_en": "Lightweight, cross-platform open-source 2D CAD with layers, dimensions and blocks; works natively in DXF.",
+    "category": "cad",
+    "tags": [
+      "CAD 2D",
+      "DXF",
+      "disegno tecnico"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "DXF",
+      "DWG",
+      "SVG",
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "freecad",
+    "name": "FreeCAD",
+    "url": "https://www.freecad.org",
+    "source": "https://github.com/FreeCAD/FreeCAD",
+    "description_it": "Modellatore parametrico 3D open source con ambienti per architettura e BIM (IFC), disegno tecnico e analisi FEM.",
+    "description_en": "Open-source parametric 3D modeller with workbenches for architecture and BIM (IFC), drawings and FEM analysis.",
+    "category": "cad",
+    "tags": [
+      "parametrico",
+      "BIM",
+      "IFC",
+      "FEM"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "IFC",
+      "DXF",
+      "STEP",
+      "STL",
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "qcad",
+    "name": "QCAD",
+    "url": "https://qcad.org",
+    "source": "https://github.com/qcad/qcad",
+    "description_it": "CAD 2D per disegno tecnico e architettonico; la Community Edition è open source, la versione Pro aggiunge il DWG.",
+    "description_en": "2D CAD for technical and architectural drawing; the Community Edition is open source, Pro adds DWG.",
+    "category": "cad",
+    "tags": [
+      "CAD 2D",
+      "DXF",
+      "disegno tecnico"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "DXF",
+      "PDF",
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "oda-file-converter",
+    "name": "ODA File Converter",
+    "url": "https://www.opendesign.com/guestfiles/oda_file_converter",
+    "description_it": "Converte file DWG e DXF tra le diverse versioni, anche in blocco: utile quando un file è troppo recente per il tuo CAD.",
+    "description_en": "Converts DWG and DXF files between versions, in batch too: handy when a file is too new for your CAD.",
+    "category": "cad",
+    "tags": [
+      "conversione",
+      "DWG",
+      "DXF"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "DWG",
+      "DXF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "solvespace",
+    "name": "SolveSpace",
+    "url": "https://solvespace.com",
+    "source": "https://github.com/solvespace/solvespace",
+    "description_it": "CAD parametrico 2D/3D leggerissimo con vincoli geometrici, ideale per dettagli e componenti.",
+    "description_en": "Very lightweight parametric 2D/3D CAD with geometric constraints, ideal for details and components.",
+    "category": "cad",
+    "tags": [
+      "parametrico",
+      "vincoli"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "web"
+    ],
+    "formats": [
+      "DXF",
+      "STEP",
+      "STL",
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "openscad",
+    "name": "OpenSCAD",
+    "url": "https://openscad.org",
+    "source": "https://github.com/openscad/openscad",
+    "description_it": "Modellazione 3D solida tramite script: forme definite da codice, perfette per oggetti parametrici e stampa 3D.",
+    "description_en": "Script-based solid 3D modelling: code-defined shapes, ideal for parametric objects and 3D printing.",
+    "category": "cad",
+    "tags": [
+      "parametrico",
+      "scripting",
+      "stampa 3D"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "STL",
+      "DXF",
+      "SVG",
+      "3MF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cadquery",
+    "name": "CadQuery",
+    "url": "https://cadquery.readthedocs.io",
+    "source": "https://github.com/CadQuery/cadquery",
+    "description_it": "Libreria Python per creare modelli CAD parametrici precisi (B-rep) esportabili in STEP.",
+    "description_en": "Python library for building precise parametric CAD models (B-rep), exportable to STEP.",
+    "category": "cad",
+    "tags": [
+      "Python",
+      "parametrico",
+      "scripting"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "STEP",
+      "STL",
+      "DXF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "brl-cad",
+    "name": "BRL-CAD",
+    "url": "https://brlcad.org",
+    "description_it": "Sistema CAD di modellazione solida sviluppato in origine per l'esercito USA, oggi open source.",
+    "description_en": "Solid modelling CAD system originally developed for the US Army, now open source.",
+    "category": "cad",
+    "tags": [
+      "modellazione solida"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "STEP",
+      "STL",
+      "OBJ"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "dune-3d",
+    "name": "Dune 3D",
+    "url": "https://dune3d.org",
+    "source": "https://github.com/dune3d/dune3d",
+    "description_it": "CAD 3D parametrico open source moderno, con vincoli e geometria solida basata su OpenCASCADE.",
+    "description_en": "Modern open-source parametric 3D CAD with constraints and OpenCASCADE-based solid geometry.",
+    "category": "cad",
+    "tags": [
+      "parametrico",
+      "vincoli"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "STEP",
+      "STL"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "libredwg",
+    "name": "LibreDWG",
+    "url": "https://www.gnu.org/software/libredwg/",
+    "description_it": "Libreria GNU per leggere e scrivere file DWG, con utility per convertirli in DXF, JSON e SVG.",
+    "description_en": "GNU library to read and write DWG files, with utilities to convert them to DXF, JSON and SVG.",
+    "category": "cad",
+    "tags": [
+      "DWG",
+      "conversione",
+      "sviluppo"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "DWG",
+      "DXF",
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ezdxf",
+    "name": "ezdxf",
+    "url": "https://ezdxf.mozman.at",
+    "source": "https://github.com/mozman/ezdxf",
+    "description_it": "Libreria Python per creare e modificare file DXF: automatizza tavole, blocchi e quote.",
+    "description_en": "Python library to create and edit DXF files: automate drawings, blocks and dimensions.",
+    "category": "cad",
+    "tags": [
+      "Python",
+      "DXF",
+      "automazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "DXF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

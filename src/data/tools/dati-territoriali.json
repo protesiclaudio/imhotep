@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "copernicus-land",
+    "name": "Copernicus Land Monitoring Service",
+    "url": "https://land.copernicus.eu",
+    "description_it": "Il portale europeo dei dati sul territorio: uso e copertura del suolo, verde urbano, impermeabilizzazione, altezza degli edifici.",
+    "description_en": "The European land data portal: land use and cover, urban green, imperviousness, building heights.",
+    "category": "dati-territoriali",
+    "tags": [
+      "uso del suolo",
+      "Copernicus",
+      "Europa"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "GPKG"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "urban-atlas",
+    "name": "Urban Atlas",
+    "url": "https://land.copernicus.eu/en/products/urban-atlas",
+    "description_it": "Uso del suolo dettagliato delle aree urbane europee (oltre 700 città), con altezza degli edifici e verde stradale.",
+    "description_en": "Detailed land use for European urban areas (over 700 cities), with building heights and street trees.",
+    "category": "dati-territoriali",
+    "tags": [
+      "uso del suolo",
+      "città",
+      "Copernicus",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GPKG",
+      "SHP"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "corine-land-cover",
+    "name": "CORINE Land Cover",
+    "url": "https://land.copernicus.eu/en/products/corine-land-cover",
+    "description_it": "Copertura del suolo europea in 44 classi, con serie storiche dal 1990: base per analisi territoriali e paesaggistiche.",
+    "description_en": "European land cover in 44 classes with time series since 1990: a base for territorial and landscape analysis.",
+    "category": "dati-territoriali",
+    "tags": [
+      "uso del suolo",
+      "Copernicus",
+      "serie storiche"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "GPKG"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ghsl",
+    "name": "Global Human Settlement Layer",
+    "url": "https://human-settlement.emergency.copernicus.eu",
+    "description_it": "Dati globali del JRC su superfici edificate, popolazione e grado di urbanizzazione dal 1975 a oggi.",
+    "description_en": "Global JRC data on built-up surfaces, population and degree of urbanisation from 1975 to today.",
+    "category": "dati-territoriali",
+    "tags": [
+      "urbanizzazione",
+      "popolazione",
+      "edificato"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "worldpop",
+    "name": "WorldPop",
+    "url": "https://www.worldpop.org",
+    "description_it": "Stime di popolazione ad alta risoluzione (100 m) per tutti i paesi, con età, sesso e serie storiche.",
+    "description_en": "High-resolution (100 m) population estimates for every country, with age, sex and time series.",
+    "category": "dati-territoriali",
+    "tags": [
+      "popolazione",
+      "demografia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "CSV"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "overture-maps",
+    "name": "Overture Maps",
+    "url": "https://overturemaps.org",
+    "source": "https://github.com/OvertureMaps",
+    "description_it": "Dati cartografici aperti globali su edifici, luoghi, trasporti e confini, uniti da OSM e altre fonti.",
+    "description_en": "Global open map data on buildings, places, transport and boundaries, merged from OSM and other sources.",
+    "category": "dati-territoriali",
+    "tags": [
+      "edifici",
+      "POI",
+      "dati aperti"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoParquet"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "natural-earth",
+    "name": "Natural Earth",
+    "url": "https://www.naturalearthdata.com",
+    "description_it": "Dati cartografici di pubblico dominio a piccola scala (confini, coste, fiumi, città) per mappe di inquadramento.",
+    "description_en": "Public-domain small-scale map data (boundaries, coasts, rivers, cities) for overview maps.",
+    "category": "dati-territoriali",
+    "tags": [
+      "cartografia",
+      "confini",
+      "pubblico dominio"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP",
+      "GPKG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ms-building-footprints",
+    "name": "Microsoft Global Building Footprints",
+    "url": "https://github.com/microsoft/GlobalMLBuildingFootprints",
+    "description_it": "Oltre un miliardo di sagome di edifici estratte con il machine learning da immagini satellitari, con altezze stimate.",
+    "description_en": "Over a billion building footprints extracted by machine learning from satellite imagery, with estimated heights.",
+    "category": "dati-territoriali",
+    "tags": [
+      "edifici",
+      "machine learning"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoJSON"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "google-open-buildings",
+    "name": "Google Open Buildings",
+    "url": "https://sites.research.google/gr/open-buildings/",
+    "description_it": "Sagome di edifici da immagini satellitari per Africa, Asia meridionale, America Latina e Caraibi, con serie temporali.",
+    "description_en": "Building footprints from satellite imagery for Africa, South Asia, Latin America and the Caribbean, with time series.",
+    "category": "dati-territoriali",
+    "tags": [
+      "edifici",
+      "machine learning"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "esa-worldcover",
+    "name": "ESA WorldCover",
+    "url": "https://esa-worldcover.org/en",
+    "description_it": "Mappa globale della copertura del suolo a 10 m da Sentinel-1 e Sentinel-2, in 11 classi.",
+    "description_en": "Global 10 m land cover map from Sentinel-1 and Sentinel-2, in 11 classes.",
+    "category": "dati-territoriali",
+    "tags": [
+      "uso del suolo",
+      "Sentinel"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "dynamic-world",
+    "name": "Dynamic World",
+    "url": "https://dynamicworld.app",
+    "description_it": "Copertura del suolo globale a 10 m aggiornata quasi in tempo reale, da Google e World Resources Institute.",
+    "description_en": "Near-real-time global 10 m land cover, from Google and the World Resources Institute.",
+    "category": "dati-territoriali",
+    "tags": [
+      "uso del suolo",
+      "serie storiche"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "eurostat-gisco",
+    "name": "Eurostat GISCO",
+    "url": "https://ec.europa.eu/eurostat/web/gisco",
+    "description_it": "Confini amministrativi europei (NUTS, comuni, LAU), griglie di popolazione e dati geografici statistici.",
+    "description_en": "European administrative boundaries (NUTS, communes, LAU), population grids and statistical geodata.",
+    "category": "dati-territoriali",
+    "tags": [
+      "confini",
+      "statistica",
+      "Europa"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP",
+      "GeoJSON"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "data-europa",
+    "name": "data.europa.eu",
+    "url": "https://data.europa.eu",
+    "description_it": "Il portale ufficiale dei dati aperti europei: oltre un milione di dataset delle istituzioni UE e dei paesi membri.",
+    "description_en": "The official European open data portal: over a million datasets from EU institutions and member states.",
+    "category": "dati-territoriali",
+    "tags": [
+      "dati aperti",
+      "Europa",
+      "catalogo"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoboundaries",
+    "name": "geoBoundaries",
+    "url": "https://www.geoboundaries.org",
+    "source": "https://github.com/wmgeolab/geoBoundaries",
+    "description_it": "Confini amministrativi aperti di tutti i paesi del mondo fino ai livelli locali, con licenza CC BY.",
+    "description_en": "Open administrative boundaries for every country down to local levels, under CC BY.",
+    "category": "dati-territoriali",
+    "tags": [
+      "confini",
+      "dati aperti"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP",
+      "GeoJSON"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "gadm",
+    "name": "GADM",
+    "url": "https://gadm.org",
+    "description_it": "Confini amministrativi di tutti i paesi a più livelli; gratuito per uso accademico e non commerciale.",
+    "description_en": "Administrative boundaries of every country at multiple levels; free for academic and non-commercial use.",
+    "category": "dati-territoriali",
+    "tags": [
+      "confini"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP",
+      "GPKG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "hdx",
+    "name": "Humanitarian Data Exchange",
+    "url": "https://data.humdata.org",
+    "description_it": "Piattaforma ONU con dataset geografici e statistici su popolazione, infrastrutture e servizi in tutto il mondo.",
+    "description_en": "UN platform with geographic and statistical datasets on population, infrastructure and services worldwide.",
+    "category": "dati-territoriali",
+    "tags": [
+      "dati aperti",
+      "popolazione",
+      "ONU"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP",
+      "CSV",
+      "GeoJSON"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "world-bank-data",
+    "name": "World Bank Open Data",
+    "url": "https://data.worldbank.org",
+    "description_it": "Indicatori socio-economici, urbani e ambientali per tutti i paesi, consultabili e scaricabili.",
+    "description_en": "Socio-economic, urban and environmental indicators for every country, browsable and downloadable.",
+    "category": "dati-territoriali",
+    "tags": [
+      "statistica",
+      "indicatori"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "our-world-in-data",
+    "name": "Our World in Data",
+    "url": "https://ourworldindata.org",
+    "source": "https://github.com/owid/owid-grapher",
+    "description_it": "Ricerca e dati aperti su popolazione, urbanizzazione, energia e clima, con grafici scaricabili.",
+    "description_en": "Research and open data on population, urbanisation, energy and climate, with downloadable charts.",
+    "category": "dati-territoriali",
+    "tags": [
+      "statistica",
+      "grafici",
+      "clima"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV",
+      "SVG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "google-dataset-search",
+    "name": "Google Dataset Search",
+    "url": "https://datasetsearch.research.google.com",
+    "description_it": "Motore di ricerca dedicato ai dataset pubblicati sul web da enti, università e archivi.",
+    "description_en": "Search engine for datasets published on the web by agencies, universities and repositories.",
+    "category": "dati-territoriali",
+    "tags": [
+      "ricerca dati",
+      "catalogo"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "global-surface-water",
+    "name": "Global Surface Water Explorer",
+    "url": "https://global-surface-water.appspot.com",
+    "description_it": "Mappa di dove e quando si è trovata acqua superficiale negli ultimi 40 anni, dal JRC.",
+    "description_en": "Map of where and when surface water occurred over the last 40 years, from the JRC.",
+    "category": "dati-territoriali",
+    "tags": [
+      "idrografia",
+      "serie storiche"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "osm-landuse",
+    "name": "OSM Landuse",
+    "url": "https://osmlanduse.org",
+    "description_it": "Mappa dell'uso del suolo derivata da OpenStreetMap, dall'Università di Heidelberg.",
+    "description_en": "Land use map derived from OpenStreetMap, by Heidelberg University.",
+    "category": "dati-territoriali",
+    "tags": [
+      "uso del suolo",
+      "OSM"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "3d-bag",
+    "name": "3DBAG",
+    "url": "https://3dbag.nl",
+    "description_it": "Modelli 3D aggiornati di tutti gli edifici dei Paesi Bassi con tetti dettagliati, a più livelli di dettaglio.",
+    "description_en": "Up-to-date 3D models of every building in the Netherlands with detailed roofs, at several levels of detail.",
+    "category": "dati-territoriali",
+    "tags": [
+      "3D",
+      "edifici",
+      "Paesi Bassi"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CityJSON",
+      "OBJ",
+      "GPKG"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "plateau",
+    "name": "PLATEAU",
+    "url": "https://www.mlit.go.jp/plateau/",
+    "description_it": "Il progetto del governo giapponese che pubblica modelli urbani 3D aperti di centinaia di città.",
+    "description_en": "Japanese government project publishing open 3D city models of hundreds of cities.",
+    "category": "dati-territoriali",
+    "tags": [
+      "3D",
+      "gemello digitale",
+      "Giappone"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CityGML"
+    ],
+    "region": "giappone",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "eubucco",
+    "name": "EUBUCCO",
+    "url": "https://eubucco.com",
+    "description_it": "Database scientifico di oltre 200 milioni di edifici europei con altezza, tipo e anno di costruzione.",
+    "description_en": "Scientific database of over 200 million European buildings with height, type and construction year.",
+    "category": "dati-territoriali",
+    "tags": [
+      "edifici",
+      "ricerca",
+      "Europa"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GPKG",
+      "CSV"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "atlas-urban-expansion",
+    "name": "Atlas of Urban Expansion",
+    "url": "http://www.atlasofurbanexpansion.org",
+    "description_it": "Atlante della crescita di 200 città nel mondo: espansione, densità e trama stradale dal 1990 a oggi.",
+    "description_en": "Atlas of the growth of 200 world cities: expansion, density and street layout since 1990.",
+    "category": "dati-territoriali",
+    "tags": [
+      "crescita urbana",
+      "densità",
+      "ricerca"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "un-habitat-urban-indicators",
+    "name": "UN-Habitat Urban Indicators",
+    "url": "https://data.unhabitat.org",
+    "description_it": "Indicatori urbani di UN-Habitat su spazio pubblico, abitazione, trasporti e Obiettivi di sviluppo sostenibile.",
+    "description_en": "UN-Habitat urban indicators on public space, housing, transport and the Sustainable Development Goals.",
+    "category": "dati-territoriali",
+    "tags": [
+      "indicatori",
+      "città",
+      "SDG"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "eea-datahub",
+    "name": "EEA Datahub",
+    "url": "https://www.eea.europa.eu/en/datahub",
+    "description_it": "Dati dell'Agenzia europea dell'ambiente su clima, aria, rumore, natura e uso del suolo.",
+    "description_en": "European Environment Agency data on climate, air, noise, nature and land use.",
+    "category": "dati-territoriali",
+    "tags": [
+      "ambiente",
+      "rumore",
+      "Europa"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GPKG",
+      "CSV"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "openaddresses",
+    "name": "OpenAddresses",
+    "url": "https://openaddresses.io",
+    "source": "https://github.com/openaddresses/openaddresses",
+    "description_it": "Raccolta aperta di indirizzi georeferenziati da fonti pubbliche di tutto il mondo.",
+    "description_en": "Open collection of geocoded addresses from public sources worldwide.",
+    "category": "dati-territoriali",
+    "tags": [
+      "indirizzi",
+      "dati aperti"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV",
+      "GeoJSON"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-nazionale",
+    "name": "Geoportale Nazionale (MASE)",
+    "url": "https://gn.mase.gov.it",
+    "description_it": "Il geoportale del Ministero dell'Ambiente (ex PCN): ortofoto storiche, LiDAR, vincoli e servizi WMS nazionali.",
+    "description_en": "The Italian Environment Ministry geoportal (formerly PCN): historical orthophotos, LiDAR, constraints and WMS services.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "ortofoto",
+      "WMS",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "WMS"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "lidar-mase",
+    "name": "Dati LiDAR del Piano Straordinario di Telerilevamento",
+    "url": "https://gn.mase.gov.it/portale/pst-dati-lidar",
+    "description_it": "DTM e DSM LiDAR a 1-2 m di ampie zone d'Italia (coste, fiumi, aree a rischio), da richiedere al Geoportale MASE.",
+    "description_en": "1-2 m LiDAR DTMs and DSMs for large parts of Italy (coasts, rivers, risk areas), requested via the MASE Geoportal.",
+    "category": "dati-territoriali",
+    "tags": [
+      "LiDAR",
+      "DEM",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "ASC",
+      "GeoTIFF"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-catastale",
+    "name": "Geoportale Cartografico Catastale",
+    "url": "https://geoportale.cartografia.agenziaentrate.gov.it",
+    "description_it": "Consulta le mappe catastali di tutta Italia (esclusi i territori tavolari) con particelle e fabbricati.",
+    "description_en": "View cadastral maps for the whole of Italy (except land-register areas) with parcels and buildings.",
+    "category": "dati-territoriali",
+    "tags": [
+      "catasto",
+      "particelle",
+      "WMS",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "WMS"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "istat-basi-territoriali",
+    "name": "ISTAT – Basi territoriali e variabili censuarie",
+    "url": "https://www.istat.it/notizia/basi-territoriali-e-variabili-censuarie/",
+    "description_it": "Sezioni di censimento di tutta Italia con i dati su popolazione, abitazioni ed edifici: la base per analisi a scala di quartiere.",
+    "description_en": "Italian census tracts with population, housing and building data: the base for neighbourhood-scale analysis.",
+    "category": "dati-territoriali",
+    "tags": [
+      "censimento",
+      "popolazione",
+      "statistica",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP",
+      "CSV"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "istat-confini",
+    "name": "ISTAT – Confini amministrativi",
+    "url": "https://www.istat.it/notizia/confini-delle-unita-amministrative-a-fini-statistici-al-1-gennaio-2018-2/",
+    "description_it": "Confini di regioni, province e comuni italiani a fini statistici, aggiornati ogni anno.",
+    "description_en": "Boundaries of Italian regions, provinces and municipalities for statistical use, updated yearly.",
+    "category": "dati-territoriali",
+    "tags": [
+      "confini",
+      "comuni",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "istat-geoportale",
+    "name": "Geoportale ISTAT",
+    "url": "https://geoportale.istat.it",
+    "description_it": "Mappe interattive dei dati ISTAT su popolazione, territorio ed economia, a livello comunale e sub-comunale.",
+    "description_en": "Interactive maps of ISTAT data on population, territory and economy at municipal and sub-municipal level.",
+    "category": "dati-territoriali",
+    "tags": [
+      "statistica",
+      "mappe tematiche",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "istat-esploradati",
+    "name": "IstatData",
+    "url": "https://esploradati.istat.it",
+    "description_it": "La banca dati ISTAT: tabelle personalizzabili su popolazione, abitazioni, economia e censimenti.",
+    "description_en": "The ISTAT database: customisable tables on population, housing, economy and censuses.",
+    "category": "dati-territoriali",
+    "tags": [
+      "statistica",
+      "censimento",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV",
+      "XLSX"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "dati-gov-it",
+    "name": "dati.gov.it",
+    "url": "https://www.dati.gov.it",
+    "description_it": "Il catalogo nazionale dei dati aperti della pubblica amministrazione italiana.",
+    "description_en": "The national open data catalogue of the Italian public administration.",
+    "category": "dati-territoriali",
+    "tags": [
+      "dati aperti",
+      "catalogo",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "rndt",
+    "name": "RNDT – Repertorio Nazionale dei Dati Territoriali",
+    "url": "https://geodati.gov.it",
+    "description_it": "Catalogo dei metadati dei dati territoriali di tutte le amministrazioni italiane, con link ai servizi.",
+    "description_en": "Metadata catalogue of spatial data from every Italian administration, with links to services.",
+    "category": "dati-territoriali",
+    "tags": [
+      "catalogo",
+      "metadati",
+      "geoportale",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "idrogeo",
+    "name": "IdroGEO (ISPRA)",
+    "url": "https://idrogeo.isprambiente.it",
+    "description_it": "Piattaforma ISPRA su frane e alluvioni: mosaicature nazionali della pericolosità e indicatori di rischio per comune.",
+    "description_en": "ISPRA platform on landslides and floods: national hazard mosaics and risk indicators by municipality.",
+    "category": "dati-territoriali",
+    "tags": [
+      "rischio idrogeologico",
+      "frane",
+      "alluvioni",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ispra-consumo-suolo",
+    "name": "ISPRA – Dati sul consumo di suolo",
+    "url": "https://www.isprambiente.gov.it/it/attivita/suolo-e-territorio/suolo/il-consumo-di-suolo/i-dati-sul-consumo-di-suolo",
+    "description_it": "Carte nazionali del consumo di suolo a 10 m e indicatori per comune, aggiornati ogni anno.",
+    "description_en": "National 10 m land consumption maps and indicators by municipality, updated every year.",
+    "category": "dati-territoriali",
+    "tags": [
+      "consumo di suolo",
+      "uso del suolo",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "XLSX"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ispra-carta-natura",
+    "name": "Carta della Natura (ISPRA)",
+    "url": "https://www.isprambiente.gov.it/it/servizi/sistema-carta-della-natura",
+    "description_it": "Carte degli habitat e del valore ecologico delle regioni italiane, utili per progetti di paesaggio.",
+    "description_en": "Habitat and ecological value maps of the Italian regions, useful for landscape projects.",
+    "category": "dati-territoriali",
+    "tags": [
+      "habitat",
+      "paesaggio",
+      "ecologia",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "omi-quotazioni",
+    "name": "OMI – Quotazioni immobiliari",
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+    "description_it": "Valori di mercato e di locazione degli immobili per zona, pubblicati ogni semestre dall'Agenzia delle Entrate.",
+    "description_en": "Property sale and rental values by zone, published every six months by the Italian Revenue Agency.",
+    "category": "dati-territoriali",
+    "tags": [
+      "mercato immobiliare",
+      "valori",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geopoi-omi",
+    "name": "GEOPOI – Zone OMI",
+    "url": "https://www1.agenziaentrate.gov.it/servizi/geopoi_omi/index.php",
+    "description_it": "Mappa interattiva delle zone dell'Osservatorio del Mercato Immobiliare con le quotazioni di ciascuna.",
+    "description_en": "Interactive map of the Property Market Observatory zones with the values for each.",
+    "category": "dati-territoriali",
+    "tags": [
+      "mercato immobiliare",
+      "mappa",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ingv-pericolosita-sismica",
+    "name": "INGV – Mappe di pericolosità sismica",
+    "url": "https://esse1-gis.mi.ingv.it",
+    "description_it": "Mappe interattive della pericolosità sismica (MPS04) con i parametri per la progettazione in ogni punto d'Italia.",
+    "description_en": "Interactive seismic hazard maps (MPS04) with design parameters at any point in Italy.",
+    "category": "dati-territoriali",
+    "tags": [
+      "sismica",
+      "pericolosità",
+      "progettazione",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ingv-zone-sismiche",
+    "name": "INGV – Zone sismiche",
+    "url": "https://zonesismiche.mi.ingv.it",
+    "description_it": "Classificazione sismica dei comuni italiani e sua evoluzione storica.",
+    "description_en": "Seismic classification of Italian municipalities and its history.",
+    "category": "dati-territoriali",
+    "tags": [
+      "sismica",
+      "comuni",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-abruzzo",
+    "name": "Geoportale Regione Abruzzo",
+    "url": "http://geoportale.regione.abruzzo.it/Cartanet/",
+    "description_it": "Cartografia tecnica, ortofoto e dati tematici della Regione Abruzzo, con catalogo e visualizzatore.",
+    "description_en": "Technical maps, orthophotos and thematic data of the Abruzzo Region, with catalogue and viewer.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Abruzzo",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-basilicata",
+    "name": "RSDI Basilicata",
+    "url": "https://rsdi.regione.basilicata.it",
+    "description_it": "Infrastruttura dati territoriali della Basilicata: carta tecnica, ortofoto, piani e servizi di download.",
+    "description_en": "Basilicata spatial data infrastructure: technical maps, orthophotos, plans and download services.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Basilicata",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-calabria",
+    "name": "Geoportale Regione Calabria",
+    "url": "https://geoportale.regione.calabria.it",
+    "description_it": "Catalogo e visualizzatore dei dati geografici della Regione Calabria.",
+    "description_en": "Catalogue and viewer of the Calabria Region geodata.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Calabria",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-campania",
+    "name": "Geoportale Regione Campania",
+    "url": "https://sit.regione.campania.it",
+    "description_it": "Sistema informativo territoriale della Campania: carta tecnica, ortofoto, piani paesaggistici e WMS.",
+    "description_en": "Campania territorial information system: technical maps, orthophotos, landscape plans and WMS.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Campania",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-emilia-romagna",
+    "name": "Geoportale Emilia-Romagna",
+    "url": "https://geoportale.regione.emilia-romagna.it",
+    "description_it": "Database topografico, ortofoto, uso del suolo storico e decine di dataset scaricabili della Regione Emilia-Romagna.",
+    "description_en": "Topographic database, orthophotos, historical land use and dozens of downloadable datasets of Emilia-Romagna.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Emilia-Romagna",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP",
+      "DXF"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-fvg",
+    "name": "EagleFVG – Friuli Venezia Giulia",
+    "url": "https://eaglefvg.regione.fvg.it",
+    "description_it": "Il geoportale del Friuli Venezia Giulia: cartografia, LiDAR, ortofoto e dati ambientali.",
+    "description_en": "The Friuli Venezia Giulia geoportal: maps, LiDAR, orthophotos and environmental data.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Friuli Venezia Giulia",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-lazio",
+    "name": "Geoportale Regione Lazio",
+    "url": "https://geoportale.regione.lazio.it",
+    "description_it": "Centinaia di livelli della Regione Lazio da consultare e scaricare: carta tecnica, PTPR, uso del suolo.",
+    "description_en": "Hundreds of Lazio Region layers to view and download: technical maps, landscape plan, land use.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Lazio",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-liguria",
+    "name": "Geoportale Regione Liguria",
+    "url": "https://geoportal.regione.liguria.it",
+    "description_it": "Cartografia, ortofoto storiche e attuali, dati ambientali e urbanistici della Liguria.",
+    "description_en": "Maps, historical and current orthophotos, environmental and planning data of Liguria.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Liguria",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-lombardia",
+    "name": "Geoportale della Lombardia",
+    "url": "https://www.geoportale.regione.lombardia.it",
+    "description_it": "Database topografico, DTM, ortofoto, PGT dei comuni e molti altri dati scaricabili della Lombardia.",
+    "description_en": "Topographic database, DTM, orthophotos, municipal plans and many other downloadable Lombardy datasets.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Lombardia",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SHP",
+      "DXF"
+    ],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cartografia-marche",
+    "name": "Cartografia Regione Marche",
+    "url": "https://www.regione.marche.it/Regione-Utile/Paesaggio-Territorio-Urbanistica/Cartografia",
+    "description_it": "Carta tecnica regionale, ortofoto e servizi cartografici della Regione Marche.",
+    "description_en": "Regional technical maps, orthophotos and map services of the Marche Region.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Marche",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-piemonte",
+    "name": "IGR – Geoportale Piemonte",
+    "url": "https://igr.piemonte.it",
+    "description_it": "L'infrastruttura geografica del Piemonte: BDTRE, ortofoto, DTM e servizi di consultazione e download.",
+    "description_en": "Piedmont's geographic infrastructure: BDTRE topographic database, orthophotos, DTM, viewing and download services.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Piemonte",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sit-puglia",
+    "name": "SIT Puglia",
+    "url": "http://www.sit.puglia.it",
+    "description_it": "Sistema informativo territoriale della Puglia: PPTR, carta tecnica, ortofoto, piani comunali e banche dati.",
+    "description_en": "Puglia territorial information system: landscape plan, technical maps, orthophotos, municipal plans and databases.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Puglia",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sardegna-geoportale",
+    "name": "Sardegna Geoportale",
+    "url": "https://www.sardegnageoportale.it",
+    "description_it": "Cartografia, ortofoto, DTM e Piano paesaggistico della Sardegna, con visualizzatori e download.",
+    "description_en": "Maps, orthophotos, DTM and the landscape plan of Sardinia, with viewers and downloads.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Sardegna",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sitr-sicilia",
+    "name": "SITR Sicilia",
+    "url": "https://www.sitr.regione.sicilia.it",
+    "description_it": "Sistema informativo territoriale della Regione Siciliana: carta tecnica, ortofoto, LiDAR e servizi WMS.",
+    "description_en": "Sicilian Region territorial information system: technical maps, orthophotos, LiDAR and WMS services.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Sicilia",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoscopio-toscana",
+    "name": "GEOscopio – Regione Toscana",
+    "url": "https://www.regione.toscana.it/-/geoscopio",
+    "description_it": "I visualizzatori cartografici della Toscana: ortofoto storiche dal 1954, catasto leopoldino, carta tecnica, PIT.",
+    "description_en": "Tuscany's map viewers: historical orthophotos since 1954, 19th-century cadastre, technical maps, landscape plan.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Toscana",
+      "cartografia storica",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "webgis-trento",
+    "name": "WebGIS Provincia autonoma di Trento",
+    "url": "https://webgis.provincia.tn.it",
+    "description_it": "Visualizzatore della cartografia della Provincia di Trento: carta tecnica, ortofoto, LiDAR, PUP.",
+    "description_en": "Map viewer of the Province of Trento: technical maps, orthophotos, LiDAR, provincial plan.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Trentino",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "mapview-bolzano",
+    "name": "Map View – Provincia di Bolzano",
+    "url": "https://info-mapview.civis.bz.it/it",
+    "description_it": "Visualizzatore dei dati geografici dell'Alto Adige: ortofoto, LiDAR, piani urbanistici e catasto.",
+    "description_en": "South Tyrol geodata viewer: orthophotos, LiDAR, planning maps and cadastre.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Alto Adige",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-vda",
+    "name": "Geoportale SCT Valle d'Aosta",
+    "url": "https://geoportale.regione.vda.it",
+    "description_it": "Dati territoriali della Valle d'Aosta: carta tecnica, ortofoto, DTM, vincoli e servizi cartografici.",
+    "description_en": "Aosta Valley spatial data: technical maps, orthophotos, DTM, constraints and map services.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Valle d'Aosta",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "geoportale-veneto",
+    "name": "Geoportale Regione del Veneto",
+    "url": "https://idt2.regione.veneto.it",
+    "description_it": "Ricerca, consultazione e download dei dati territoriali del Veneto: carta tecnica, ortofoto, PTRC.",
+    "description_en": "Search, view and download Veneto spatial data: technical maps, orthophotos, regional plan.",
+    "category": "dati-territoriali",
+    "tags": [
+      "geoportale",
+      "Veneto",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

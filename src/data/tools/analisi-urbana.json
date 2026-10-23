@@ -1,0 +1,619 @@
+[
+  {
+    "id": "depthmapx",
+    "name": "depthmapX",
+    "url": "https://github.com/SpaceGroupUCL/depthmapX",
+    "source": "https://github.com/SpaceGroupUCL/depthmapX",
+    "description_it": "Il software di space syntax della UCL: analisi di visibilità, integrazione e connettività di edifici e reti urbane.",
+    "description_en": "UCL's space syntax software: visibility, integration and connectivity analysis of buildings and urban networks.",
+    "category": "analisi-urbana",
+    "tags": [
+      "space syntax",
+      "visibilità",
+      "reti"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "DXF",
+      "MIF",
+      "CSV"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "space-syntax-toolkit",
+    "name": "Space Syntax Toolkit (QGIS)",
+    "url": "https://github.com/SpaceGroupUCL/qgisSpaceSyntaxToolkit",
+    "source": "https://github.com/SpaceGroupUCL/qgisSpaceSyntaxToolkit",
+    "description_it": "Plugin QGIS per analisi space syntax e di rete, collegato a depthmapX.",
+    "description_en": "QGIS plugin for space syntax and network analysis, linked to depthmapX.",
+    "category": "analisi-urbana",
+    "tags": [
+      "space syntax",
+      "QGIS",
+      "reti"
+    ],
+    "license": "open-source",
+    "platform": [
+      "plugin"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "osmnx",
+    "name": "OSMnx",
+    "url": "https://osmnx.readthedocs.io",
+    "source": "https://github.com/gboeing/osmnx",
+    "description_it": "Libreria Python per scaricare, analizzare e visualizzare reti stradali ed edifici da OpenStreetMap.",
+    "description_en": "Python library to download, analyse and visualise street networks and buildings from OpenStreetMap.",
+    "category": "analisi-urbana",
+    "tags": [
+      "reti stradali",
+      "Python",
+      "OSM"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "GPKG",
+      "GraphML"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "momepy",
+    "name": "momepy",
+    "url": "https://docs.momepy.org",
+    "source": "https://github.com/pysal/momepy",
+    "description_it": "Analisi quantitativa della morfologia urbana in Python: tessellazione, densità, forma degli isolati e delle strade.",
+    "description_en": "Quantitative urban morphology in Python: tessellation, density, block and street form.",
+    "category": "analisi-urbana",
+    "tags": [
+      "morfologia urbana",
+      "Python"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cityseer",
+    "name": "cityseer",
+    "url": "https://cityseer.benchmarkurbanism.com",
+    "source": "https://github.com/benchmark-urbanism/cityseer-api",
+    "description_it": "Metriche di rete e di accessibilità pedonale a scala locale (centralità, mix funzionale) in Python e QGIS.",
+    "description_en": "Pedestrian-scale network and accessibility metrics (centrality, land-use mix) in Python and QGIS.",
+    "category": "analisi-urbana",
+    "tags": [
+      "accessibilità",
+      "centralità",
+      "Python"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria",
+      "plugin"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "openrouteservice",
+    "name": "openrouteservice",
+    "url": "https://maps.openrouteservice.org",
+    "source": "https://github.com/GIScience/openrouteservice",
+    "description_it": "Percorsi e isocrone a piedi, in bici e in auto su dati OSM; API gratuita con chiave e motore open source.",
+    "description_en": "Walking, cycling and driving routes and isochrones on OSM data; free API key and open-source engine.",
+    "category": "analisi-urbana",
+    "tags": [
+      "isocrone",
+      "accessibilità",
+      "API"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "libreria"
+    ],
+    "formats": [
+      "GeoJSON",
+      "GPX"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "qneat3",
+    "name": "QNEAT3 (QGIS)",
+    "url": "https://plugins.qgis.org/plugins/QNEAT3/",
+    "source": "https://github.com/root676/QNEAT3",
+    "description_it": "Plugin QGIS per analisi di rete: isocrone, aree di servizio e matrici origine-destinazione.",
+    "description_en": "QGIS plugin for network analysis: isochrones, service areas and origin-destination matrices.",
+    "category": "analisi-urbana",
+    "tags": [
+      "isocrone",
+      "QGIS",
+      "reti"
+    ],
+    "license": "open-source",
+    "platform": [
+      "plugin"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "walk-score",
+    "name": "Walk Score",
+    "url": "https://www.walkscore.com",
+    "description_it": "Punteggio di pedonalità, ciclabilità e trasporto pubblico di un indirizzo (soprattutto Nord America e Australia).",
+    "description_en": "Walkability, bikeability and transit score for an address (mainly North America and Australia).",
+    "category": "analisi-urbana",
+    "tags": [
+      "pedonalità",
+      "indicatori"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "close-city",
+    "name": "Close",
+    "url": "https://close.city",
+    "description_it": "Mappa dei tempi di percorrenza a piedi verso i servizi quotidiani: utile per valutare la città dei 15 minuti.",
+    "description_en": "Map of walking times to everyday amenities: useful for assessing the 15-minute city.",
+    "category": "analisi-urbana",
+    "tags": [
+      "città dei 15 minuti",
+      "accessibilità"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cityaccessmap",
+    "name": "CityAccessMap",
+    "url": "https://www.cityaccessmap.com",
+    "description_it": "Accessibilità pedonale ai servizi per migliaia di città nel mondo, calcolata su dati OSM.",
+    "description_en": "Walking access to amenities for thousands of cities worldwide, computed from OSM data.",
+    "category": "analisi-urbana",
+    "tags": [
+      "accessibilità",
+      "città dei 15 minuti"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "mapnificent",
+    "name": "Mapnificent",
+    "url": "https://www.mapnificent.net",
+    "source": "https://github.com/mapnificent/mapnificent",
+    "description_it": "Mostra fin dove si arriva con il trasporto pubblico in un dato tempo, per centinaia di città.",
+    "description_en": "Shows how far you can get by public transport in a given time, for hundreds of cities.",
+    "category": "analisi-urbana",
+    "tags": [
+      "isocrone",
+      "trasporto pubblico"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "strava-heatmap",
+    "name": "Strava Global Heatmap",
+    "url": "https://www.strava.com/maps/global-heatmap",
+    "description_it": "Mappa di calore dei percorsi di corsa e bici degli utenti Strava: indica i flussi ciclabili e pedonali reali.",
+    "description_en": "Heatmap of Strava users' running and cycling routes: reveals actual cycling and walking flows.",
+    "category": "analisi-urbana",
+    "tags": [
+      "mobilità attiva",
+      "flussi",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "streetmix",
+    "name": "Streetmix",
+    "url": "https://streetmix.net",
+    "source": "https://github.com/streetmix/streetmix",
+    "description_it": "Disegna sezioni stradali trascinando corsie, marciapiedi, piste ciclabili e alberature.",
+    "description_en": "Design street sections by dragging lanes, sidewalks, cycle tracks and trees.",
+    "category": "analisi-urbana",
+    "tags": [
+      "sezioni stradali",
+      "progetto dello spazio pubblico"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "3dstreet",
+    "name": "3DStreet",
+    "url": "https://3dstreet.app",
+    "source": "https://github.com/3DStreet/3dstreet",
+    "description_it": "Trasforma le sezioni stradali in scene 3D navigabili, anche su mappa reale, per progetti di spazio pubblico.",
+    "description_en": "Turns street sections into navigable 3D scenes, also on real maps, for public space projects.",
+    "category": "analisi-urbana",
+    "tags": [
+      "3D",
+      "sezioni stradali",
+      "spazio pubblico"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "glTF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "a-b-street",
+    "name": "A/B Street",
+    "url": "https://a-b-street.github.io/docs/",
+    "source": "https://github.com/a-b-street/abstreet",
+    "description_it": "Simulatore di traffico su dati OSM per provare modifiche alla rete: corsie, ciclabili, zone a traffico limitato.",
+    "description_en": "Traffic simulator on OSM data to test network changes: lanes, cycle tracks, low-traffic neighbourhoods.",
+    "category": "analisi-urbana",
+    "tags": [
+      "simulazione",
+      "traffico",
+      "mobilità"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "desktop"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "matsim",
+    "name": "MATSim",
+    "url": "https://matsim.org",
+    "source": "https://github.com/matsim-org/matsim-libs",
+    "description_it": "Simulazione dei trasporti basata su agenti per scenari su larga scala e politiche di mobilità.",
+    "description_en": "Agent-based transport simulation for large-scale scenarios and mobility policies.",
+    "category": "analisi-urbana",
+    "tags": [
+      "simulazione",
+      "trasporti"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sumo",
+    "name": "Eclipse SUMO",
+    "url": "https://eclipse.dev/sumo/",
+    "source": "https://github.com/eclipse-sumo/sumo",
+    "description_it": "Simulatore microscopico del traffico per incroci, reti e trasporto pubblico.",
+    "description_en": "Microscopic traffic simulator for junctions, networks and public transport.",
+    "category": "analisi-urbana",
+    "tags": [
+      "simulazione",
+      "traffico"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "pandana",
+    "name": "Pandana",
+    "url": "https://udst.github.io/pandana/",
+    "source": "https://github.com/UDST/pandana",
+    "description_it": "Calcolo rapido di accessibilità su rete (es. negozi raggiungibili in 10 minuti) per migliaia di punti in Python.",
+    "description_en": "Fast network accessibility queries (e.g. shops within 10 minutes) for thousands of points in Python.",
+    "category": "analisi-urbana",
+    "tags": [
+      "accessibilità",
+      "Python"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "r5py",
+    "name": "r5py",
+    "url": "https://r5py.readthedocs.io",
+    "source": "https://github.com/r5py/r5py",
+    "description_it": "Matrici di tempi di viaggio multimodali (anche con orari GTFS) in Python, basate sul motore R5.",
+    "description_en": "Multimodal travel time matrices (GTFS timetables included) in Python, built on the R5 engine.",
+    "category": "analisi-urbana",
+    "tags": [
+      "trasporto pubblico",
+      "accessibilità",
+      "Python"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "r5r",
+    "name": "r5r",
+    "url": "https://github.com/ipeaGIT/r5r",
+    "source": "https://github.com/ipeaGIT/r5r",
+    "description_it": "Pacchetto R per calcolare percorsi e accessibilità multimodale con trasporto pubblico.",
+    "description_en": "R package for multimodal routing and accessibility with public transport.",
+    "category": "analisi-urbana",
+    "tags": [
+      "trasporto pubblico",
+      "accessibilità",
+      "R"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "pysal",
+    "name": "PySAL",
+    "url": "https://pysal.org",
+    "source": "https://github.com/pysal/pysal",
+    "description_it": "Libreria Python di statistica spaziale: autocorrelazione, cluster, regressione geografica, segregazione.",
+    "description_en": "Python spatial statistics library: autocorrelation, clusters, geographic regression, segregation.",
+    "category": "analisi-urbana",
+    "tags": [
+      "statistica spaziale",
+      "Python"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "madina",
+    "name": "Madina",
+    "url": "https://github.com/City-Form-Lab/madina",
+    "source": "https://github.com/City-Form-Lab/madina",
+    "description_it": "Libreria Python del City Form Lab per modellare flussi pedonali e accessibilità sulla rete.",
+    "description_en": "City Form Lab Python library to model pedestrian flows and accessibility on networks.",
+    "category": "analisi-urbana",
+    "tags": [
+      "flussi pedonali",
+      "Python"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "urban-network-analysis",
+    "name": "Urban Network Analysis Toolbox",
+    "url": "https://cityform.mit.edu/projects/urban-network-analysis",
+    "description_it": "Toolbox del City Form Lab (MIT) per misure di accessibilità e centralità su reti urbane, per Rhino e ArcGIS.",
+    "description_en": "MIT City Form Lab toolbox for accessibility and centrality measures on urban networks, for Rhino and ArcGIS.",
+    "category": "analisi-urbana",
+    "tags": [
+      "reti",
+      "centralità",
+      "Rhino"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "plugin"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "decodingspaces",
+    "name": "DeCodingSpaces Toolbox",
+    "url": "https://toolbox.decodingspaces.net",
+    "description_it": "Componenti Grasshopper per analisi di rete e visibilità, isovisti e generazione di layout urbani.",
+    "description_en": "Grasshopper components for network and visibility analysis, isovists and urban layout generation.",
+    "category": "analisi-urbana",
+    "tags": [
+      "Grasshopper",
+      "space syntax",
+      "visibilità"
+    ],
+    "license": "open-source",
+    "platform": [
+      "plugin"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "osrm",
+    "name": "OSRM",
+    "url": "https://project-osrm.org",
+    "source": "https://github.com/Project-OSRM/osrm-backend",
+    "description_it": "Motore di calcolo percorsi ad alte prestazioni su OpenStreetMap, per matrici di distanze e tempi.",
+    "description_en": "High-performance routing engine on OpenStreetMap, for distance and time matrices.",
+    "category": "analisi-urbana",
+    "tags": [
+      "routing",
+      "OSM"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "valhalla",
+    "name": "Valhalla",
+    "url": "https://github.com/valhalla/valhalla",
+    "source": "https://github.com/valhalla/valhalla",
+    "description_it": "Motore di routing open source con isocrone e profili multimodali su dati OSM.",
+    "description_en": "Open-source routing engine with isochrones and multimodal profiles on OSM data.",
+    "category": "analisi-urbana",
+    "tags": [
+      "routing",
+      "isocrone"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "transitland",
+    "name": "Transitland",
+    "url": "https://www.transit.land",
+    "description_it": "Catalogo mondiale dei dati GTFS di linee e orari del trasporto pubblico, con mappe e API (piano gratuito).",
+    "description_en": "Worldwide catalogue of GTFS public transport routes and timetables, with maps and API (free tier).",
+    "category": "analisi-urbana",
+    "tags": [
+      "trasporto pubblico",
+      "GTFS"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GTFS"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "mobility-database",
+    "name": "Mobility Database",
+    "url": "https://mobilitydatabase.org",
+    "source": "https://github.com/MobilityData/mobility-database-catalogs",
+    "description_it": "Catalogo aperto di migliaia di feed GTFS e GTFS-Realtime di aziende di trasporto di tutto il mondo.",
+    "description_en": "Open catalogue of thousands of GTFS and GTFS-Realtime feeds from transit agencies worldwide.",
+    "category": "analisi-urbana",
+    "tags": [
+      "trasporto pubblico",
+      "GTFS",
+      "dati aperti"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GTFS"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

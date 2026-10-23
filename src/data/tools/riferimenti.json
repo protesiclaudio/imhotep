@@ -1,0 +1,427 @@
+[
+  {
+    "id": "archdaily",
+    "name": "ArchDaily",
+    "url": "https://www.archdaily.com",
+    "description_it": "Il sito di architettura più visitato al mondo: progetti con disegni, foto e schede tecniche.",
+    "description_en": "The world's most visited architecture website: projects with drawings, photos and data sheets.",
+    "category": "riferimenti",
+    "tags": [
+      "progetti",
+      "rivista"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "dezeen",
+    "name": "Dezeen",
+    "url": "https://www.dezeen.com",
+    "description_it": "Rivista online di architettura e design con notizie, progetti e approfondimenti quotidiani.",
+    "description_en": "Online architecture and design magazine with daily news, projects and features.",
+    "category": "riferimenti",
+    "tags": [
+      "rivista",
+      "design"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "wikiarquitectura",
+    "name": "WikiArquitectura",
+    "url": "https://en.wikiarquitectura.com",
+    "description_it": "Enciclopedia di edifici celebri con piante, sezioni, prospetti e descrizioni tecniche.",
+    "description_en": "Encyclopedia of famous buildings with plans, sections, elevations and technical descriptions.",
+    "category": "riferimenti",
+    "tags": [
+      "progetti",
+      "disegni",
+      "enciclopedia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "archinect",
+    "name": "Archinect",
+    "url": "https://archinect.com",
+    "description_it": "Notizie, progetti, offerte di lavoro, scuole e concorsi del mondo dell'architettura.",
+    "description_en": "News, projects, jobs, schools and competitions from the architecture world.",
+    "category": "riferimenti",
+    "tags": [
+      "rivista",
+      "lavoro",
+      "scuole"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "domus",
+    "name": "Domus",
+    "url": "https://www.domusweb.it",
+    "description_it": "Lo storico mensile italiano di architettura e design, con articoli e progetti online gratuiti.",
+    "description_en": "The historic Italian architecture and design monthly, with free articles and projects online.",
+    "category": "riferimenti",
+    "tags": [
+      "rivista",
+      "design"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "designboom",
+    "name": "designboom",
+    "url": "https://www.designboom.com",
+    "description_it": "Rivista online di architettura, design e arte, con progetti da tutto il mondo.",
+    "description_en": "Online architecture, design and art magazine with projects from around the world.",
+    "category": "riferimenti",
+    "tags": [
+      "rivista",
+      "design"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "architizer",
+    "name": "Architizer",
+    "url": "https://architizer.com",
+    "description_it": "Database di progetti di architettura con ricerca per tipologia e premi A+Awards.",
+    "description_en": "Architecture project database searchable by typology, home of the A+Awards.",
+    "category": "riferimenti",
+    "tags": [
+      "progetti",
+      "premi"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "archello",
+    "name": "Archello",
+    "url": "https://archello.com",
+    "description_it": "Piattaforma di progetti e prodotti di architettura, con i materiali usati in ciascun edificio.",
+    "description_en": "Platform of architecture projects and products, with the materials used in each building.",
+    "category": "riferimenti",
+    "tags": [
+      "progetti",
+      "prodotti",
+      "materiali"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "socks-studio",
+    "name": "Socks",
+    "url": "https://socks-studio.com",
+    "description_it": "Blog di ricerca su architettura, città e paesaggio con disegni e progetti storici e poco noti.",
+    "description_en": "Research blog on architecture, cities and landscape featuring historic and lesser-known drawings and projects.",
+    "category": "riferimenti",
+    "tags": [
+      "ricerca",
+      "disegni",
+      "storia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "places-journal",
+    "name": "Places Journal",
+    "url": "https://placesjournal.org",
+    "description_it": "Rivista accademica ad accesso aperto su architettura, paesaggio e urbanistica.",
+    "description_en": "Open-access scholarly journal on architecture, landscape and urbanism.",
+    "category": "riferimenti",
+    "tags": [
+      "ricerca",
+      "saggi",
+      "urbanistica"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "landezine",
+    "name": "Landezine",
+    "url": "https://landezine.com",
+    "description_it": "Rivista online dedicata ai progetti di architettura del paesaggio da tutto il mondo.",
+    "description_en": "Online magazine devoted to landscape architecture projects from around the world.",
+    "category": "riferimenti",
+    "tags": [
+      "paesaggio",
+      "progetti"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "architectuul",
+    "name": "Architectuul",
+    "url": "https://architectuul.com",
+    "description_it": "Archivio collaborativo di edifici e architetti, con mappe e itinerari di architettura.",
+    "description_en": "Collaborative archive of buildings and architects, with maps and architecture tours.",
+    "category": "riferimenti",
+    "tags": [
+      "progetti",
+      "mappe",
+      "itinerari"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "bustler",
+    "name": "Bustler",
+    "url": "https://bustler.net",
+    "description_it": "Concorsi di architettura internazionali, premi e scadenze aggiornate.",
+    "description_en": "International architecture competitions, awards and up-to-date deadlines.",
+    "category": "riferimenti",
+    "tags": [
+      "concorsi"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cca",
+    "name": "Canadian Centre for Architecture",
+    "url": "https://www.cca.qc.ca",
+    "description_it": "Archivi, mostre e pubblicazioni del CCA di Montréal, con collezioni consultabili online.",
+    "description_en": "Archives, exhibitions and publications of the CCA in Montréal, with collections searchable online.",
+    "category": "riferimenti",
+    "tags": [
+      "archivio",
+      "storia",
+      "mostre"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "dimensions",
+    "name": "Dimensions.com",
+    "url": "https://www.dimensions.com",
+    "description_it": "Disegni quotati di oggetti, arredi, persone, veicoli e spazi, con blocchi CAD scaricabili.",
+    "description_en": "Dimensioned drawings of objects, furniture, people, vehicles and spaces, with downloadable CAD blocks.",
+    "category": "riferimenti",
+    "tags": [
+      "dimensioni",
+      "manuale",
+      "blocchi CAD"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "DWG",
+      "SVG",
+      "JPG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ingenio",
+    "name": "Ingenio",
+    "url": "https://www.ingenio-web.it",
+    "description_it": "Testata italiana per ingegneri e architetti: normativa, strutture, impianti e approfondimenti tecnici.",
+    "description_en": "Italian publication for engineers and architects: regulations, structures, building services and technical features.",
+    "category": "riferimenti",
+    "tags": [
+      "rivista",
+      "normativa",
+      "strutture",
+      "Italia"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "italia",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "zotero",
+    "name": "Zotero",
+    "url": "https://www.zotero.org",
+    "source": "https://github.com/zotero/zotero",
+    "description_it": "Gestore di bibliografie libero: raccoglie fonti dal browser e genera citazioni per tesi e articoli.",
+    "description_en": "Free reference manager: collects sources from the browser and generates citations for theses and papers.",
+    "category": "riferimenti",
+    "tags": [
+      "bibliografia",
+      "tesi",
+      "ricerca"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "web"
+    ],
+    "formats": [
+      "BIB",
+      "RIS"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "open-library",
+    "name": "Open Library",
+    "url": "https://openlibrary.org",
+    "source": "https://github.com/internetarchive/openlibrary",
+    "description_it": "Catalogo aperto di milioni di libri dell'Internet Archive, con prestito digitale di molti titoli.",
+    "description_en": "Open catalogue of millions of books from the Internet Archive, with digital lending for many titles.",
+    "category": "riferimenti",
+    "tags": [
+      "libri",
+      "biblioteca"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PDF",
+      "EPUB"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "plantnet",
+    "name": "Pl@ntNet",
+    "url": "https://plantnet.org",
+    "description_it": "Riconosce le piante da una foto: utile nei sopralluoghi per il progetto del paesaggio.",
+    "description_en": "Identifies plants from a photo: handy on site visits for landscape design.",
+    "category": "riferimenti",
+    "tags": [
+      "paesaggio",
+      "piante",
+      "riconoscimento"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "mobile",
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "rhs-plants",
+    "name": "RHS Find a Plant",
+    "url": "https://www.rhs.org.uk/plants",
+    "description_it": "Database della Royal Horticultural Society con esigenze, dimensioni e caratteristiche di migliaia di piante.",
+    "description_en": "Royal Horticultural Society database with needs, sizes and features of thousands of plants.",
+    "category": "riferimenti",
+    "tags": [
+      "paesaggio",
+      "piante"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

@@ -1,0 +1,520 @@
+[
+  {
+    "id": "blender",
+    "name": "Blender",
+    "url": "https://www.blender.org",
+    "source": "https://github.com/blender/blender",
+    "description_it": "Suite 3D completa e libera: modellazione, geometry nodes, rendering Cycles/Eevee, animazione, video.",
+    "description_en": "Complete free 3D suite: modelling, geometry nodes, Cycles/Eevee rendering, animation, video.",
+    "category": "modellazione-3d",
+    "tags": [
+      "3D",
+      "rendering",
+      "geometry nodes"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "OBJ",
+      "FBX",
+      "glTF",
+      "STL",
+      "DAE"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sketchup-free",
+    "name": "SketchUp Free",
+    "url": "https://sketchup.trimble.com/en/plans-and-pricing/sketchup-free",
+    "description_it": "Versione web gratuita di SketchUp per uso personale, con accesso a 3D Warehouse e 10 GB nel cloud.",
+    "description_en": "Free web version of SketchUp for personal use, with 3D Warehouse access and 10 GB of cloud storage.",
+    "category": "modellazione-3d",
+    "tags": [
+      "3D",
+      "modellazione rapida",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SKP",
+      "STL",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "onshape",
+    "name": "Onshape",
+    "url": "https://www.onshape.com",
+    "description_it": "CAD parametrico professionale nel browser; il piano Free è gratuito per uso non commerciale con documenti pubblici.",
+    "description_en": "Professional parametric CAD in the browser; the Free plan is for non-commercial use with public documents.",
+    "category": "modellazione-3d",
+    "tags": [
+      "parametrico",
+      "cloud",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web",
+      "mobile"
+    ],
+    "formats": [
+      "STEP",
+      "STL",
+      "DXF",
+      "DWG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sweet-home-3d",
+    "name": "Sweet Home 3D",
+    "url": "https://www.sweethome3d.com",
+    "description_it": "Disegna la pianta di un'abitazione, arredala e visualizzala subito in 3D; semplice e libero.",
+    "description_en": "Draw a home floor plan, furnish it and see it instantly in 3D; simple and free.",
+    "category": "modellazione-3d",
+    "tags": [
+      "interni",
+      "planimetria",
+      "arredo"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "web"
+    ],
+    "formats": [
+      "OBJ",
+      "SVG",
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "floorplanner",
+    "name": "Floorplanner",
+    "url": "https://floorplanner.com",
+    "description_it": "Planimetrie 2D e 3D online con arredi; il piano gratuito include un progetto con esportazioni di base.",
+    "description_en": "Online 2D and 3D floor plans with furniture; the free plan includes one project with basic exports.",
+    "category": "modellazione-3d",
+    "tags": [
+      "planimetria",
+      "interni",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "planner-5d",
+    "name": "Planner 5D",
+    "url": "https://planner5d.com",
+    "description_it": "Progettazione d'interni in 2D/3D nel browser e su mobile, con catalogo di arredi; funzioni base gratuite.",
+    "description_en": "2D/3D interior design in the browser and on mobile, with a furniture catalogue; free basic features.",
+    "category": "modellazione-3d",
+    "tags": [
+      "interni",
+      "arredo",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web",
+      "mobile"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "homestyler",
+    "name": "Homestyler",
+    "url": "https://www.homestyler.com",
+    "description_it": "Progettazione d'interni online con milioni di modelli di arredo e render; piano base gratuito.",
+    "description_en": "Online interior design with millions of furniture models and renders; free basic plan.",
+    "category": "modellazione-3d",
+    "tags": [
+      "interni",
+      "render",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "fusion-personal",
+    "name": "Autodesk Fusion per uso personale",
+    "url": "https://www.autodesk.com/products/fusion-360/personal",
+    "description_it": "CAD/CAM parametrico di Autodesk gratuito per uso personale non commerciale, con alcune funzioni limitate.",
+    "description_en": "Autodesk's parametric CAD/CAM, free for personal non-commercial use with some limited features.",
+    "category": "modellazione-3d",
+    "tags": [
+      "parametrico",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "STEP",
+      "STL",
+      "DXF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "shapr3d",
+    "name": "Shapr3D",
+    "url": "https://www.shapr3d.com",
+    "description_it": "Modellazione 3D precisa e intuitiva su iPad, Mac e Windows; il piano Basic gratuito consente 2 progetti.",
+    "description_en": "Precise, intuitive 3D modelling on iPad, Mac and Windows; the free Basic plan allows 2 projects.",
+    "category": "modellazione-3d",
+    "tags": [
+      "3D",
+      "iPad"
+    ],
+    "license": "freemium",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "formats": [
+      "STL",
+      "3MF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "tinkercad",
+    "name": "Tinkercad",
+    "url": "https://www.tinkercad.com",
+    "description_it": "Modellazione 3D elementare nel browser, ottima per iniziare e per preparare oggetti da stampare in 3D.",
+    "description_en": "Basic 3D modelling in the browser, great for beginners and for preparing 3D prints.",
+    "category": "modellazione-3d",
+    "tags": [
+      "3D",
+      "stampa 3D",
+      "didattica"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "STL",
+      "OBJ",
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "wings-3d",
+    "name": "Wings 3D",
+    "url": "https://www.wings3d.com",
+    "source": "https://github.com/dgud/wings",
+    "description_it": "Modellatore poligonale per suddivisione semplice e veloce, utile per forme organiche e oggetti.",
+    "description_en": "Simple, fast subdivision polygon modeller, useful for organic shapes and objects.",
+    "category": "modellazione-3d",
+    "tags": [
+      "mesh",
+      "modellazione poligonale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "OBJ",
+      "STL",
+      "glTF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "meshlab",
+    "name": "MeshLab",
+    "url": "https://www.meshlab.net",
+    "source": "https://github.com/cnr-isti-vclab/meshlab",
+    "description_it": "Elaborazione di mesh 3D del CNR: pulizia, decimazione, riparazione e conversione di modelli da scansione.",
+    "description_en": "CNR's 3D mesh processing: cleaning, decimation, repair and conversion of scanned models.",
+    "category": "modellazione-3d",
+    "tags": [
+      "mesh",
+      "rilievo",
+      "conversione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "OBJ",
+      "PLY",
+      "STL"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sverchok",
+    "name": "Sverchok",
+    "url": "https://github.com/nortikin/sverchok",
+    "source": "https://github.com/nortikin/sverchok",
+    "description_it": "Add-on di programmazione visuale per Blender, simile a Grasshopper, per geometrie parametriche.",
+    "description_en": "Visual programming add-on for Blender, similar to Grasshopper, for parametric geometry.",
+    "category": "modellazione-3d",
+    "tags": [
+      "parametrico",
+      "Blender",
+      "programmazione visuale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "plugin"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "topologic",
+    "name": "Topologic",
+    "url": "https://topologic.app",
+    "source": "https://github.com/wassimj/Topologic",
+    "description_it": "Libreria di topologia non-manifold per modelli spaziali e analisi, usabile da Blender, Grasshopper, Dynamo e Python.",
+    "description_en": "Non-manifold topology library for spatial models and analysis, usable from Blender, Grasshopper, Dynamo and Python.",
+    "category": "modellazione-3d",
+    "tags": [
+      "parametrico",
+      "topologia",
+      "Python"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria",
+      "plugin"
+    ],
+    "formats": [
+      "IFC",
+      "JSON"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "compas",
+    "name": "COMPAS",
+    "url": "https://compas.dev",
+    "source": "https://github.com/compas-dev/compas",
+    "description_it": "Framework Python per la ricerca computazionale in architettura e ingegneria, dall'ETH di Zurigo.",
+    "description_en": "Python framework for computational research in architecture and engineering, from ETH Zurich.",
+    "category": "modellazione-3d",
+    "tags": [
+      "Python",
+      "design computazionale",
+      "ricerca"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "processing",
+    "name": "Processing",
+    "url": "https://processing.org",
+    "source": "https://github.com/processing/processing4",
+    "description_it": "Linguaggio e ambiente per il disegno generativo e la visualizzazione, usato in molti corsi di design computazionale.",
+    "description_en": "Language and environment for generative drawing and visualisation, used in many computational design courses.",
+    "category": "modellazione-3d",
+    "tags": [
+      "design generativo",
+      "creative coding"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PDF",
+      "SVG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "p5js",
+    "name": "p5.js",
+    "url": "https://p5js.org",
+    "source": "https://github.com/processing/p5.js",
+    "description_it": "La versione JavaScript di Processing: disegno generativo e interattivo direttamente nel browser.",
+    "description_en": "The JavaScript version of Processing: generative and interactive drawing right in the browser.",
+    "category": "modellazione-3d",
+    "tags": [
+      "design generativo",
+      "creative coding",
+      "JavaScript"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "libreria"
+    ],
+    "formats": [
+      "PNG",
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "threejs",
+    "name": "three.js",
+    "url": "https://threejs.org",
+    "source": "https://github.com/mrdoob/three.js",
+    "description_it": "La libreria JavaScript più usata per scene 3D nel browser, con editor online incluso.",
+    "description_en": "The most widely used JavaScript library for 3D scenes in the browser, with an online editor included.",
+    "category": "modellazione-3d",
+    "tags": [
+      "3D",
+      "JavaScript",
+      "web"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria",
+      "web"
+    ],
+    "formats": [
+      "glTF",
+      "OBJ"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "gravity-sketch",
+    "name": "Gravity Sketch",
+    "url": "https://www.gravitysketch.com",
+    "description_it": "Schizzo e modellazione 3D in realtà virtuale; versione gratuita per i singoli utenti.",
+    "description_en": "3D sketching and modelling in virtual reality; free version for individual users.",
+    "category": "modellazione-3d",
+    "tags": [
+      "realtà virtuale",
+      "schizzo 3D"
+    ],
+    "license": "freemium",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "OBJ",
+      "FBX"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "realityscan",
+    "name": "RealityScan",
+    "url": "https://www.realityscan.com",
+    "description_it": "Fotogrammetria e laser scanning di Epic Games; gratuito per studenti, scuole e chi fattura meno di 1 milione di dollari.",
+    "description_en": "Epic Games photogrammetry and laser scanning; free for students, schools and anyone under $1M revenue.",
+    "category": "modellazione-3d",
+    "tags": [
+      "fotogrammetria",
+      "rilievo",
+      "scansione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "formats": [
+      "OBJ",
+      "FBX",
+      "PLY"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "polycam",
+    "name": "Polycam",
+    "url": "https://poly.cam",
+    "description_it": "Scansione 3D e planimetrie da smartphone (LiDAR o foto); il piano gratuito ha esportazioni limitate.",
+    "description_en": "3D scanning and floor plans from a smartphone (LiDAR or photos); the free plan has limited exports.",
+    "category": "modellazione-3d",
+    "tags": [
+      "scansione",
+      "rilievo",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "mobile",
+      "web"
+    ],
+    "formats": [
+      "OBJ",
+      "glTF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

@@ -1,0 +1,698 @@
+[
+  {
+    "id": "inkscape",
+    "name": "Inkscape",
+    "url": "https://inkscape.org",
+    "source": "https://gitlab.com/inkscape/inkscape",
+    "description_it": "Grafica vettoriale professionale e libera: diagrammi, tavole, ripasso di disegni CAD importati in DXF o PDF.",
+    "description_en": "Professional free vector graphics: diagrams, boards, reworking CAD drawings imported as DXF or PDF.",
+    "category": "grafica",
+    "tags": [
+      "vettoriale",
+      "tavole",
+      "diagrammi"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "SVG",
+      "PDF",
+      "DXF",
+      "EPS",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "url": "https://www.gimp.org",
+    "source": "https://github.com/GNOME/gimp",
+    "description_it": "Fotoritocco e grafica raster libera: fotoinserimenti, post-produzione dei render, collage.",
+    "description_en": "Free raster editing and graphics: photomontages, render post-production, collages.",
+    "category": "grafica",
+    "tags": [
+      "raster",
+      "fotoritocco",
+      "post-produzione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PSD",
+      "PNG",
+      "JPG",
+      "TIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "krita",
+    "name": "Krita",
+    "url": "https://krita.org",
+    "source": "https://github.com/KDE/krita",
+    "description_it": "Pittura digitale libera con pennelli realistici: schizzi, acquerelli e render pittorici.",
+    "description_en": "Free digital painting with realistic brushes: sketches, watercolours and painterly renders.",
+    "category": "grafica",
+    "tags": [
+      "pittura digitale",
+      "schizzo",
+      "illustrazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PSD",
+      "PNG",
+      "KRA"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "scribus",
+    "name": "Scribus",
+    "url": "https://www.scribus.net",
+    "description_it": "Impaginazione professionale libera per tavole, portfolio, riviste e libri, con PDF pronti per la stampa.",
+    "description_en": "Free professional desktop publishing for boards, portfolios, magazines and books, with print-ready PDFs.",
+    "category": "grafica",
+    "tags": [
+      "impaginazione",
+      "portfolio",
+      "stampa"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PDF",
+      "SLA"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "affinity",
+    "name": "Affinity",
+    "url": "https://www.affinity.studio",
+    "description_it": "Suite unica per vettoriale, fotoritocco e impaginazione (ex Designer, Photo e Publisher), gratuita con account Canva.",
+    "description_en": "Single app for vector, photo editing and layout (formerly Designer, Photo and Publisher), free with a Canva account.",
+    "category": "grafica",
+    "tags": [
+      "vettoriale",
+      "impaginazione",
+      "fotoritocco",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PDF",
+      "PSD",
+      "SVG",
+      "AI"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "photopea",
+    "name": "Photopea",
+    "url": "https://www.photopea.com",
+    "description_it": "Editor di immagini nel browser molto simile a Photoshop, compatibile con PSD, AI e Sketch; gratuito con pubblicità.",
+    "description_en": "In-browser image editor very similar to Photoshop, compatible with PSD, AI and Sketch; free with ads.",
+    "category": "grafica",
+    "tags": [
+      "raster",
+      "fotoritocco",
+      "PSD"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PSD",
+      "PNG",
+      "SVG",
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com",
+    "source": "https://github.com/excalidraw/excalidraw",
+    "description_it": "Lavagna per schizzi e diagrammi con tratto a mano libera, anche collaborativa in tempo reale.",
+    "description_en": "Whiteboard for hand-drawn-style sketches and diagrams, with real-time collaboration.",
+    "category": "grafica",
+    "tags": [
+      "diagrammi",
+      "schizzo",
+      "collaborazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "drawio",
+    "name": "draw.io",
+    "url": "https://www.drawio.com",
+    "source": "https://github.com/jgraph/drawio",
+    "description_it": "Diagrammi, schemi funzionali, organigrammi e flussi, online o desktop, senza registrazione.",
+    "description_en": "Diagrams, functional schemes, org charts and flows, online or desktop, without sign-up.",
+    "category": "grafica",
+    "tags": [
+      "diagrammi",
+      "schemi"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "desktop"
+    ],
+    "formats": [
+      "SVG",
+      "PNG",
+      "PDF",
+      "VSDX"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "url": "https://penpot.app",
+    "source": "https://github.com/penpot/penpot",
+    "description_it": "Strumento di design e prototipazione open source basato su SVG, alternativa libera a Figma.",
+    "description_en": "Open-source, SVG-based design and prototyping tool: a free alternative to Figma.",
+    "category": "grafica",
+    "tags": [
+      "UI",
+      "prototipazione",
+      "collaborazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SVG",
+      "PDF",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "description_it": "Design collaborativo nel browser per presentazioni, diagrammi e interfacce; piano Starter gratuito.",
+    "description_en": "Collaborative browser design for presentations, diagrams and interfaces; free Starter plan.",
+    "category": "grafica",
+    "tags": [
+      "UI",
+      "collaborazione",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web",
+      "desktop"
+    ],
+    "formats": [
+      "PDF",
+      "SVG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "description_it": "Grafica rapida con modelli per presentazioni, poster e social; versione gratuita molto ampia.",
+    "description_en": "Quick graphics with templates for presentations, posters and social media; generous free version.",
+    "category": "grafica",
+    "tags": [
+      "presentazioni",
+      "poster",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web",
+      "mobile"
+    ],
+    "formats": [
+      "PDF",
+      "PNG",
+      "PPTX"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "darktable",
+    "name": "darktable",
+    "url": "https://www.darktable.org",
+    "source": "https://github.com/darktable-org/darktable",
+    "description_it": "Sviluppo di file RAW e gestione dell'archivio fotografico, alternativa libera a Lightroom.",
+    "description_en": "RAW development and photo library management, a free alternative to Lightroom.",
+    "category": "grafica",
+    "tags": [
+      "fotografia",
+      "RAW"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "RAW",
+      "JPG",
+      "TIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "rawtherapee",
+    "name": "RawTherapee",
+    "url": "https://rawtherapee.com",
+    "source": "https://github.com/RawTherapee/RawTherapee",
+    "description_it": "Elaborazione avanzata di fotografie RAW, utile per le foto di architettura e i sopralluoghi.",
+    "description_en": "Advanced RAW photo processing, handy for architectural and site photography.",
+    "category": "grafica",
+    "tags": [
+      "fotografia",
+      "RAW"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "RAW",
+      "JPG",
+      "TIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "url": "https://www.libreoffice.org",
+    "description_it": "Suite per ufficio libera: relazioni, computi in foglio di calcolo, presentazioni; apre e salva file Office.",
+    "description_en": "Free office suite: reports, spreadsheet estimates, presentations; opens and saves Office files.",
+    "category": "grafica",
+    "tags": [
+      "ufficio",
+      "relazioni",
+      "computi"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "DOCX",
+      "XLSX",
+      "PPTX",
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "rawgraphs",
+    "name": "RAWGraphs",
+    "url": "https://www.rawgraphs.io",
+    "source": "https://github.com/rawgraphs/rawgraphs-app",
+    "description_it": "Crea visualizzazioni di dati non convenzionali (alluvionali, treemap, beeswarm) esportabili in SVG per le tavole.",
+    "description_en": "Creates unconventional data visualisations (alluvial, treemap, beeswarm) exportable to SVG for boards.",
+    "category": "grafica",
+    "tags": [
+      "visualizzazione dati",
+      "grafici",
+      "SVG"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SVG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "flourish",
+    "name": "Flourish",
+    "url": "https://flourish.studio",
+    "description_it": "Grafici, mappe e storie interattive da pubblicare online; piano gratuito per progetti pubblici.",
+    "description_en": "Interactive charts, maps and stories to publish online; free plan for public projects.",
+    "category": "grafica",
+    "tags": [
+      "visualizzazione dati",
+      "interattivo",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "SVG",
+      "HTML"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "svgomg",
+    "name": "SVGOMG",
+    "url": "https://jakearchibald.github.io/svgomg/",
+    "source": "https://github.com/jakearchibald/svgomg",
+    "description_it": "Pulisce e alleggerisce i file SVG esportati da Illustrator, Inkscape o CAD prima di pubblicarli.",
+    "description_en": "Cleans and slims SVG files exported from Illustrator, Inkscape or CAD before publishing.",
+    "category": "grafica",
+    "tags": [
+      "SVG",
+      "ottimizzazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "upscayl",
+    "name": "Upscayl",
+    "url": "https://upscayl.org",
+    "source": "https://github.com/upscayl/upscayl",
+    "description_it": "Ingrandisce immagini e render a bassa risoluzione con l'intelligenza artificiale, offline sul tuo computer.",
+    "description_en": "Upscales low-resolution images and renders with AI, offline on your own computer.",
+    "category": "grafica",
+    "tags": [
+      "intelligenza artificiale",
+      "upscaling",
+      "render"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PNG",
+      "JPG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "remove-bg",
+    "name": "remove.bg",
+    "url": "https://www.remove.bg",
+    "description_it": "Scontorna automaticamente persone e oggetti dalle foto; anteprima gratuita, alta risoluzione a crediti.",
+    "description_en": "Automatically removes backgrounds from people and objects in photos; free preview, high-res with credits.",
+    "category": "grafica",
+    "tags": [
+      "scontorno",
+      "entourage",
+      "intelligenza artificiale"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "url": "https://miro.com",
+    "description_it": "Lavagna collaborativa per workshop, mappe concettuali e moodboard; piano gratuito con 3 lavagne modificabili.",
+    "description_en": "Collaborative whiteboard for workshops, concept maps and moodboards; free plan with 3 editable boards.",
+    "category": "grafica",
+    "tags": [
+      "collaborazione",
+      "moodboard",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web",
+      "desktop"
+    ],
+    "formats": [
+      "PDF",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "tldraw",
+    "name": "tldraw",
+    "url": "https://www.tldraw.com",
+    "source": "https://github.com/tldraw/tldraw",
+    "description_it": "Lavagna digitale leggera e veloce per schizzi e diagrammi, utilizzabile gratis nel browser.",
+    "description_en": "Fast, lightweight digital whiteboard for sketches and diagrams, free to use in the browser.",
+    "category": "grafica",
+    "tags": [
+      "diagrammi",
+      "schizzo"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "noun-project",
+    "name": "The Noun Project",
+    "url": "https://thenounproject.com",
+    "description_it": "Milioni di icone e pittogrammi coerenti per diagrammi e tavole; gratuiti con attribuzione.",
+    "description_en": "Millions of consistent icons and pictograms for diagrams and boards; free with attribution.",
+    "category": "grafica",
+    "tags": [
+      "icone",
+      "pittogrammi",
+      "diagrammi"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SVG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "unsplash",
+    "name": "Unsplash",
+    "url": "https://unsplash.com",
+    "description_it": "Fotografie di alta qualità utilizzabili gratis anche per scopi commerciali, senza obbligo di attribuzione.",
+    "description_en": "High-quality photos free to use, commercially too, with no attribution required.",
+    "category": "grafica",
+    "tags": [
+      "fotografie",
+      "immagini"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "JPG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "pexels",
+    "name": "Pexels",
+    "url": "https://www.pexels.com",
+    "description_it": "Foto e video gratuiti con licenza libera, utili per fotoinserimenti e presentazioni.",
+    "description_en": "Free photos and videos under a free licence, useful for photomontages and presentations.",
+    "category": "grafica",
+    "tags": [
+      "fotografie",
+      "video"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "JPG",
+      "MP4"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "openverse",
+    "name": "Openverse",
+    "url": "https://openverse.org",
+    "source": "https://github.com/WordPress/openverse",
+    "description_it": "Motore di ricerca di oltre 800 milioni di immagini e audio con licenze Creative Commons.",
+    "description_en": "Search engine for over 800 million Creative Commons images and audio files.",
+    "category": "grafica",
+    "tags": [
+      "immagini",
+      "Creative Commons"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "wikimedia-commons",
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org",
+    "description_it": "Archivio di oltre 100 milioni di file multimediali liberi: foto di edifici, disegni storici, mappe.",
+    "description_en": "Archive of over 100 million free media files: building photos, historical drawings, maps.",
+    "category": "grafica",
+    "tags": [
+      "immagini",
+      "archivio",
+      "Creative Commons"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "JPG",
+      "SVG",
+      "TIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "pdf24",
+    "name": "PDF24 Tools",
+    "url": "https://tools.pdf24.org",
+    "description_it": "Decine di strumenti gratuiti per PDF: unire, comprimere, convertire, firmare; anche in versione desktop.",
+    "description_en": "Dozens of free PDF tools: merge, compress, convert, sign; also as a desktop app.",
+    "category": "grafica",
+    "tags": [
+      "PDF",
+      "conversione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web",
+      "desktop"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "stirling-pdf",
+    "name": "Stirling PDF",
+    "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "source": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "description_it": "Suite open source per manipolare PDF in locale: unire, dividere, OCR, comprimere, convertire.",
+    "description_en": "Open-source suite to manipulate PDFs locally: merge, split, OCR, compress, convert.",
+    "category": "grafica",
+    "tags": [
+      "PDF",
+      "OCR"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "web"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

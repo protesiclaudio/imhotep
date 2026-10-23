@@ -1,0 +1,31 @@
+{
+  "_note": "Host che rifiutano i client automatici ma funzionano nel browser. Se rispondono con un errore vengono segnalati come BLOCCATO (da controllare a mano), non come ROTTO.",
+  "hosts": {
+    "www.mapillary.com": "HTTP 400 ai client automatici; verificato nel browser il 2026-10-23",
+    "data.humdata.org": "HTTP 406 ai client automatici; verificato nel browser il 2026-10-23",
+    "www.regione.marche.it": "Protezione anti-bot Radware; verificato nel browser il 2026-10-23",
+    "vincoliinrete.beniculturali.it": "Servizio disponibile solo dalle 7 alle 20; verificato il 2026-10-23",
+    "www.sit.puglia.it": "Rifiuta le connessioni di Node; verificato nel browser il 2026-10-23",
+    "www.twinmotion.com": "HTTP 403 ai client automatici; verificato nel browser il 2026-10-23",
+    "www.unrealengine.com": "HTTP 403 ai client automatici; verificato nel browser il 2026-10-23",
+    "www.povray.org": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "hugin.sourceforge.io": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "saga-gis.sourceforge.io": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "www.canva.com": "HTTP 403 ai client automatici; verificato nel browser il 2026-10-23",
+    "www.pexels.com": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "openverse.org": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "unsplash.com": "Verifica anti-bot; verificato nel browser il 2026-10-23",
+    "encycolorpedia.com": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "www.bimobject.com": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "www.fab.com": "HTTP 403 ai client automatici; verificato nel browser il 2026-10-23",
+    "www.myminifactory.com": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "www.bibliocad.com": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "www.cadblocksfree.com": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "architizer.com": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "archello.com": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "placesjournal.org": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "www.oldmapsonline.org": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "gallica.bnf.fr": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
+    "www.mrcutout.com": "Redirect anti-bot; verificato nel browser il 2026-10-23"
+  }
+}

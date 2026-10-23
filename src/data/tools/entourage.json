@@ -1,0 +1,215 @@
+[
+  {
+    "id": "skalgubbar",
+    "name": "Skalgubbar",
+    "url": "https://skalgubbar.se",
+    "description_it": "Persone scontornate fotografate in situazioni quotidiane, gratuite per tavole e render.",
+    "description_en": "Cut-out people photographed in everyday situations, free for boards and renders.",
+    "category": "entourage",
+    "tags": [
+      "persone",
+      "scontornati",
+      "PNG"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "nonscandinavia",
+    "name": "Nonscandinavia",
+    "url": "https://www.nonscandinavia.com",
+    "description_it": "Persone scontornate di culture ed età diverse, gratuite: un'alternativa più inclusiva all'entourage tradizionale.",
+    "description_en": "Free cut-out people of diverse cultures and ages: a more inclusive alternative to typical entourage.",
+    "category": "entourage",
+    "tags": [
+      "persone",
+      "scontornati",
+      "PNG"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "mrcutout",
+    "name": "MrCutout",
+    "url": "https://www.mrcutout.com",
+    "description_it": "Migliaia di persone, alberi e oggetti scontornati di qualità per fotoinserimenti, scaricabili gratis.",
+    "description_en": "Thousands of quality cut-out people, trees and objects for photomontages, free to download.",
+    "category": "entourage",
+    "tags": [
+      "persone",
+      "alberi",
+      "scontornati"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "toffu",
+    "name": "Toffu",
+    "url": "https://toffu.co",
+    "description_it": "Risorse grafiche per architetti: persone, vegetazione, vettori assonometrici e blocchi CAD; raccolta gratuita settimanale.",
+    "description_en": "Graphic assets for architects: people, vegetation, axonometric vectors and CAD blocks; weekly free collection.",
+    "category": "entourage",
+    "tags": [
+      "persone",
+      "vettoriale",
+      "CAD"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "SVG",
+      "DWG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "humaaans",
+    "name": "Humaaans",
+    "url": "https://www.humaaans.com",
+    "description_it": "Libreria di persone illustrate componibili (pose, abiti, capelli) per diagrammi e presentazioni.",
+    "description_en": "Mix-and-match illustrated people library (poses, clothes, hair) for diagrams and presentations.",
+    "category": "entourage",
+    "tags": [
+      "persone",
+      "illustrazione",
+      "diagrammi"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SVG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "open-peeps",
+    "name": "Open Peeps",
+    "url": "https://www.openpeeps.com",
+    "description_it": "Personaggi disegnati a mano componibili, in pubblico dominio (CC0), per diagrammi e tavole.",
+    "description_en": "Hand-drawn, mix-and-match characters in the public domain (CC0), for diagrams and boards.",
+    "category": "entourage",
+    "tags": [
+      "persone",
+      "illustrazione",
+      "CC0"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SVG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "bibliocad",
+    "name": "Bibliocad",
+    "url": "https://www.bibliocad.com",
+    "description_it": "Oltre 120.000 blocchi e disegni CAD (arredi, persone, vegetazione, dettagli); alcuni download gratuiti, il resto in abbonamento.",
+    "description_en": "Over 120,000 CAD blocks and drawings (furniture, people, vegetation, details); some free downloads, the rest by subscription.",
+    "category": "entourage",
+    "tags": [
+      "blocchi CAD",
+      "DWG",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "DWG",
+      "RFA",
+      "SKP"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cadblocksfree",
+    "name": "CADblocksfree",
+    "url": "https://www.cadblocksfree.com",
+    "description_it": "Blocchi CAD 2D e modelli 3D gratuiti: arredi, persone, auto, alberi, sanitari.",
+    "description_en": "Free 2D CAD blocks and 3D models: furniture, people, cars, trees, sanitaryware.",
+    "category": "entourage",
+    "tags": [
+      "blocchi CAD",
+      "DWG"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "DWG",
+      "RFA",
+      "MAX"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cad-blocks-net",
+    "name": "CAD-Blocks.net",
+    "url": "https://www.cad-blocks.net",
+    "description_it": "Raccolta di blocchi AutoCAD gratuiti divisi per categoria, dalle persone ai dettagli costruttivi.",
+    "description_en": "Collection of free AutoCAD blocks by category, from people to construction details.",
+    "category": "entourage",
+    "tags": [
+      "blocchi CAD",
+      "DWG"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "DWG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

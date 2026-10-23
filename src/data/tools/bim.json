@@ -1,0 +1,312 @@
+[
+  {
+    "id": "bonsai",
+    "name": "Bonsai (ex BlenderBIM)",
+    "url": "https://bonsaibim.org",
+    "source": "https://github.com/IfcOpenShell/IfcOpenShell",
+    "description_it": "Add-on per Blender che lo trasforma in un ambiente BIM nativo IFC: modellazione, tavole 2D, computi e coordinamento.",
+    "description_en": "Blender add-on that turns it into a native IFC BIM environment: modelling, 2D drawings, quantities and coordination.",
+    "category": "bim",
+    "tags": [
+      "BIM",
+      "IFC",
+      "Blender",
+      "openBIM"
+    ],
+    "license": "open-source",
+    "platform": [
+      "plugin"
+    ],
+    "formats": [
+      "IFC",
+      "SVG",
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ifcopenshell",
+    "name": "IfcOpenShell",
+    "url": "https://ifcopenshell.org",
+    "source": "https://github.com/IfcOpenShell/IfcOpenShell",
+    "description_it": "Libreria e strumenti per leggere, scrivere e convertire file IFC (IfcConvert) in Python e C++.",
+    "description_en": "Library and tools to read, write and convert IFC files (IfcConvert) in Python and C++.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      "Python",
+      "conversione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "IFC",
+      "OBJ",
+      "glTF",
+      "DAE"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "that-open-engine",
+    "name": "That Open Engine (ex IFC.js)",
+    "url": "https://thatopen.com",
+    "source": "https://github.com/ThatOpen/engine_components",
+    "description_it": "Librerie JavaScript per costruire visualizzatori e applicazioni BIM nel browser a partire da file IFC.",
+    "description_en": "JavaScript libraries for building BIM viewers and apps in the browser from IFC files.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      "JavaScript",
+      "web"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "IFC"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "bimvision",
+    "name": "BIMvision",
+    "url": "https://bimvision.eu",
+    "description_it": "Visualizzatore IFC gratuito per Windows con misure, sezioni, proprietà e confronto di modelli.",
+    "description_en": "Free IFC viewer for Windows with measurements, sections, properties and model comparison.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      "visualizzatore"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "IFC",
+      "BCF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "open-ifc-viewer",
+    "name": "Open IFC Viewer",
+    "url": "https://openifcviewer.com",
+    "description_it": "Visualizzatore IFC leggero e gratuito dell'Open Design Alliance per Windows, macOS e Linux.",
+    "description_en": "Lightweight free IFC viewer from the Open Design Alliance for Windows, macOS and Linux.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      "visualizzatore"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "IFC"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "usbim-viewer",
+    "name": "usBIM.viewer+",
+    "url": "https://www.accasoftware.com/en/ifc-viewer",
+    "description_it": "Visualizzatore IFC gratuito di ACCA software con navigazione, sezioni, misure e proprietà degli oggetti.",
+    "description_en": "Free IFC viewer by ACCA software with navigation, sections, measurements and object properties.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      "visualizzatore"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "IFC",
+      "BCF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "speckle",
+    "name": "Speckle",
+    "url": "https://speckle.systems",
+    "source": "https://github.com/specklesystems",
+    "description_it": "Piattaforma per scambiare e versionare dati tra Revit, Rhino, Blender, Archicad e altri; piano gratuito.",
+    "description_en": "Platform to exchange and version data between Revit, Rhino, Blender, Archicad and more; free plan.",
+    "category": "bim",
+    "tags": [
+      "interoperabilità",
+      "collaborazione",
+      "registrazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "plugin"
+    ],
+    "formats": [
+      "IFC"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "xbim",
+    "name": "xbim Toolkit",
+    "url": "https://docs.xbim.net",
+    "source": "https://github.com/xBimTeam",
+    "description_it": "Librerie .NET per leggere, creare e visualizzare modelli IFC, con supporto a COBie.",
+    "description_en": ".NET libraries to read, create and view IFC models, with COBie support.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      ".NET",
+      "sviluppo"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "IFC"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "xeokit",
+    "name": "xeokit SDK",
+    "url": "https://xeokit.io",
+    "source": "https://github.com/xeokit/xeokit-sdk",
+    "description_it": "SDK JavaScript per visualizzatori BIM web ad alte prestazioni, anche con modelli molto grandi.",
+    "description_en": "JavaScript SDK for high-performance web BIM viewers, including very large models.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      "JavaScript",
+      "web"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "IFC",
+      "glTF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "bimserver",
+    "name": "BIMserver",
+    "url": "https://github.com/opensourceBIM/BIMserver",
+    "source": "https://github.com/opensourceBIM/BIMserver",
+    "description_it": "Server per archiviare, versionare e interrogare modelli IFC in un progetto condiviso.",
+    "description_en": "Server to store, version and query IFC models in a shared project.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      "server",
+      "collaborazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "IFC"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ifc-validation-service",
+    "name": "buildingSMART IFC Validation Service",
+    "url": "https://validate.buildingsmart.org",
+    "description_it": "Servizio ufficiale di buildingSMART per verificare la correttezza di un file IFC rispetto allo standard.",
+    "description_en": "Official buildingSMART service to check an IFC file's conformance to the standard.",
+    "category": "bim",
+    "tags": [
+      "IFC",
+      "validazione",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "IFC"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "bsdd",
+    "name": "buildingSMART Data Dictionary",
+    "url": "https://search.bsdd.buildingsmart.org",
+    "description_it": "Dizionario di classificazioni e proprietà per arricchire i modelli BIM con dati standardizzati.",
+    "description_en": "Dictionary of classifications and properties to enrich BIM models with standardised data.",
+    "category": "bim",
+    "tags": [
+      "classificazione",
+      "openBIM"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "dynamo",
+    "name": "Dynamo",
+    "url": "https://dynamobim.org",
+    "source": "https://github.com/DynamoDS/Dynamo",
+    "description_it": "Programmazione visuale per il design computazionale: integrato in Revit, disponibile anche come Dynamo Sandbox gratuito.",
+    "description_en": "Visual programming for computational design: built into Revit, also available as free Dynamo Sandbox.",
+    "category": "bim",
+    "tags": [
+      "programmazione visuale",
+      "parametrico",
+      "Revit"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "plugin"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

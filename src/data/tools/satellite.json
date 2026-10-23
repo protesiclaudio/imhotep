@@ -1,0 +1,339 @@
+[
+  {
+    "id": "copernicus-browser",
+    "name": "Copernicus Browser",
+    "url": "https://browser.dataspace.copernicus.eu",
+    "description_it": "Visualizza e scarica immagini Sentinel recenti e storiche, con indici di vegetazione, falsi colori e timelapse (erede di EO Browser).",
+    "description_en": "View and download recent and archive Sentinel imagery with vegetation indices, false colour and timelapses (successor to EO Browser).",
+    "category": "satellite",
+    "tags": [
+      "Sentinel",
+      "Copernicus",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "usgs-earthexplorer",
+    "name": "USGS EarthExplorer",
+    "url": "https://earthexplorer.usgs.gov",
+    "description_it": "Archivio USGS di immagini Landsat, foto aeree storiche e DEM (SRTM) di tutto il mondo, scaricabili gratis.",
+    "description_en": "USGS archive of Landsat imagery, historical aerial photos and DEMs (SRTM) worldwide, free to download.",
+    "category": "satellite",
+    "tags": [
+      "Landsat",
+      "DEM",
+      "foto aeree",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "nasa-worldview",
+    "name": "NASA Worldview",
+    "url": "https://worldview.earthdata.nasa.gov",
+    "source": "https://github.com/nasa-gibs/worldview",
+    "description_it": "Oltre mille livelli satellitari NASA quasi in tempo reale: incendi, temperature, nuvole, luci notturne.",
+    "description_en": "Over a thousand near-real-time NASA satellite layers: fires, temperatures, clouds, night lights.",
+    "category": "satellite",
+    "tags": [
+      "NASA",
+      "tempo reale",
+      "clima"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "GeoTIFF",
+      "KMZ"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "landsatlook",
+    "name": "LandsatLook",
+    "url": "https://landsatlook.usgs.gov",
+    "description_it": "Visualizzatore USGS per esplorare e confrontare cinquant'anni di immagini Landsat.",
+    "description_en": "USGS viewer to explore and compare fifty years of Landsat imagery.",
+    "category": "satellite",
+    "tags": [
+      "Landsat",
+      "serie storiche"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "glovis",
+    "name": "GloVis",
+    "url": "https://glovis.usgs.gov",
+    "description_it": "Strumento USGS per sfogliare visivamente e scaricare scene Landsat, Sentinel-2 e ASTER.",
+    "description_en": "USGS tool to visually browse and download Landsat, Sentinel-2 and ASTER scenes.",
+    "category": "satellite",
+    "tags": [
+      "Landsat",
+      "Sentinel",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "earthdata-search",
+    "name": "NASA Earthdata Search",
+    "url": "https://search.earthdata.nasa.gov",
+    "description_it": "Motore di ricerca dei dati di osservazione della Terra della NASA: satellitari, climatici e altimetrici.",
+    "description_en": "Search engine for NASA Earth observation data: satellite, climate and elevation.",
+    "category": "satellite",
+    "tags": [
+      "NASA",
+      "catalogo",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "HDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "google-earth-engine",
+    "name": "Google Earth Engine",
+    "url": "https://earthengine.google.com",
+    "description_it": "Piattaforma per analizzare petabyte di dati satellitari nel cloud; gratuita per ricerca, didattica e non profit.",
+    "description_en": "Platform to analyse petabytes of satellite data in the cloud; free for research, education and non-profits.",
+    "category": "satellite",
+    "tags": [
+      "analisi",
+      "cloud",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web",
+      "libreria"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "earth-engine-timelapse",
+    "name": "Google Earth Timelapse",
+    "url": "https://earthengine.google.com/timelapse/",
+    "description_it": "Timelapse dal 1984 a oggi di qualsiasi luogo: crescita urbana, coste, deforestazione.",
+    "description_en": "Timelapse from 1984 to today of any place: urban growth, coastlines, deforestation.",
+    "category": "satellite",
+    "tags": [
+      "serie storiche",
+      "crescita urbana"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "MP4"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "eox-cloudless",
+    "name": "EOxCloudless",
+    "url": "https://cloudless.eox.at",
+    "description_it": "Mosaico globale senza nuvole da Sentinel-2, utilizzabile come base satellitare pulita.",
+    "description_en": "Cloud-free global Sentinel-2 mosaic, usable as a clean satellite basemap.",
+    "category": "satellite",
+    "tags": [
+      "Sentinel",
+      "basemap"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "WMTS"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "esri-wayback",
+    "name": "World Imagery Wayback",
+    "url": "https://livingatlas.arcgis.com/wayback/",
+    "description_it": "Sfoglia tutte le versioni storiche della mappa satellitare Esri dal 2014 per vedere come è cambiato un luogo.",
+    "description_en": "Browse every historical version of Esri's satellite basemap since 2014 to see how a place has changed.",
+    "category": "satellite",
+    "tags": [
+      "serie storiche",
+      "ortofoto"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sentinel2-explorer",
+    "name": "Sentinel-2 Explorer",
+    "url": "https://livingatlas.arcgis.com/sentinel2explorer/",
+    "description_it": "Esplora immagini Sentinel-2 con indici spettrali, confronti nel tempo e analisi dei cambiamenti.",
+    "description_en": "Explore Sentinel-2 imagery with spectral indices, time comparisons and change analysis.",
+    "category": "satellite",
+    "tags": [
+      "Sentinel",
+      "indici",
+      "serie storiche"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "landsat-explorer",
+    "name": "Landsat Explorer",
+    "url": "https://livingatlas.arcgis.com/landsatexplorer/",
+    "description_it": "Visualizzatore Esri per immagini Landsat con temperatura superficiale, vegetazione e confronti storici.",
+    "description_en": "Esri viewer for Landsat imagery with surface temperature, vegetation and historical comparisons.",
+    "category": "satellite",
+    "tags": [
+      "Landsat",
+      "temperatura",
+      "serie storiche"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "zoom-earth",
+    "name": "Zoom Earth",
+    "url": "https://zoom.earth",
+    "description_it": "Immagini satellitari quotidiane e mappe meteo in tempo reale di tutto il pianeta.",
+    "description_en": "Daily satellite imagery and real-time weather maps of the whole planet.",
+    "category": "satellite",
+    "tags": [
+      "meteo",
+      "tempo reale"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "openaerialmap",
+    "name": "OpenAerialMap",
+    "url": "https://openaerialmap.org",
+    "source": "https://github.com/hotosm/OpenAerialMap",
+    "description_it": "Archivio aperto di immagini aeree e da drone condivise con licenza libera.",
+    "description_en": "Open archive of aerial and drone imagery shared under a free licence.",
+    "category": "satellite",
+    "tags": [
+      "drone",
+      "ortofoto",
+      "dati aperti"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "light-pollution-map",
+    "name": "Light Pollution Map",
+    "url": "https://www.lightpollutionmap.info",
+    "description_it": "Mappa dell'inquinamento luminoso da dati satellitari VIIRS: utile per studi su paesaggio notturno e illuminazione.",
+    "description_en": "Light pollution map from VIIRS satellite data: useful for night landscape and lighting studies.",
+    "category": "satellite",
+    "tags": [
+      "luci notturne",
+      "inquinamento luminoso"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

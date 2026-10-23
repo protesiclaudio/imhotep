@@ -1,0 +1,220 @@
+[
+  {
+    "id": "opensees",
+    "name": "OpenSees",
+    "url": "https://opensees.github.io/OpenSeesDocumentation/",
+    "source": "https://github.com/OpenSees/OpenSees",
+    "description_it": "Framework di Berkeley per l'analisi strutturale e sismica non lineare, usato nella ricerca di ingegneria sismica.",
+    "description_en": "Berkeley framework for nonlinear structural and seismic analysis, widely used in earthquake engineering research.",
+    "category": "strutture",
+    "tags": [
+      "sismica",
+      "non lineare",
+      "FEM"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "code-aster",
+    "name": "code_aster",
+    "url": "https://code-aster.org",
+    "source": "https://gitlab.com/codeaster/src",
+    "description_it": "Solutore agli elementi finiti di EDF per analisi strutturali, termiche e dinamiche avanzate.",
+    "description_en": "EDF finite element solver for advanced structural, thermal and dynamic analysis.",
+    "category": "strutture",
+    "tags": [
+      "FEM",
+      "analisi strutturale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "MED"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "salome",
+    "name": "SALOME",
+    "url": "https://www.salome-platform.org",
+    "description_it": "Piattaforma per geometria, mesh e post-processing delle simulazioni numeriche, usata con code_aster.",
+    "description_en": "Platform for geometry, meshing and post-processing of numerical simulations, used with code_aster.",
+    "category": "strutture",
+    "tags": [
+      "FEM",
+      "mesh"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "STEP",
+      "MED"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "calculix",
+    "name": "CalculiX",
+    "url": "http://www.calculix.de",
+    "description_it": "Programma agli elementi finiti 3D per analisi strutturali lineari e non lineari, integrato in FreeCAD.",
+    "description_en": "3D finite element program for linear and nonlinear structural analysis, integrated in FreeCAD.",
+    "category": "strutture",
+    "tags": [
+      "FEM",
+      "analisi strutturale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "INP"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ftool",
+    "name": "Ftool",
+    "url": "https://portal.ftool.com.br",
+    "description_it": "Analisi di telai piani: diagrammi di sollecitazione e deformate in modo semplice e didattico; versione base gratuita.",
+    "description_en": "Plane frame analysis: internal force diagrams and deflections in a simple, educational way; free basic version.",
+    "category": "strutture",
+    "tags": [
+      "telai 2D",
+      "didattica"
+    ],
+    "license": "freemium",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "skyciv-beam-calculator",
+    "name": "SkyCiv Free Beam Calculator",
+    "url": "https://skyciv.com/free-beam-calculator/",
+    "description_it": "Calcolatore online di travi: reazioni, taglio, momento e freccia con diagrammi immediati.",
+    "description_en": "Online beam calculator: reactions, shear, moment and deflection with instant diagrams.",
+    "category": "strutture",
+    "tags": [
+      "travi",
+      "calcolo rapido"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "beamguru",
+    "name": "BeamGuru",
+    "url": "https://beamguru.com",
+    "description_it": "Calcolo online di travi, telai e travature reticolari con diagrammi delle sollecitazioni.",
+    "description_en": "Online calculation of beams, frames and trusses with internal force diagrams.",
+    "category": "strutture",
+    "tags": [
+      "travi",
+      "telai",
+      "calcolo rapido"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "anastruct",
+    "name": "anaStruct",
+    "url": "https://github.com/ritchie46/anaStruct",
+    "source": "https://github.com/ritchie46/anaStruct",
+    "description_it": "Libreria Python per l'analisi strutturale 2D di telai e travature, con grafici delle sollecitazioni.",
+    "description_en": "Python library for 2D structural analysis of frames and trusses, with internal force plots.",
+    "category": "strutture",
+    "tags": [
+      "Python",
+      "telai 2D"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "pynite",
+    "name": "Pynite",
+    "url": "https://github.com/JWock82/Pynite",
+    "source": "https://github.com/JWock82/Pynite",
+    "description_it": "Libreria Python agli elementi finiti 3D per telai, piastre e muri strutturali.",
+    "description_en": "3D finite element Python library for frames, plates and shear walls.",
+    "category": "strutture",
+    "tags": [
+      "Python",
+      "FEM",
+      "telai 3D"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sectionproperties",
+    "name": "sectionproperties",
+    "url": "https://github.com/robbievanleeuwen/section-properties",
+    "source": "https://github.com/robbievanleeuwen/section-properties",
+    "description_it": "Calcolo in Python delle proprietà geometriche e delle tensioni di sezioni di forma qualsiasi.",
+    "description_en": "Python calculation of geometric properties and stresses for sections of any shape.",
+    "category": "strutture",
+    "tags": [
+      "Python",
+      "sezioni"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "DXF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

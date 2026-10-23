@@ -1,0 +1,409 @@
+[
+  {
+    "id": "poly-haven",
+    "name": "Poly Haven",
+    "url": "https://polyhaven.com",
+    "description_it": "Texture PBR, HDRI e modelli 3D di alta qualità, tutti in pubblico dominio (CC0).",
+    "description_en": "High-quality PBR textures, HDRIs and 3D models, all public domain (CC0).",
+    "category": "texture-modelli",
+    "tags": [
+      "texture",
+      "HDRI",
+      "CC0"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "EXR",
+      "HDR",
+      "PNG",
+      "glTF",
+      "BLEND"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ambientcg",
+    "name": "ambientCG",
+    "url": "https://ambientcg.com",
+    "description_it": "Migliaia di materiali PBR, HDRI e modelli in pubblico dominio (CC0), anche per uso commerciale.",
+    "description_en": "Thousands of public domain (CC0) PBR materials, HDRIs and models, commercial use included.",
+    "category": "texture-modelli",
+    "tags": [
+      "texture",
+      "materiali",
+      "CC0"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "JPG",
+      "EXR"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cgbookcase",
+    "name": "cgbookcase",
+    "url": "https://www.cgbookcase.com",
+    "description_it": "Texture PBR fotografiche in pubblico dominio, con mappe complete fino all'8K.",
+    "description_en": "Public domain photographic PBR textures with full maps up to 8K.",
+    "category": "texture-modelli",
+    "tags": [
+      "texture",
+      "CC0"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sharetextures",
+    "name": "ShareTextures",
+    "url": "https://www.sharetextures.com",
+    "description_it": "Texture, modelli e atlanti di vegetazione in CC0, pensati anche per l'architettura.",
+    "description_en": "CC0 textures, models and vegetation atlases, designed with architecture in mind.",
+    "category": "texture-modelli",
+    "tags": [
+      "texture",
+      "vegetazione",
+      "CC0"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "JPG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "3dtextures-me",
+    "name": "3DTextures",
+    "url": "https://3dtextures.me",
+    "description_it": "Texture PBR seamless gratuite (pietra, legno, metallo, tessuti) con mappe complete.",
+    "description_en": "Free seamless PBR textures (stone, wood, metal, fabric) with full maps.",
+    "category": "texture-modelli",
+    "tags": [
+      "texture",
+      "materiali"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "JPG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "freepbr",
+    "name": "Free PBR",
+    "url": "https://freepbr.com",
+    "description_it": "Materiali PBR gratuiti in 2K per motori di rendering e real time.",
+    "description_en": "Free 2K PBR materials for rendering engines and real time.",
+    "category": "texture-modelli",
+    "tags": [
+      "texture",
+      "materiali"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "architextures",
+    "name": "Architextures",
+    "url": "https://architextures.org",
+    "description_it": "Libreria di oltre 8.000 texture seamless di materiali architettonici e generatore di pattern; Pro a pagamento.",
+    "description_en": "Library of 8,000+ seamless architectural material textures and a pattern generator; paid Pro.",
+    "category": "texture-modelli",
+    "tags": [
+      "texture",
+      "materiali",
+      "pattern"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "textures-com",
+    "name": "Textures.com",
+    "url": "https://www.textures.com",
+    "description_it": "Enorme archivio di texture fotografiche e PBR; con l'account gratuito si scaricano crediti giornalieri.",
+    "description_en": "Huge archive of photographic and PBR textures; free accounts get daily download credits.",
+    "category": "texture-modelli",
+    "tags": [
+      "texture",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "JPG",
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "material-maker",
+    "name": "Material Maker",
+    "url": "https://www.materialmaker.org",
+    "source": "https://github.com/RodZill4/material-maker",
+    "description_it": "Crea materiali procedurali PBR con un editor a nodi, alternativa libera a Substance Designer.",
+    "description_en": "Create procedural PBR materials with a node editor, a free alternative to Substance Designer.",
+    "category": "texture-modelli",
+    "tags": [
+      "materiali",
+      "procedurale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "3d-warehouse",
+    "name": "3D Warehouse",
+    "url": "https://3dwarehouse.sketchup.com",
+    "description_it": "La più grande libreria di modelli SketchUp: arredi, edifici, prodotti dei produttori.",
+    "description_en": "The largest library of SketchUp models: furniture, buildings, manufacturer products.",
+    "category": "texture-modelli",
+    "tags": [
+      "modelli 3D",
+      "SketchUp",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SKP",
+      "DAE"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "sketchfab",
+    "name": "Sketchfab",
+    "url": "https://sketchfab.com",
+    "description_it": "Piattaforma di modelli 3D con migliaia di download gratuiti in Creative Commons, inclusi rilievi di edifici storici.",
+    "description_en": "3D model platform with thousands of free Creative Commons downloads, including scans of historic buildings.",
+    "category": "texture-modelli",
+    "tags": [
+      "modelli 3D",
+      "fotogrammetria",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "glTF",
+      "FBX",
+      "OBJ",
+      "USDZ"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "fab",
+    "name": "Fab",
+    "url": "https://www.fab.com",
+    "description_it": "Marketplace di Epic Games per asset 3D, materiali e Megascans, con una sezione di contenuti gratuiti.",
+    "description_en": "Epic Games marketplace for 3D assets, materials and Megascans, with a free content section.",
+    "category": "texture-modelli",
+    "tags": [
+      "modelli 3D",
+      "materiali",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "FBX",
+      "glTF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "blendkit",
+    "name": "Blendkit (ex BlenderKit)",
+    "url": "https://www.blendkit.com",
+    "description_it": "Libreria di modelli, materiali e HDRI integrata in Blender; molti asset gratuiti, altri in abbonamento.",
+    "description_en": "Library of models, materials and HDRIs integrated in Blender; many free assets, others by subscription.",
+    "category": "texture-modelli",
+    "tags": [
+      "Blender",
+      "modelli 3D",
+      "materiali"
+    ],
+    "license": "freemium",
+    "platform": [
+      "plugin",
+      "web"
+    ],
+    "formats": [
+      "BLEND"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "bimobject",
+    "name": "BIMobject",
+    "url": "https://www.bimobject.com",
+    "description_it": "Oggetti BIM dei produttori (famiglie Revit, Archicad, IFC, SketchUp) da scaricare gratis.",
+    "description_en": "Manufacturer BIM objects (Revit families, Archicad, IFC, SketchUp) free to download.",
+    "category": "texture-modelli",
+    "tags": [
+      "BIM",
+      "oggetti",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "RFA",
+      "IFC",
+      "SKP",
+      "DWG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "nbs-bim-library",
+    "name": "NBS BIM Library",
+    "url": "https://source.thenbs.com/en/gb/bimlibrary",
+    "description_it": "Oggetti BIM di produttori britannici ed europei, con dati tecnici conformi agli standard.",
+    "description_en": "BIM objects from UK and European manufacturers, with standards-compliant technical data.",
+    "category": "texture-modelli",
+    "tags": [
+      "BIM",
+      "oggetti"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "RFA",
+      "IFC"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "archiproducts",
+    "name": "Archiproducts",
+    "url": "https://www.archiproducts.com",
+    "description_it": "Catalogo di prodotti di design e architettura con schede tecniche e molti file CAD/BIM da scaricare.",
+    "description_en": "Catalogue of design and architecture products with technical sheets and many CAD/BIM downloads.",
+    "category": "texture-modelli",
+    "tags": [
+      "prodotti",
+      "CAD",
+      "BIM"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "DWG",
+      "3DS",
+      "RFA"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "scan-the-world",
+    "name": "Scan The World",
+    "url": "https://www.myminifactory.com/scantheworld",
+    "description_it": "Archivio aperto di scansioni 3D di sculture, monumenti e opere d'arte, pronte per la stampa 3D.",
+    "description_en": "Open archive of 3D scans of sculptures, monuments and artworks, ready for 3D printing.",
+    "category": "texture-modelli",
+    "tags": [
+      "modelli 3D",
+      "patrimonio",
+      "stampa 3D"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "STL"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

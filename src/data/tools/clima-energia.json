@@ -1,0 +1,937 @@
+[
+  {
+    "id": "suncalc-org",
+    "name": "SunCalc.org",
+    "url": "https://www.suncalc.org",
+    "description_it": "Percorso del sole, alba, tramonto e lunghezza delle ombre per qualsiasi luogo e data, direttamente su mappa.",
+    "description_en": "Sun path, sunrise, sunset and shadow length for any place and date, right on the map.",
+    "category": "clima-energia",
+    "tags": [
+      "sole",
+      "ombre",
+      "soleggiamento"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "suncalc-net",
+    "name": "SunCalc.net",
+    "url": "https://suncalc.net",
+    "source": "https://github.com/mourner/suncalc",
+    "description_it": "Mappa minimale delle posizioni del sole e delle fasi di luce di una giornata, con la libreria JavaScript omonima.",
+    "description_en": "Minimal map of sun positions and daylight phases for a day, with the companion JavaScript library.",
+    "category": "clima-energia",
+    "tags": [
+      "sole",
+      "soleggiamento"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "am-sunpath3d",
+    "name": "3D Sun-Path (Andrew Marsh)",
+    "url": "https://drajmarsh.bitbucket.io/sunpath3d.html",
+    "description_it": "Diagramma solare 3D interattivo con ombre su un modello semplice: lo strumento classico per lo studio del soleggiamento.",
+    "description_en": "Interactive 3D sun-path diagram with shadows on a simple model: the classic tool for solar studies.",
+    "category": "clima-energia",
+    "tags": [
+      "sole",
+      "diagramma solare",
+      "ombre"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "am-sunpath2d",
+    "name": "2D Sun-Path (Andrew Marsh)",
+    "url": "https://drajmarsh.bitbucket.io/sunpath2d.html",
+    "description_it": "Diagramma solare stereografico o cilindrico per qualsiasi latitudine, esportabile per le tavole.",
+    "description_en": "Stereographic or cylindrical sun-path diagram for any latitude, exportable for boards.",
+    "category": "clima-energia",
+    "tags": [
+      "sole",
+      "diagramma solare"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "SVG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "am-sunpath-map",
+    "name": "Sun-Path on Map (Andrew Marsh)",
+    "url": "https://drajmarsh.bitbucket.io/sunpath-on-map.html",
+    "description_it": "Sovrappone il percorso del sole alla mappa del sito, con orientamento reale.",
+    "description_en": "Overlays the sun path on the site map, with true orientation.",
+    "category": "clima-energia",
+    "tags": [
+      "sole",
+      "diagramma solare",
+      "mappa"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "am-shading-box",
+    "name": "Dynamic Overshadowing (Andrew Marsh)",
+    "url": "https://drajmarsh.bitbucket.io/shading-box.html",
+    "description_it": "Calcola l'ombreggiamento di finestre e frangisole nel corso dell'anno, con maschere d'ombra.",
+    "description_en": "Computes window and shading-device overshadowing over the year, with shading masks.",
+    "category": "clima-energia",
+    "tags": [
+      "ombre",
+      "frangisole",
+      "schermature"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "am-daylight-box",
+    "name": "Dynamic Daylighting (Andrew Marsh)",
+    "url": "https://drajmarsh.bitbucket.io/daylight-box.html",
+    "description_it": "Simulazione rapida del fattore di luce diurna in un ambiente rettangolare al variare di finestre e geometria.",
+    "description_en": "Quick daylight factor simulation in a rectangular room as windows and geometry change.",
+    "category": "clima-energia",
+    "tags": [
+      "illuminazione naturale",
+      "fattore di luce diurna"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "am-psychro",
+    "name": "Psychrometric Chart (Andrew Marsh)",
+    "url": "https://drajmarsh.bitbucket.io/psychro-chart2d.html",
+    "description_it": "Diagramma psicrometrico interattivo con zone di comfort e strategie di progetto passivo.",
+    "description_en": "Interactive psychrometric chart with comfort zones and passive design strategies.",
+    "category": "clima-energia",
+    "tags": [
+      "comfort",
+      "psicrometria",
+      "progetto bioclimatico"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "climate-onebuilding",
+    "name": "Climate.OneBuilding.Org",
+    "url": "https://climate.onebuilding.org",
+    "description_it": "Il più grande archivio gratuito di file climatici EPW per simulazioni energetiche, con migliaia di stazioni nel mondo.",
+    "description_en": "The largest free archive of EPW weather files for energy simulation, with thousands of stations worldwide.",
+    "category": "clima-energia",
+    "tags": [
+      "EPW",
+      "dati climatici",
+      "simulazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "EPW"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "epw-map",
+    "name": "EPW Map",
+    "url": "https://www.ladybug.tools/epwmap/",
+    "source": "https://github.com/ladybug-tools/epwmap",
+    "description_it": "Mappa per trovare e scaricare il file climatico EPW più vicino al tuo sito.",
+    "description_en": "Map to find and download the EPW weather file closest to your site.",
+    "category": "clima-energia",
+    "tags": [
+      "EPW",
+      "dati climatici"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "EPW"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ladybug-tools",
+    "name": "Ladybug Tools",
+    "url": "https://www.ladybug.tools",
+    "source": "https://github.com/ladybug-tools",
+    "description_it": "Suite per Grasshopper (Ladybug, Honeybee, Dragonfly): clima, soleggiamento, illuminazione naturale ed energia.",
+    "description_en": "Grasshopper suite (Ladybug, Honeybee, Dragonfly): climate, sun, daylight and energy analysis.",
+    "category": "clima-energia",
+    "tags": [
+      "Grasshopper",
+      "simulazione",
+      "energia"
+    ],
+    "license": "open-source",
+    "platform": [
+      "plugin",
+      "libreria"
+    ],
+    "formats": [
+      "EPW",
+      "HBJSON"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cbe-thermal-comfort",
+    "name": "CBE Thermal Comfort Tool",
+    "url": "https://comfort.cbe.berkeley.edu",
+    "source": "https://github.com/CenterForTheBuiltEnvironment/comfort_tool",
+    "description_it": "Calcola il comfort termico secondo ASHRAE 55, EN 16798 e ISO 7730 (PMV, comfort adattivo), da UC Berkeley.",
+    "description_en": "Computes thermal comfort to ASHRAE 55, EN 16798 and ISO 7730 (PMV, adaptive), by UC Berkeley.",
+    "category": "clima-energia",
+    "tags": [
+      "comfort",
+      "normativa",
+      "PMV"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "cbe-clima",
+    "name": "CBE Clima Tool",
+    "url": "https://clima.cbe.berkeley.edu",
+    "source": "https://github.com/CenterForTheBuiltEnvironment/clima",
+    "description_it": "Analisi grafica dei file climatici EPW: temperature, radiazione, venti, diagrammi psicrometrici e comfort.",
+    "description_en": "Graphic analysis of EPW weather files: temperatures, radiation, wind, psychrometric and comfort charts.",
+    "category": "clima-energia",
+    "tags": [
+      "EPW",
+      "dati climatici",
+      "progetto bioclimatico"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "EPW"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "climate-consultant",
+    "name": "Climate Consultant",
+    "url": "https://www.sbse.org/resources/climate-consultant",
+    "description_it": "Programma della UCLA che traduce i dati climatici EPW in grafici e strategie di progetto bioclimatico.",
+    "description_en": "UCLA program that turns EPW climate data into charts and bioclimatic design strategies.",
+    "category": "clima-energia",
+    "tags": [
+      "dati climatici",
+      "progetto bioclimatico"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "EPW"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "windy",
+    "name": "Windy",
+    "url": "https://www.windy.com",
+    "description_it": "Mappe meteo animate di vento, temperatura, precipitazioni e qualità dell'aria; piano gratuito molto completo.",
+    "description_en": "Animated weather maps of wind, temperature, rain and air quality; very complete free tier.",
+    "category": "clima-energia",
+    "tags": [
+      "vento",
+      "meteo"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web",
+      "mobile"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "meteoblue-climate",
+    "name": "meteoblue – Clima simulato",
+    "url": "https://www.meteoblue.com/en/weather/historyclimate/climatemodelled",
+    "description_it": "Diagrammi climatici gratuiti per qualsiasi luogo: temperature, precipitazioni, rosa dei venti.",
+    "description_en": "Free climate diagrams for any place: temperatures, precipitation, wind rose.",
+    "category": "clima-energia",
+    "tags": [
+      "dati climatici",
+      "rosa dei venti"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "weatherspark",
+    "name": "Weather Spark",
+    "url": "https://weatherspark.com",
+    "description_it": "Clima medio di ogni località nel corso dell'anno, con grafici chiari su temperatura, luce, vento e umidità.",
+    "description_en": "Typical year-round weather for any place, with clear charts on temperature, daylight, wind and humidity.",
+    "category": "clima-energia",
+    "tags": [
+      "dati climatici"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "copernicus-cds",
+    "name": "Copernicus Climate Data Store",
+    "url": "https://cds.climate.copernicus.eu",
+    "description_it": "Dati climatici europei storici e proiezioni future (ERA5, scenari IPCC) scaricabili gratuitamente.",
+    "description_en": "European historical climate data and future projections (ERA5, IPCC scenarios), free to download.",
+    "category": "clima-energia",
+    "tags": [
+      "dati climatici",
+      "scenari",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "NetCDF",
+      "GRIB"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ipcc-atlas",
+    "name": "IPCC Interactive Atlas",
+    "url": "https://interactive-atlas.ipcc.ch",
+    "description_it": "Atlante interattivo dell'IPCC: proiezioni di temperatura, precipitazioni ed eventi estremi per regione e scenario.",
+    "description_en": "IPCC interactive atlas: temperature, precipitation and extreme-event projections by region and scenario.",
+    "category": "clima-energia",
+    "tags": [
+      "cambiamento climatico",
+      "scenari"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "PNG",
+      "CSV"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "pvgis",
+    "name": "PVGIS",
+    "url": "https://re.jrc.ec.europa.eu/pvg_tools/en/",
+    "description_it": "Strumento del JRC per stimare la produzione fotovoltaica e la radiazione solare in qualsiasi punto d'Europa e oltre.",
+    "description_en": "JRC tool to estimate PV output and solar radiation anywhere in Europe and beyond.",
+    "category": "clima-energia",
+    "tags": [
+      "fotovoltaico",
+      "radiazione solare"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV",
+      "JSON"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "global-solar-atlas",
+    "name": "Global Solar Atlas",
+    "url": "https://globalsolaratlas.info",
+    "description_it": "Radiazione solare e potenziale fotovoltaico per qualsiasi luogo del mondo, dalla Banca Mondiale.",
+    "description_en": "Solar radiation and PV potential anywhere in the world, from the World Bank.",
+    "category": "clima-energia",
+    "tags": [
+      "fotovoltaico",
+      "radiazione solare"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "PDF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "global-wind-atlas",
+    "name": "Global Wind Atlas",
+    "url": "https://globalwindatlas.info",
+    "description_it": "Velocità e direzione del vento ad alta risoluzione per qualsiasi luogo, con rose dei venti scaricabili.",
+    "description_en": "High-resolution wind speed and direction anywhere, with downloadable wind roses.",
+    "category": "clima-energia",
+    "tags": [
+      "vento",
+      "rosa dei venti"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "GeoTIFF",
+      "CSV"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "shadowmap",
+    "name": "Shadowmap",
+    "url": "https://shadowmap.org",
+    "description_it": "Simula sole e ombre sugli edifici 3D di qualsiasi città in ogni momento dell'anno; versione base gratuita.",
+    "description_en": "Simulates sun and shadows on 3D buildings in any city at any time of year; free basic version.",
+    "category": "clima-energia",
+    "tags": [
+      "ombre",
+      "sole",
+      "3D"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "shademap",
+    "name": "ShadeMap",
+    "url": "https://shademap.app",
+    "description_it": "Ombre di edifici, alberi e montagne su mappa per qualsiasi ora e data; consultazione gratuita.",
+    "description_en": "Shadows of buildings, trees and mountains on a map for any time and date; free to browse.",
+    "category": "clima-energia",
+    "tags": [
+      "ombre",
+      "sole"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "energyplus",
+    "name": "EnergyPlus",
+    "url": "https://energyplus.net",
+    "source": "https://github.com/NREL/EnergyPlus",
+    "description_it": "Il motore di simulazione energetica dinamica degli edifici del Dipartimento dell'energia USA.",
+    "description_en": "The US Department of Energy's dynamic building energy simulation engine.",
+    "category": "clima-energia",
+    "tags": [
+      "simulazione energetica",
+      "EPW"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "IDF",
+      "EPW"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "openstudio",
+    "name": "OpenStudio",
+    "url": "https://openstudio.net",
+    "source": "https://github.com/NREL/OpenStudio",
+    "description_it": "Interfaccia e SDK per modellare edifici e lanciare simulazioni EnergyPlus e Radiance.",
+    "description_en": "Interface and SDK to model buildings and run EnergyPlus and Radiance simulations.",
+    "category": "clima-energia",
+    "tags": [
+      "simulazione energetica",
+      "illuminazione naturale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "libreria"
+    ],
+    "formats": [
+      "OSM",
+      "IDF",
+      "gbXML"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "radiance",
+    "name": "Radiance",
+    "url": "https://www.radiance-online.org",
+    "source": "https://github.com/LBNL-ETA/Radiance",
+    "description_it": "Il motore di riferimento per simulazioni di illuminazione naturale e artificiale fisicamente accurate.",
+    "description_en": "The reference engine for physically accurate daylight and electric lighting simulation.",
+    "category": "clima-energia",
+    "tags": [
+      "illuminazione naturale",
+      "simulazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "velux-daylight-visualizer",
+    "name": "VELUX Daylight Visualizer",
+    "url": "https://resources.velux.com/daylight-visualizer",
+    "description_it": "Simulazione della luce naturale negli ambienti, anche annuale (CBDM) e secondo EN 17037; download gratuito.",
+    "description_en": "Daylight simulation for interiors, including annual CBDM and EN 17037 checks; free download.",
+    "category": "clima-energia",
+    "tags": [
+      "illuminazione naturale",
+      "EN 17037"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "IFC",
+      "OBJ",
+      "DWG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "dialux-evo",
+    "name": "DIALux evo",
+    "url": "https://www.dialux.com/en-GB/dialux",
+    "description_it": "Progettazione illuminotecnica di interni ed esterni con milioni di apparecchi dei produttori; versione base gratuita, IFC solo in Pro.",
+    "description_en": "Indoor and outdoor lighting design with millions of manufacturer luminaires; free basic version, IFC only in Pro.",
+    "category": "clima-energia",
+    "tags": [
+      "illuminotecnica",
+      "illuminazione artificiale"
+    ],
+    "license": "freemium",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "DWG",
+      "DXF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "therm",
+    "name": "THERM",
+    "url": "https://windows.lbl.gov/therm-software-downloads",
+    "description_it": "Analisi bidimensionale dei ponti termici e del flusso di calore nei nodi costruttivi, dal Berkeley Lab.",
+    "description_en": "Two-dimensional thermal bridge and heat-flow analysis of building details, from Berkeley Lab.",
+    "category": "clima-energia",
+    "tags": [
+      "ponti termici",
+      "involucro"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "DXF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "flycarpet-psychro",
+    "name": "Diagramma psicrometrico online (Flycarpet)",
+    "url": "https://www.flycarpet.net/en/PsyOnline",
+    "description_it": "Diagramma psicrometrico interattivo per calcolare trasformazioni dell'aria umida.",
+    "description_en": "Interactive psychrometric chart for moist-air process calculations.",
+    "category": "clima-energia",
+    "tags": [
+      "psicrometria",
+      "impianti"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "openfoam",
+    "name": "OpenFOAM",
+    "url": "https://www.openfoam.com",
+    "source": "https://develop.openfoam.com/Development/openfoam",
+    "description_it": "Software di fluidodinamica computazionale (CFD) per simulare vento e ventilazione attorno e dentro gli edifici.",
+    "description_en": "Computational fluid dynamics (CFD) software for simulating wind and ventilation around and inside buildings.",
+    "category": "clima-energia",
+    "tags": [
+      "CFD",
+      "vento",
+      "ventilazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "libreria"
+    ],
+    "formats": [
+      "STL"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "simscale",
+    "name": "SimScale",
+    "url": "https://www.simscale.com",
+    "description_it": "Simulazioni CFD e strutturali nel cloud, incluso il comfort del vento pedonale; piano Community gratuito.",
+    "description_en": "Cloud CFD and structural simulation, including pedestrian wind comfort; free Community plan.",
+    "category": "clima-energia",
+    "tags": [
+      "CFD",
+      "vento",
+      "cloud",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "STL",
+      "STEP"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "city-energy-analyst",
+    "name": "City Energy Analyst",
+    "url": "https://www.cityenergyanalyst.com",
+    "source": "https://github.com/architecture-building-systems/CityEnergyAnalyst",
+    "description_it": "Simulazione energetica a scala di quartiere e città per scenari di decarbonizzazione, dall'ETH di Zurigo.",
+    "description_en": "District and city-scale energy simulation for decarbonisation scenarios, from ETH Zurich.",
+    "category": "clima-energia",
+    "tags": [
+      "energia",
+      "scala urbana",
+      "decarbonizzazione"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "libreria"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "umep",
+    "name": "UMEP (QGIS)",
+    "url": "https://umep-docs.readthedocs.io",
+    "source": "https://github.com/UMEP-dev/UMEP",
+    "description_it": "Plugin QGIS per il clima urbano: ombre, temperatura radiante media, comfort esterno, isola di calore.",
+    "description_en": "QGIS plugin for urban climate: shadows, mean radiant temperature, outdoor comfort, heat island.",
+    "category": "clima-energia",
+    "tags": [
+      "clima urbano",
+      "isola di calore",
+      "QGIS"
+    ],
+    "license": "open-source",
+    "platform": [
+      "plugin"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ec3",
+    "name": "EC3 – Embodied Carbon in Construction Calculator",
+    "url": "https://www.buildingtransparency.org",
+    "description_it": "Database gratuito di EPD e calcolatore del carbonio incorporato dei materiali da costruzione.",
+    "description_en": "Free EPD database and embodied carbon calculator for construction materials.",
+    "category": "clima-energia",
+    "tags": [
+      "carbonio incorporato",
+      "LCA",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "one-click-lca-planetary",
+    "name": "One Click LCA Planetary",
+    "url": "https://www.oneclicklca.com/planetary",
+    "description_it": "Calcolatore gratuito del carbonio incorporato da modelli e computi, per confrontare soluzioni costruttive.",
+    "description_en": "Free embodied carbon calculator from models and quantities, to compare building solutions.",
+    "category": "clima-energia",
+    "tags": [
+      "carbonio incorporato",
+      "LCA",
+      "registrazione"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "IFC",
+      "XLSX"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "ice-database",
+    "name": "ICE Database",
+    "url": "https://circularecology.com/embodied-carbon-footprint-database.html",
+    "description_it": "Inventory of Carbon and Energy: database di riferimento dei fattori di carbonio incorporato dei materiali.",
+    "description_en": "Inventory of Carbon and Energy: reference database of embodied carbon factors for materials.",
+    "category": "clima-energia",
+    "tags": [
+      "carbonio incorporato",
+      "materiali"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "XLSX"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "oekobaudat",
+    "name": "ÖKOBAUDAT",
+    "url": "https://www.oekobaudat.de",
+    "description_it": "Database tedesco di dati ambientali (LCA/EPD) dei materiali da costruzione, liberamente consultabile.",
+    "description_en": "German database of environmental (LCA/EPD) data for building materials, freely accessible.",
+    "category": "clima-energia",
+    "tags": [
+      "LCA",
+      "EPD",
+      "materiali"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "XML"
+    ],
+    "region": "europa",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "i-tree",
+    "name": "i-Tree",
+    "url": "https://www.itreetools.org",
+    "description_it": "Strumenti dell'USDA Forest Service per stimare i benefici ecosistemici degli alberi urbani.",
+    "description_en": "USDA Forest Service tools to estimate the ecosystem benefits of urban trees.",
+    "category": "clima-energia",
+    "tags": [
+      "alberi",
+      "servizi ecosistemici",
+      "paesaggio"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web",
+      "desktop"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "climate-reanalyzer",
+    "name": "Climate Reanalyzer",
+    "url": "https://climatereanalyzer.org",
+    "description_it": "Mappe e grafici di dati climatici e di rianalisi globali, dall'Università del Maine.",
+    "description_en": "Maps and charts of global climate and reanalysis data, from the University of Maine.",
+    "category": "clima-energia",
+    "tags": [
+      "dati climatici"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [
+      "CSV"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "stormwater-calculator",
+    "name": "National Stormwater Calculator",
+    "url": "https://swcweb.epa.gov/stormwatercalculator/",
+    "description_it": "Stima del deflusso delle acque piovane di un sito e dell'effetto di soluzioni NBS (tetti verdi, rain garden).",
+    "description_en": "Estimates site stormwater runoff and the effect of green infrastructure (green roofs, rain gardens).",
+    "category": "clima-energia",
+    "tags": [
+      "acque meteoriche",
+      "NBS",
+      "paesaggio"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "web"
+    ],
+    "formats": [],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

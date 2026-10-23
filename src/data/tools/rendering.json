@@ -1,0 +1,268 @@
+[
+  {
+    "id": "d5-render",
+    "name": "D5 Render",
+    "url": "https://www.d5render.com",
+    "description_it": "Rendering in tempo reale per architettura con plugin per SketchUp, Revit, Rhino e Archicad; piano Community gratuito per uso non commerciale.",
+    "description_en": "Real-time architectural rendering with plugins for SketchUp, Revit, Rhino and Archicad; free Community plan for non-commercial use.",
+    "category": "rendering",
+    "tags": [
+      "real time",
+      "render",
+      "registrazione"
+    ],
+    "license": "freemium",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PNG",
+      "MP4"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "twinmotion",
+    "name": "Twinmotion",
+    "url": "https://www.twinmotion.com",
+    "description_it": "Visualizzazione architettonica in tempo reale di Epic Games; gratuito per studenti e per chi fattura meno di 1 milione di dollari.",
+    "description_en": "Epic Games real-time architectural visualisation; free for students and anyone under $1M revenue.",
+    "category": "rendering",
+    "tags": [
+      "real time",
+      "render",
+      "VR"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PNG",
+      "MP4"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "unreal-engine",
+    "name": "Unreal Engine",
+    "url": "https://www.unrealengine.com",
+    "description_it": "Motore 3D in tempo reale per visualizzazioni, configuratori e VR; gratuito sotto 1 milione di dollari di fatturato.",
+    "description_en": "Real-time 3D engine for visualisation, configurators and VR; free under $1M revenue.",
+    "category": "rendering",
+    "tags": [
+      "real time",
+      "VR",
+      "gemello digitale"
+    ],
+    "license": "gratuito",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "FBX",
+      "glTF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "unity-personal",
+    "name": "Unity Personal",
+    "url": "https://unity.com/products/unity-personal",
+    "description_it": "Motore 3D in tempo reale per esperienze interattive e VR; versione Personal gratuita sotto una soglia di fatturato.",
+    "description_en": "Real-time 3D engine for interactive experiences and VR; free Personal edition below a revenue threshold.",
+    "category": "rendering",
+    "tags": [
+      "real time",
+      "VR",
+      "interattivo"
+    ],
+    "license": "freemium",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "FBX",
+      "glTF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "pov-ray",
+    "name": "POV-Ray",
+    "url": "https://www.povray.org",
+    "source": "https://github.com/POV-Ray/povray",
+    "description_it": "Storico motore di ray tracing in cui la scena si descrive con un linguaggio testuale.",
+    "description_en": "Classic ray tracer where scenes are described in a text language.",
+    "category": "rendering",
+    "tags": [
+      "ray tracing",
+      "scripting"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "PNG"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "luxcorerender",
+    "name": "LuxCoreRender",
+    "url": "https://github.com/LuxCoreRender/LuxCore",
+    "source": "https://github.com/LuxCoreRender/LuxCore",
+    "description_it": "Motore di rendering fisicamente corretto, con add-on per Blender, noto per caustiche e luce realistica.",
+    "description_en": "Physically based rendering engine with a Blender add-on, known for caustics and realistic light.",
+    "category": "rendering",
+    "tags": [
+      "render",
+      "Blender",
+      "fisicamente corretto"
+    ],
+    "license": "open-source",
+    "platform": [
+      "plugin",
+      "libreria"
+    ],
+    "formats": [
+      "PNG",
+      "EXR"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "appleseed",
+    "name": "appleseed",
+    "url": "https://appleseedhq.net",
+    "source": "https://github.com/appleseedhq/appleseed",
+    "description_it": "Motore di rendering fisicamente corretto per animazione ed effetti visivi, con plugin per Blender e Maya.",
+    "description_en": "Physically based renderer for animation and VFX, with plugins for Blender and Maya.",
+    "category": "rendering",
+    "tags": [
+      "render",
+      "fisicamente corretto"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop",
+      "plugin"
+    ],
+    "formats": [
+      "PNG",
+      "EXR"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "model-viewer",
+    "name": "model-viewer (Google)",
+    "url": "https://modelviewer.dev",
+    "source": "https://github.com/google/model-viewer",
+    "description_it": "Componente web di Google per mostrare modelli 3D glTF in una pagina, anche in realtà aumentata.",
+    "description_en": "Google web component to display glTF 3D models on a page, including augmented reality.",
+    "category": "rendering",
+    "tags": [
+      "web",
+      "AR",
+      "glTF"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "glTF",
+      "USDZ"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "marzipano",
+    "name": "Marzipano",
+    "url": "https://www.marzipano.net",
+    "source": "https://github.com/google/marzipano",
+    "description_it": "Visualizzatore di panorami a 360° per il web, con tool per creare tour virtuali da foto sferiche.",
+    "description_en": "360° panorama viewer for the web, with a tool to build virtual tours from spherical photos.",
+    "category": "rendering",
+    "tags": [
+      "360°",
+      "tour virtuale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "web",
+      "libreria"
+    ],
+    "formats": [
+      "HTML"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "pannellum",
+    "name": "Pannellum",
+    "url": "https://pannellum.org",
+    "source": "https://github.com/mpetroff/pannellum",
+    "description_it": "Visualizzatore leggero di panorami sferici e tour virtuali da incorporare in qualsiasi sito.",
+    "description_en": "Lightweight spherical panorama and virtual tour viewer to embed in any website.",
+    "category": "rendering",
+    "tags": [
+      "360°",
+      "tour virtuale"
+    ],
+    "license": "open-source",
+    "platform": [
+      "libreria"
+    ],
+    "formats": [
+      "HTML"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  },
+  {
+    "id": "hugin",
+    "name": "Hugin",
+    "url": "https://hugin.sourceforge.io",
+    "description_it": "Unisce più fotografie in panorami e foto sferiche, correggendo prospettiva e distorsioni.",
+    "description_en": "Stitches photos into panoramas and spherical images, correcting perspective and distortion.",
+    "category": "rendering",
+    "tags": [
+      "panorama",
+      "fotografia",
+      "360°"
+    ],
+    "license": "open-source",
+    "platform": [
+      "desktop"
+    ],
+    "formats": [
+      "JPG",
+      "TIFF"
+    ],
+    "region": "globale",
+    "verified": "2026-10-23",
+    "added": "2026-10-23"
+  }
+]

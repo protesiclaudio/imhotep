@@ -1,0 +1,146 @@
+[
+  {
+    "id": "mappe-contesto",
+    "icon": "map",
+    "name_it": "Mappe e basi del contesto",
+    "name_en": "Context maps & base files",
+    "description_it": "Basi CAD e 3D del contesto, estrazioni OpenStreetMap, mappe stilizzate e città 3D.",
+    "description_en": "CAD and 3D context bases, OpenStreetMap extracts, styled maps and 3D cities."
+  },
+  {
+    "id": "topografia",
+    "icon": "mountain",
+    "name_it": "Topografia, terreno e rilievo",
+    "name_en": "Topography, terrain & survey",
+    "description_it": "Modelli digitali del terreno, curve di livello, sezioni, nuvole di punti e fotogrammetria.",
+    "description_en": "Elevation models, contour lines, sections, point clouds and photogrammetry."
+  },
+  {
+    "id": "gis",
+    "icon": "layers",
+    "name_it": "Software GIS e web mapping",
+    "name_en": "GIS & web mapping",
+    "description_it": "Programmi e librerie per creare, analizzare e pubblicare dati e mappe.",
+    "description_en": "Software and libraries to create, analyse and publish spatial data and maps."
+  },
+  {
+    "id": "dati-territoriali",
+    "icon": "database",
+    "name_it": "Dati territoriali e open data",
+    "name_en": "Spatial & open data",
+    "description_it": "Uso del suolo, popolazione, edifici, confini amministrativi e statistiche.",
+    "description_en": "Land use, population, buildings, administrative boundaries and statistics."
+  },
+  {
+    "id": "satellite",
+    "icon": "satellite",
+    "name_it": "Immagini satellitari e aeree",
+    "name_en": "Satellite & aerial imagery",
+    "description_it": "Visualizzatori e archivi di immagini satellitari, ortofoto e foto aeree.",
+    "description_en": "Viewers and archives of satellite imagery, orthophotos and aerial photos."
+  },
+  {
+    "id": "analisi-urbana",
+    "icon": "network",
+    "name_it": "Analisi urbana e mobilità",
+    "name_en": "Urban analytics & mobility",
+    "description_it": "Space syntax, reti stradali, isocrone, accessibilità e morfologia urbana.",
+    "description_en": "Space syntax, street networks, isochrones, accessibility and urban morphology."
+  },
+  {
+    "id": "clima-energia",
+    "icon": "sun",
+    "name_it": "Clima, sole ed energia",
+    "name_en": "Climate, sun & energy",
+    "description_it": "Percorsi solari, ombre, dati climatici, comfort, illuminazione naturale ed energia.",
+    "description_en": "Sun paths, shading, climate data, comfort, daylighting and energy."
+  },
+  {
+    "id": "cad",
+    "icon": "drafting-compass",
+    "name_it": "CAD e disegno tecnico",
+    "name_en": "CAD & drafting",
+    "description_it": "Programmi per il disegno 2D e la modellazione tecnica, visualizzatori DWG/DXF.",
+    "description_en": "2D drafting and technical modelling software, DWG/DXF viewers."
+  },
+  {
+    "id": "bim",
+    "icon": "building",
+    "name_it": "BIM e IFC",
+    "name_en": "BIM & IFC",
+    "description_it": "Modellazione BIM, visualizzatori e librerie IFC, collaborazione su modelli.",
+    "description_en": "BIM authoring, IFC viewers and libraries, model collaboration."
+  },
+  {
+    "id": "modellazione-3d",
+    "icon": "shapes",
+    "name_it": "Modellazione 3D e parametrica",
+    "name_en": "3D & parametric modelling",
+    "description_it": "Modellatori 3D, strumenti parametrici, planimetrie e arredo d'interni.",
+    "description_en": "3D modellers, parametric tools, floor plans and interior layout."
+  },
+  {
+    "id": "rendering",
+    "icon": "aperture",
+    "name_it": "Rendering e visualizzazione",
+    "name_en": "Rendering & visualisation",
+    "description_it": "Motori di rendering, real time, realtà virtuale e presentazione dei modelli.",
+    "description_en": "Rendering engines, real-time, virtual reality and model presentation."
+  },
+  {
+    "id": "grafica",
+    "icon": "pen-tool",
+    "name_it": "Grafica, impaginazione e diagrammi",
+    "name_en": "Graphics, layout & diagrams",
+    "description_it": "Grafica vettoriale e raster, impaginazione di tavole e portfolio, diagrammi.",
+    "description_en": "Vector and raster graphics, board and portfolio layout, diagrams."
+  },
+  {
+    "id": "colore-tipografia",
+    "icon": "palette",
+    "name_it": "Colore e tipografia",
+    "name_en": "Colour & typography",
+    "description_it": "Palette, contrasto, scale cromatiche per mappe e caratteri tipografici liberi.",
+    "description_en": "Palettes, contrast, map colour scales and free typefaces."
+  },
+  {
+    "id": "texture-modelli",
+    "icon": "grid-3x3",
+    "name_it": "Texture, materiali e modelli 3D",
+    "name_en": "Textures, materials & 3D assets",
+    "description_it": "Texture PBR, HDRI, librerie di modelli 3D e oggetti BIM dei produttori.",
+    "description_en": "PBR textures, HDRIs, 3D model libraries and manufacturer BIM objects."
+  },
+  {
+    "id": "entourage",
+    "icon": "users",
+    "name_it": "Entourage, persone e vegetazione",
+    "name_en": "Entourage, people & vegetation",
+    "description_it": "Persone, alberi e oggetti scontornati, silhouette e blocchi per tavole e render.",
+    "description_en": "Cut-out people, trees and objects, silhouettes and blocks for boards and renders."
+  },
+  {
+    "id": "strutture",
+    "icon": "construction",
+    "name_it": "Strutture e calcolo",
+    "name_en": "Structural analysis",
+    "description_it": "Analisi strutturale, elementi finiti, telai e calcolo di sezioni.",
+    "description_en": "Structural analysis, finite elements, frames and section design."
+  },
+  {
+    "id": "riferimenti",
+    "icon": "book-open",
+    "name_it": "Riferimenti e ispirazione",
+    "name_en": "References & precedents",
+    "description_it": "Riviste, archivi di progetti, dimensioni e manuali per la ricerca progettuale.",
+    "description_en": "Magazines, project archives, dimensions and handbooks for design research."
+  },
+  {
+    "id": "archivi-normativa",
+    "icon": "library",
+    "name_it": "Archivi, cartografia storica e normativa",
+    "name_en": "Archives, historic maps & regulations",
+    "description_it": "Mappe storiche, archivi fotografici, leggi, catasto e prezzari.",
+    "description_en": "Historic maps, photo archives, legislation, cadastre and cost data."
+  }
+]
