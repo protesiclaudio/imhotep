@@ -1,0 +1,36 @@
+---
+import { siteConfig } from '../../site.config.mjs';
+import { getTools, lastVerified } from '../lib/data';
+import { formatDate, localizedPath, useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const tools = await getTools();
+const updated = formatDate(lastVerified(tools), lang);
+---
+
+<footer class="mt-24 border-t border-line">
+  <div class="wrap grid gap-8 py-10 md:grid-cols-[2fr_1fr_1fr]">
+    <div class="max-w-md">
+      <p class="font-semibold">{t('site.name')}</p>
+      <p class="mt-2 text-sm text-muted">{t('footer.about')}</p>
+      <p class="meta mt-4">{t('footer.updated', { date: updated })}</p>
+    </div>
+    <ul class="space-y-2 text-sm">
+      <li><a class="text-muted hover:text-ink" href={localizedPath(lang, 'tools')}>{t('nav.tools')}</a></li>
+      <li><a class="text-muted hover:text-ink" href={localizedPath(lang, 'favorites')}>{t('nav.favorites')}</a></li>
+      <li><a class="text-muted hover:text-ink" href={localizedPath(lang, 'submit')}>{t('nav.submit')}</a></li>
+      <li><a class="text-muted hover:text-ink" href={localizedPath(lang, 'about')}>{t('nav.about')}</a></li>
+    </ul>
+    <ul class="space-y-2 text-sm">
+      <li>
+        <a class="text-muted hover:text-ink" href={`https://github.com/${siteConfig.githubRepo}`} rel="noopener" target="_blank">
+          {t('footer.source')}
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>

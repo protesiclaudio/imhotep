@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import ToolCard from '../components/ToolCard.astro';
+import { categories, getTools, isItalian } from '../lib/data';
+import { localizedPath, useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const tools = await getTools();
+const italian = tools.filter(isItalian).length;
+const counts = new Map(categories.map((c) => [c.id, tools.filter((x) => x.category === c.id).length]));
+// Ultimi aggiunti, prendendo al massimo uno strumento per categoria per dare varietà.
+const recent = [...tools]
+  .sort((a, b) => b.added.localeCompare(a.added))
+  .filter((tool, i, arr) => arr.findIndex((x) => x.category === tool.category) === i)
+  .slice(0, 8);
+const toolsPath = localizedPath(lang, 'tools');
+const altPath = localizedPath(lang === 'it' ? 'en' : 'it', 'home');
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: t('site.name'),
+  inLanguage: lang,
+  url: new URL(localizedPath(lang, 'home'), Astro.site).href,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${new URL(toolsPath, Astro.site).href}?q={search_term_string}`,
+    'query-input': 'required name=search_term_string',
+  },
+};
+---
+
+<Base lang={lang} altPath={altPath}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
+
+  <section class="wrap pt-14 pb-12 md:pt-24 md:pb-16">
+    <p class="eyebrow">{t('home.eyebrow')}</p>
+    <h1 class="mt-4 max-w-4xl text-[2.25rem] leading-[1.08] font-semibold md:text-[3.5rem]">{t('home.title')}</h1>
+    <p class="mt-5 max-w-2xl text-lg text-muted md:text-xl">{t('home.lead')}</p>
+
+    <form class="search mt-9 max-w-2xl" role="search" action={toolsPath} method="get">
+      <label for="home-q" class="sr-only">{t('search.label')}</label>
+      <Icon name="search" size={20} />
+      <input id="home-q" name="q" type="search" placeholder={t('search.placeholder')} autocomplete="off" enterkeyhint="search" data-home-q />
+      <kbd class="kbd" aria-hidden="true" title={t('search.shortcut')}>/</kbd>
+    </form>
+    <p class="meta mt-4">{t('home.stats', { tools: tools.length, cats: categories.length, it: italian })}</p>
+  </section>
+
+  <section id="categorie" class="wrap" aria-labelledby="cat-title">
+    <div class="mb-5 flex items-end justify-between gap-4">
+      <h2 id="cat-title" class="text-xl font-semibold md:text-2xl">{t('home.categories')}</h2>
+    </div>
+    <div class="cat-grid">
+      {categories.map((c) => <CategoryCard category={c} count={counts.get(c.id) ?? 0} lang={lang} />)}
+    </div>
+  </section>
+
+  <section class="wrap mt-16" aria-labelledby="it-title">
+    <a href={`${toolsPath}?it=1`} class="group flex flex-col gap-3 border border-line bg-accent-soft p-6 no-underline md:flex-row md:items-center md:justify-between md:p-8">
+      <div>
+        <h2 id="it-title" class="text-xl font-semibold">{t('home.italy')} <span class="meta ml-1">{italian}</span></h2>
+        <p class="mt-1 text-muted">{t('home.italy.text')}</p>
+      </div>
+      <span class="inline-flex items-center gap-2 font-medium group-hover:underline">
+        {t('nav.tools')} <Icon name="arrow-right" size={18} />
+      </span>
+    </a>
+  </section>
+
+  <section class="wrap mt-16" aria-labelledby="recent-title">
+    <div class="mb-5 flex flex-wrap items-end justify-between gap-4">
+      <h2 id="recent-title" class="text-xl font-semibold md:text-2xl">{t('home.recent')}</h2>
+      <a href={toolsPath} class="inline-flex items-center gap-1.5 text-sm font-medium hover:underline">
+        {t('home.recent.all')} <Icon name="arrow-right" size={16} />
+      </a>
+    </div>
+    <div class="tool-grid cols-4" data-recent>
+      {recent.map((tool) => <ToolCard tool={tool} lang={lang} />)}
+    </div>
+  </section>
+</Base>
+
+<script>
+  import { initFavoriteButtons } from '../scripts/favorites';
+  const recent = document.querySelector<HTMLElement>('[data-recent]');
+  if (recent) initFavoriteButtons(recent);
+  const q = document.querySelector<HTMLInputElement>('[data-home-q]');
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+    const el = document.activeElement as HTMLElement | null;
+    if (el && (el.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(el.tagName))) return;
+    e.preventDefault();
+    q?.focus();
+  });
+</script>

@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import Catalog from '../components/Catalog.astro';
+import Icon from '../components/Icon.astro';
+import { categories, categoryDescription, categoryName, getTools, type Category } from '../lib/data';
+import { localizedPath, useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  category: Category;
+}
+const { lang, category } = Astro.props;
+const t = useTranslations(lang);
+const tools = (await getTools()).filter((x) => x.category === category.id);
+const name = categoryName(category, lang);
+const others = categories.filter((c) => c.id !== category.id);
+---
+
+<Base
+  lang={lang}
+  title={name}
+  description={`${categoryDescription(category, lang)} ${t('category.count', { n: tools.length })}.`}
+  altPath={localizedPath(lang === 'it' ? 'en' : 'it', 'category', category.id)}
+>
+  <div class="wrap pt-10 md:pt-14">
+    <nav aria-label="breadcrumb" class="meta mb-6">
+      <a href={localizedPath(lang, 'home') + '#categorie'} class="inline-flex items-center gap-1.5 hover:text-ink">
+        <Icon name="arrow-left" size={14} />
+        {t('category.back')}
+      </a>
+    </nav>
+    <header class="mb-8 flex max-w-3xl gap-5">
+      <span class="mt-1 hidden text-accent sm:block"><Icon name={category.icon} size={40} strokeWidth={1.25} /></span>
+      <div>
+        <p class="eyebrow">{t('category.count', { n: tools.length })}</p>
+        <h1 class="mt-2 text-3xl font-semibold md:text-4xl">{name}</h1>
+        <p class="mt-3 text-muted">{categoryDescription(category, lang)}</p>
+      </div>
+    </header>
+    <Catalog lang={lang} tools={tools} mode="category" />
+
+    <section class="mt-16" aria-labelledby="other-cats">
+      <h2 id="other-cats" class="eyebrow mb-4">{t('home.categories')}</h2>
+      <ul class="flex flex-wrap gap-2">
+        {
+          others.map((c) => (
+            <li>
+              <a class="btn" href={localizedPath(lang, 'category', c.id)}>
+                <Icon name={c.icon} size={16} />
+                {categoryName(c, lang)}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</Base>

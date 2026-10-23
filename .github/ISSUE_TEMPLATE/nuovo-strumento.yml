@@ -1,0 +1,65 @@
+name: Proponi uno strumento
+description: Suggerisci uno strumento gratuito o open source da aggiungere all'Atlante.
+title: '[Nuovo strumento] '
+labels: ['nuovo strumento']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie! Prima di inviare controlla i [criteri di inclusione](../../blob/main/README.md#criteri-di-inclusione):
+        lo strumento deve essere gratuito (o con un piano gratuito reale) per chiunque, attivo e utile al progetto.
+  - type: input
+    id: name
+    attributes:
+      label: Nome dello strumento
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Indirizzo del sito (URL)
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categoria
+      options:
+        - mappe-contesto
+        - topografia
+        - gis
+        - dati-territoriali
+        - satellite
+        - analisi-urbana
+        - clima-energia
+        - cad
+        - bim
+        - modellazione-3d
+        - rendering
+        - grafica
+        - colore-tipografia
+        - texture-modelli
+        - entourage
+        - strutture
+        - riferimenti
+        - archivi-normativa
+  - type: dropdown
+    id: license
+    attributes:
+      label: Licenza
+      options:
+        - open-source
+        - gratuito
+        - freemium
+        - non so
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione breve
+      description: Una o due frasi, che cosa fa e perché è utile.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Note
+      description: Limiti del piano gratuito, formati esportati, copertura geografica, repository del codice…

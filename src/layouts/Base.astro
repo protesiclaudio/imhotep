@@ -1,0 +1,73 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import IconSprite from '../components/IconSprite.astro';
+import { useTranslations, withBase, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+  /** Percorso equivalente nell'altra lingua (già con base). */
+  altPath: string;
+  noindex?: boolean;
+}
+const { lang, title, description, altPath, noindex = false } = Astro.props;
+const t = useTranslations(lang);
+const siteName = t('site.name');
+const fullTitle = title ? `${title} · ${siteName}` : `${siteName} — ${t('site.tagline')}`;
+const desc = description ?? t('site.description');
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const alternate = new URL(altPath, Astro.site);
+const altLang: Lang = lang === 'it' ? 'en' : 'it';
+const ogImage = new URL(withBase('og-image.png'), Astro.site);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={lang} href={canonical} />
+    <link rel="alternate" hreflang={altLang} href={alternate} />
+    <link rel="alternate" hreflang="x-default" href={lang === 'it' ? canonical : alternate} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta name="theme-color" content="#f6f6f2" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#151714" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href={withBase('favicon.svg')} type="image/svg+xml" />
+    <link rel="sitemap" href={withBase('sitemap-index.xml')} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content={lang === 'it' ? 'it_IT' : 'en_GB'} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script is:inline>
+      // Applica il tema salvato prima del rendering, per evitare lampi di colore.
+      try {
+        const saved = localStorage.getItem('atlante:theme');
+        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+      } catch {}
+    </script>
+    <slot name="head" />
+  </head>
+  <body class="min-h-dvh flex flex-col" data-fav-add={t('card.fav.add')} data-fav-remove={t('card.fav.remove')}>
+    <IconSprite />
+    <a class="skip-link" href="#main">{t('skip')}</a>
+    <Header lang={lang} altPath={altPath} />
+    <main id="main" class="flex-1" tabindex="-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

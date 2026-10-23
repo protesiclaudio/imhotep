@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import Catalog from '../components/Catalog.astro';
+import { getTools } from '../lib/data';
+import { localizedPath, useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const tools = await getTools();
+---
+
+<Base lang={lang} title={t('favorites.title')} altPath={localizedPath(lang === 'it' ? 'en' : 'it', 'favorites')} noindex>
+  <div class="wrap pt-10 md:pt-14">
+    <header class="mb-8 max-w-3xl">
+      <p class="eyebrow">{t('nav.favorites')}</p>
+      <h1 class="mt-3 text-3xl font-semibold md:text-4xl">{t('favorites.title')}</h1>
+      <p class="mt-3 text-muted">{t('favorites.lead')}</p>
+    </header>
+    <Catalog lang={lang} tools={tools} mode="favorites" />
+  </div>
+</Base>

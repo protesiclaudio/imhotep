@@ -1,0 +1,207 @@
+// Testi dell'interfaccia in italiano (predefinito) e inglese.
+export const languages = { it: 'Italiano', en: 'English' } as const;
+export type Lang = keyof typeof languages;
+export const defaultLang: Lang = 'it';
+
+export const ui = {
+  it: {
+    'site.name': 'Atlante degli strumenti',
+    'site.tagline': 'Strumenti liberi e gratuiti per chi progetta il territorio',
+    'site.description':
+      'Catalogo verificato di oltre 400 strumenti gratuiti e open source per architetti, urbanisti, paesaggisti e ingegneri: GIS, CAD, BIM, clima, dati territoriali e risorse italiane.',
+    'skip': 'Vai al contenuto',
+    'nav.tools': 'Strumenti',
+    'nav.categories': 'Categorie',
+    'nav.favorites': 'Preferiti',
+    'nav.submit': 'Proponi',
+    'nav.about': 'Informazioni',
+    'nav.menu': 'Menu',
+    'nav.main': 'Navigazione principale',
+    'theme.toggle': 'Cambia tema',
+    'theme.dark': 'Tema scuro',
+    'theme.light': 'Tema chiaro',
+    'lang.switch': 'Read in English',
+    'lang.short': 'EN',
+    'home.eyebrow': 'Atlante degli strumenti',
+    'home.title': 'Strumenti liberi per chi progetta il territorio',
+    'home.lead':
+      'Un catalogo verificato di strumenti, siti e dati gratuiti o open source per architettura, urbanistica, paesaggio e ingegneria.',
+    'home.stats': '{tools} risorse · {cats} categorie · {it} risorse italiane',
+    'home.categories': 'Categorie',
+    'home.recent': 'Aggiunti di recente',
+    'home.recent.all': 'Vedi tutto il catalogo',
+    'home.italy': 'Risorse italiane',
+    'home.italy.text': 'Geoportali regionali, catasto, ISTAT, normativa e prezzari.',
+    'search.label': 'Cerca uno strumento',
+    'search.placeholder': 'Cerca: DEM, IFC, isocrone, catasto…',
+    'search.submit': 'Cerca',
+    'search.shortcut': 'Premi / per cercare',
+    'tools.title': 'Tutti gli strumenti',
+    'tools.lead': 'Cerca e filtra l’intero catalogo. Lo stato dei filtri è nell’indirizzo della pagina: puoi condividerlo.',
+    'filters.title': 'Filtri',
+    'filters.category': 'Categoria',
+    'filters.license': 'Licenza',
+    'filters.platform': 'Piattaforma',
+    'filters.format': 'Formato di output',
+    'filters.italy': 'Solo risorse italiane',
+    'filters.reset': 'Azzera filtri',
+    'filters.show': 'Mostra filtri',
+    'sort.label': 'Ordina',
+    'sort.relevance': 'Pertinenza',
+    'sort.az': 'Alfabetico (A–Z)',
+    'sort.recent': 'Aggiunti di recente',
+    'view.label': 'Vista',
+    'view.grid': 'Griglia',
+    'view.list': 'Elenco',
+    'results.count': '{n} strumenti',
+    'results.one': '1 strumento',
+    'results.none': 'Nessuno strumento corrisponde alla ricerca.',
+    'results.none.hint': 'Prova a togliere qualche filtro o a usare parole diverse.',
+    'license.open-source': 'Open source',
+    'license.gratuito': 'Gratuito',
+    'license.freemium': 'Freemium',
+    'platform.web': 'Web',
+    'platform.desktop': 'Desktop',
+    'platform.mobile': 'Mobile',
+    'platform.plugin': 'Plugin',
+    'platform.libreria': 'Libreria',
+    'card.open': 'apre il sito in una nuova scheda',
+    'card.source': 'Codice sorgente',
+    'card.fav.add': 'Aggiungi ai preferiti',
+    'card.fav.remove': 'Rimuovi dai preferiti',
+    'card.italy': 'Italia',
+    'category.count': '{n} strumenti',
+    'category.back': 'Tutte le categorie',
+    'favorites.title': 'I miei strumenti',
+    'favorites.lead': 'Gli strumenti che hai salvato con la stella. Restano in questo browser, senza account.',
+    'favorites.empty': 'Non hai ancora salvato nessuno strumento.',
+    'favorites.empty.hint': 'Tocca la stella su una scheda per aggiungerla qui.',
+    'favorites.nojs': 'Per vedere i preferiti serve JavaScript attivo.',
+    'submit.title': 'Proponi uno strumento',
+    'about.title': 'Informazioni',
+    'footer.about': 'Catalogo indipendente di strumenti gratuiti e open source per il progetto di architettura e territorio.',
+    'footer.updated': 'Link verificati il {date}',
+    'footer.source': 'Codice e dati su GitHub',
+    'notfound.title': 'Pagina non trovata',
+    'notfound.text': 'La pagina che cerchi non esiste o è stata spostata.',
+    'notfound.home': 'Torna alla home',
+  },
+  en: {
+    'site.name': 'Atlas of Tools',
+    'site.tagline': 'Free and open tools for people who design places',
+    'site.description':
+      'A verified catalogue of over 400 free and open-source tools for architects, planners, landscape architects and engineers: GIS, CAD, BIM, climate, spatial data and Italian resources.',
+    'skip': 'Skip to content',
+    'nav.tools': 'Tools',
+    'nav.categories': 'Categories',
+    'nav.favorites': 'Favourites',
+    'nav.submit': 'Suggest',
+    'nav.about': 'About',
+    'nav.menu': 'Menu',
+    'nav.main': 'Main navigation',
+    'theme.toggle': 'Toggle theme',
+    'theme.dark': 'Dark theme',
+    'theme.light': 'Light theme',
+    'lang.switch': 'Leggi in italiano',
+    'lang.short': 'IT',
+    'home.eyebrow': 'Atlas of Tools',
+    'home.title': 'Free tools for people who design places',
+    'home.lead':
+      'A verified catalogue of free and open-source tools, websites and data for architecture, planning, landscape and engineering.',
+    'home.stats': '{tools} resources · {cats} categories · {it} Italian resources',
+    'home.categories': 'Categories',
+    'home.recent': 'Recently added',
+    'home.recent.all': 'Browse the whole catalogue',
+    'home.italy': 'Italian resources',
+    'home.italy.text': 'Regional geoportals, cadastre, ISTAT, legislation and cost data.',
+    'search.label': 'Search for a tool',
+    'search.placeholder': 'Search: DEM, IFC, isochrones, cadastre…',
+    'search.submit': 'Search',
+    'search.shortcut': 'Press / to search',
+    'tools.title': 'All tools',
+    'tools.lead': 'Search and filter the whole catalogue. Filters are kept in the page address, so you can share them.',
+    'filters.title': 'Filters',
+    'filters.category': 'Category',
+    'filters.license': 'Licence',
+    'filters.platform': 'Platform',
+    'filters.format': 'Output format',
+    'filters.italy': 'Italian resources only',
+    'filters.reset': 'Reset filters',
+    'filters.show': 'Show filters',
+    'sort.label': 'Sort',
+    'sort.relevance': 'Relevance',
+    'sort.az': 'Alphabetical (A–Z)',
+    'sort.recent': 'Recently added',
+    'view.label': 'View',
+    'view.grid': 'Grid',
+    'view.list': 'List',
+    'results.count': '{n} tools',
+    'results.one': '1 tool',
+    'results.none': 'No tools match your search.',
+    'results.none.hint': 'Try removing some filters or using different words.',
+    'license.open-source': 'Open source',
+    'license.gratuito': 'Free',
+    'license.freemium': 'Freemium',
+    'platform.web': 'Web',
+    'platform.desktop': 'Desktop',
+    'platform.mobile': 'Mobile',
+    'platform.plugin': 'Plugin',
+    'platform.libreria': 'Library',
+    'card.open': 'opens the website in a new tab',
+    'card.source': 'Source code',
+    'card.fav.add': 'Add to favourites',
+    'card.fav.remove': 'Remove from favourites',
+    'card.italy': 'Italy',
+    'category.count': '{n} tools',
+    'category.back': 'All categories',
+    'favorites.title': 'My tools',
+    'favorites.lead': 'The tools you starred. They stay in this browser, no account needed.',
+    'favorites.empty': 'You haven’t saved any tools yet.',
+    'favorites.empty.hint': 'Tap the star on a card to add it here.',
+    'favorites.nojs': 'JavaScript is required to show your favourites.',
+    'submit.title': 'Suggest a tool',
+    'about.title': 'About',
+    'footer.about': 'An independent catalogue of free and open-source tools for architecture and spatial design.',
+    'footer.updated': 'Links checked on {date}',
+    'footer.source': 'Code and data on GitHub',
+    'notfound.title': 'Page not found',
+    'notfound.text': 'The page you are looking for doesn’t exist or has moved.',
+    'notfound.home': 'Back to home',
+  },
+} as const;
+
+export type UIKey = keyof (typeof ui)['it'];
+
+export function useTranslations(lang: Lang) {
+  return (key: UIKey, vars: Record<string, string | number> = {}) =>
+    Object.entries(vars).reduce<string>((s, [k, v]) => s.replaceAll(`{${k}}`, String(v)), ui[lang][key] ?? ui.it[key]);
+}
+
+// Percorsi localizzati delle pagine.
+const routes = {
+  home: { it: '', en: 'en/' },
+  tools: { it: 'strumenti/', en: 'en/tools/' },
+  favorites: { it: 'preferiti/', en: 'en/favorites/' },
+  submit: { it: 'proponi/', en: 'en/submit/' },
+  about: { it: 'informazioni/', en: 'en/about/' },
+  category: { it: 'categoria/', en: 'en/category/' },
+} as const;
+export type Route = keyof typeof routes;
+
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+
+export function withBase(path: string) {
+  return base + path.replace(/^\//, '');
+}
+
+export function localizedPath(lang: Lang, route: Route, slug?: string) {
+  return withBase(routes[route][lang] + (slug ? `${slug}/` : ''));
+}
+
+export function formatDate(iso: string, lang: Lang) {
+  return new Date(`${iso}T12:00:00`).toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+}

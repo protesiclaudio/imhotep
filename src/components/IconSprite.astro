@@ -1,0 +1,24 @@
+---
+// Sprite SVG con le icone ripetute in ogni card: definite una volta, richiamate con <use>.
+// I tracciati vengono letti dai sorgenti di @lucide/astro, così restano identici alle altre icone.
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+export const SPRITE_ICONS = ['star', 'arrow-up-right', 'code'] as const;
+
+// Il pacchetto non esporta i dati delle icone: li leggiamo dai sorgenti (il build gira dalla radice del progetto).
+const iconsDir = join(process.cwd(), 'node_modules', '@lucide', 'astro', 'src', 'icons');
+
+function symbol(name: string) {
+  const src = readFileSync(join(iconsDir, `${name}.ts`), 'utf8');
+  const data = JSON.parse(src.match(/const iconData: LucideIconData = (\{.*\});/)![1]);
+  const children = (data.node as [string, Record<string, string>][])
+    .map(([tag, attrs]) => `<${tag} ${Object.entries(attrs).map(([k, v]) => `${k}="${v}"`).join(' ')}/>`)
+    .join('');
+  // Colori e tratto stanno sull'<svg> che usa il simbolo, così il CSS può cambiarli (es. stella piena).
+  return `<symbol id="i-${name}" viewBox="0 0 24 24">${children}</symbol>`;
+}
+const markup = SPRITE_ICONS.map(symbol).join('');
+---
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false" set:html={markup} />

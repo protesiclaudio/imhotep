@@ -1,0 +1,22 @@
+---
+import Icon from './Icon.astro';
+import { categoryDescription, categoryName, type Category } from '../lib/data';
+import { localizedPath, useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  category: Category;
+  count: number;
+  lang: Lang;
+}
+const { category, count, lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<a class="cat-card" href={localizedPath(lang, 'category', category.id)}>
+  <span class="cc-top">
+    <Icon name={category.icon} size={26} strokeWidth={1.25} />
+    <span class="cc-count">{t('category.count', { n: count })}</span>
+  </span>
+  <h3>{categoryName(category, lang)}</h3>
+  <p>{categoryDescription(category, lang)}</p>
+</a>

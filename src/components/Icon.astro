@@ -1,0 +1,84 @@
+---
+// Icone Lucide inserite come SVG al build: nessun JavaScript lato client.
+import MapIcon from '@lucide/astro/icons/map';
+import Mountain from '@lucide/astro/icons/mountain';
+import Layers from '@lucide/astro/icons/layers';
+import Database from '@lucide/astro/icons/database';
+import Satellite from '@lucide/astro/icons/satellite';
+import Network from '@lucide/astro/icons/network';
+import Sun from '@lucide/astro/icons/sun';
+import DraftingCompass from '@lucide/astro/icons/drafting-compass';
+import Building from '@lucide/astro/icons/building';
+import Shapes from '@lucide/astro/icons/shapes';
+import Aperture from '@lucide/astro/icons/aperture';
+import PenTool from '@lucide/astro/icons/pen-tool';
+import Palette from '@lucide/astro/icons/palette';
+import Grid3x3 from '@lucide/astro/icons/grid-3x3';
+import Users from '@lucide/astro/icons/users';
+import Construction from '@lucide/astro/icons/construction';
+import BookOpen from '@lucide/astro/icons/book-open';
+import Library from '@lucide/astro/icons/library';
+import Search from '@lucide/astro/icons/search';
+import Star from '@lucide/astro/icons/star';
+import ArrowUpRight from '@lucide/astro/icons/arrow-up-right';
+import ArrowRight from '@lucide/astro/icons/arrow-right';
+import ArrowLeft from '@lucide/astro/icons/arrow-left';
+import Moon from '@lucide/astro/icons/moon';
+import MenuIcon from '@lucide/astro/icons/menu';
+import X from '@lucide/astro/icons/x';
+import LayoutGrid from '@lucide/astro/icons/layout-grid';
+import List from '@lucide/astro/icons/list';
+import SlidersHorizontal from '@lucide/astro/icons/sliders-horizontal';
+import Code from '@lucide/astro/icons/code';
+import Flag from '@lucide/astro/icons/flag';
+import Check from '@lucide/astro/icons/check';
+
+const icons = {
+  map: MapIcon,
+  mountain: Mountain,
+  layers: Layers,
+  database: Database,
+  satellite: Satellite,
+  network: Network,
+  sun: Sun,
+  'drafting-compass': DraftingCompass,
+  building: Building,
+  shapes: Shapes,
+  aperture: Aperture,
+  'pen-tool': PenTool,
+  palette: Palette,
+  'grid-3x3': Grid3x3,
+  users: Users,
+  construction: Construction,
+  'book-open': BookOpen,
+  library: Library,
+  search: Search,
+  star: Star,
+  'arrow-up-right': ArrowUpRight,
+  'arrow-right': ArrowRight,
+  'arrow-left': ArrowLeft,
+  moon: Moon,
+  menu: MenuIcon,
+  x: X,
+  'layout-grid': LayoutGrid,
+  list: List,
+  sliders: SlidersHorizontal,
+  code: Code,
+  flag: Flag,
+  check: Check,
+} as const;
+
+export type IconName = keyof typeof icons;
+
+interface Props {
+  name: string;
+  size?: number;
+  class?: string;
+  strokeWidth?: number;
+}
+const { name, size = 20, class: className, strokeWidth = 1.5 } = Astro.props;
+const Cmp = icons[name as IconName];
+if (!Cmp) throw new Error(`Icona sconosciuta: ${name}`);
+---
+
+<Cmp size={size} class={className} stroke-width={strokeWidth} aria-hidden="true" focusable="false" />

@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import { localizedPath, useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<Base lang={lang} title={t('notfound.title')} altPath={localizedPath(lang === 'it' ? 'en' : 'it', 'home')} noindex>
+  <div class="wrap py-24">
+    <p class="eyebrow">404</p>
+    <h1 class="mt-3 text-3xl font-semibold md:text-4xl">{t('notfound.title')}</h1>
+    <p class="mt-3 text-muted">{t('notfound.text')}</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a class="btn btn-primary" href={localizedPath(lang, 'home')}>{t('notfound.home')}</a>
+      <a class="btn" href={localizedPath(lang, 'tools')}>{t('nav.tools')}</a>
+    </div>
+  </div>
+</Base>

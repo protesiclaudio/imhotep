@@ -1,4 +1,5 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
 import { readdirSync, readFileSync } from 'node:fs';
 import categories from './data/categories.json';
 

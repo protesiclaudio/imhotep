@@ -1,0 +1,189 @@
+---
+// Catalogo con ricerca, filtri combinabili, ordinamento e vista griglia/elenco.
+// Le card sono generate al build (funzionano anche senza JavaScript); lo script
+// le filtra e riordina sul posto e tiene lo stato nell'URL.
+import Icon from './Icon.astro';
+import ToolCard from './ToolCard.astro';
+import { categories, categoryName, clientIndex, commonFormats, type Tool } from '../lib/data';
+import { useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  tools: Tool[];
+  mode?: 'all' | 'category' | 'favorites';
+}
+const { lang, tools, mode = 'all' } = Astro.props;
+const t = useTranslations(lang);
+
+const licenses = ['open-source', 'gratuito', 'freemium'] as const;
+const platforms = ['web', 'desktop', 'mobile', 'plugin', 'libreria'] as const;
+const formats = commonFormats(tools, mode === 'category' ? 2 : 4);
+const showCategoryFilter = mode !== 'category';
+const usedCategories = categories.filter((c) => tools.some((x) => x.category === c.id));
+const hasItalian = tools.some((x) => x.region === 'italia' || x.tags.includes('Italia'));
+const i18n = {
+  count: t('results.count'),
+  one: t('results.one'),
+};
+---
+
+<div class="catalog" data-catalog data-mode={mode} data-lang={lang}>
+  <script type="application/json" data-catalog-index set:html={JSON.stringify(clientIndex(tools))} />
+  <script type="application/json" data-catalog-i18n set:html={JSON.stringify(i18n)} />
+
+  <form class="search" role="search" action="" onsubmit="return false">
+    <label for="catalog-q" class="sr-only">{t('search.label')}</label>
+    <Icon name="search" size={20} />
+    <input
+      id="catalog-q"
+      name="q"
+      type="search"
+      placeholder={t('search.placeholder')}
+      autocomplete="off"
+      spellcheck="false"
+      enterkeyhint="search"
+      aria-describedby="catalog-count"
+      data-q
+    />
+    <kbd class="kbd" aria-hidden="true" title={t('search.shortcut')}>/</kbd>
+  </form>
+
+  <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-3 border-b border-line pb-4">
+    <p id="catalog-count" class="meta text-sm text-ink" aria-live="polite" aria-atomic="true" data-count>
+      {t('results.count', { n: tools.length })}
+    </p>
+    <div class="flex w-full flex-wrap items-center gap-2 sm:ml-auto sm:w-auto">
+      <button type="button" class="btn lg:hidden" aria-expanded="false" aria-controls="catalog-filters" data-filters-toggle>
+        <Icon name="sliders" size={16} />
+        {t('filters.title')}
+        <span class="meta" data-active-count hidden></span>
+      </button>
+      <label class="ml-auto flex items-center gap-2 text-sm sm:ml-0">
+        <span class="text-muted max-sm:sr-only">{t('sort.label')}</span>
+        <select class="field w-auto py-1.5 text-sm" data-sort>
+          <option value="relevance" data-relevance>{t('sort.relevance')}</option>
+          <option value="az">{t('sort.az')}</option>
+          <option value="recent">{t('sort.recent')}</option>
+        </select>
+      </label>
+      <div class="hidden border border-line-strong md:flex" role="group" aria-label={t('view.label')}>
+        <button type="button" class="icon-btn" aria-pressed="true" data-view="grid" title={t('view.grid')}>
+          <Icon name="layout-grid" size={18} /><span class="sr-only">{t('view.grid')}</span>
+        </button>
+        <button type="button" class="icon-btn" aria-pressed="false" data-view="list" title={t('view.list')}>
+          <Icon name="list" size={18} /><span class="sr-only">{t('view.list')}</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6 grid gap-8 lg:grid-cols-[15rem_minmax(0,1fr)]">
+    <aside id="catalog-filters" class="filters hidden lg:block" aria-label={t('filters.title')} data-filters>
+      <div class="space-y-7 lg:sticky lg:top-24">
+        {
+          showCategoryFilter && (
+            <fieldset class="filter-group">
+              <legend class="eyebrow">{t('filters.category')}</legend>
+              {usedCategories.map((c) => (
+                <label class="check">
+                  <input type="checkbox" name="cat" value={c.id} />
+                  <span>{categoryName(c, lang)}</span>
+                  <span class="ct" data-facet-count={`cat:${c.id}`} />
+                </label>
+              ))}
+            </fieldset>
+          )
+        }
+        <fieldset class="filter-group">
+          <legend class="eyebrow">{t('filters.license')}</legend>
+          <div class="chips">
+            {
+              licenses.map((l) => (
+                <label class="chip">
+                  <input type="checkbox" name="lic" value={l} />
+                  <span>{t(`license.${l}`)} <span class="ct opacity-70" data-facet-count={`lic:${l}`} /></span>
+                </label>
+              ))
+            }
+          </div>
+        </fieldset>
+        <fieldset class="filter-group">
+          <legend class="eyebrow">{t('filters.platform')}</legend>
+          <div class="chips">
+            {
+              platforms.map((p) => (
+                <label class="chip">
+                  <input type="checkbox" name="pf" value={p} />
+                  <span>{t(`platform.${p}`)} <span class="ct opacity-70" data-facet-count={`pf:${p}`} /></span>
+                </label>
+              ))
+            }
+          </div>
+        </fieldset>
+        {
+          formats.length > 0 && (
+            <fieldset class="filter-group">
+              <legend class="eyebrow">{t('filters.format')}</legend>
+              <div class="chips">
+                {formats.map((f) => (
+                  <label class="chip">
+                    <input type="checkbox" name="fmt" value={f} />
+                    <span>{f}</span>
+                  </label>
+                ))}
+              </div>
+            </fieldset>
+          )
+        }
+        {
+          hasItalian && (
+            <label class="check border-t border-line pt-4">
+              <input type="checkbox" name="it" value="1" />
+              <span>{t('filters.italy')}</span>
+              <span class="ct" data-facet-count="it:1" />
+            </label>
+          )
+        }
+        <button type="button" class="btn w-full justify-center" data-reset>{t('filters.reset')}</button>
+      </div>
+    </aside>
+
+    <div class="min-w-0">
+      <h2 class="sr-only">{t('nav.tools')}</h2>
+      <div class="tool-grid" data-grid>
+        {tools.map((tool) => <ToolCard tool={tool} lang={lang} showCategory={mode !== 'category'} />)}
+      </div>
+      <div class="border border-line bg-surface px-6 py-14 text-center" data-empty hidden>
+        <p class="font-semibold">{mode === 'favorites' ? t('favorites.empty') : t('results.none')}</p>
+        <p class="mt-2 text-sm text-muted">{mode === 'favorites' ? t('favorites.empty.hint') : t('results.none.hint')}</p>
+      </div>
+      {
+        mode === 'favorites' && (
+          <noscript>
+            <p class="mt-4 text-sm text-muted">{t('favorites.nojs')}</p>
+          </noscript>
+        )
+      }
+    </div>
+  </div>
+</div>
+
+<style>
+  @media (max-width: 1023px) {
+    .filters.is-open {
+      display: block;
+      padding: 1.25rem;
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+  }
+  /* Nei preferiti le card restano nascoste finché lo script non sa quali mostrare. */
+  [data-mode='favorites']:not(.is-ready) [data-grid] {
+    display: none;
+  }
+</style>
+
+<script>
+  import { initCatalog } from '../scripts/catalog';
+  document.querySelectorAll<HTMLElement>('[data-catalog]').forEach(initCatalog);
+</script>

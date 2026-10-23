@@ -1,0 +1,71 @@
+---
+import { existsSync } from 'node:fs';
+import { categoryById, categoryName, isItalian, toolDescription, type Tool } from '../lib/data';
+import { useTranslations, withBase, type Lang } from '../i18n/ui';
+
+interface Props {
+  tool: Tool;
+  lang: Lang;
+  showCategory?: boolean;
+  headingLevel?: 'h2' | 'h3';
+}
+const { tool, lang, showCategory = true, headingLevel = 'h3' } = Astro.props;
+const t = useTranslations(lang);
+const cat = categoryById(tool.category);
+const H = headingLevel;
+
+// Favicon scaricata con `npm run fetch-favicons`; altrimenti monogramma.
+const faviconFile = existsSync(`public/favicons/${tool.id}.png`) ? `favicons/${tool.id}.png` : undefined;
+const monogram = tool.name.replace(/[^A-Za-z0-9À-ÿ]/g, '').slice(0, 2);
+const shownFormats = tool.formats.slice(0, 3);
+// Icone dallo sprite (vedi IconSprite.astro): molto più leggere di un SVG completo per card.
+// Stile del tratto in global.css (.ico-sprite) per non ripeterlo in ogni card.
+const use = (name: string, size: number) =>
+  `<svg class="ico-sprite" width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-${name}"/></svg>`;
+---
+
+<article class="tool-card" data-id={tool.id}>
+  <div class="tc-head">
+    <span class="tc-icon" aria-hidden="true">
+      {faviconFile ? <img src={withBase(faviconFile)} alt="" width="20" height="20" loading="lazy" decoding="async" /> : monogram}
+    </span>
+    <div class="min-w-0">
+      <H>
+        <a href={tool.url} target="_blank" rel="noopener">
+          {tool.name}<span class="ext" set:html={use('arrow-up-right', 15)} />
+          <span class="sr-only">({t('card.open')})</span>
+        </a>
+      </H>
+      {showCategory && <span class="tc-cat meta">{categoryName(cat, lang)}</span>}
+    </div>
+  </div>
+
+  <p class="tc-desc">{toolDescription(tool, lang)}</p>
+
+  <div class="tc-foot">
+    <span class={`badge badge-${tool.license}`}>{t(`license.${tool.license}`)}</span>
+    {isItalian(tool) && <span class="badge tc-tag">{t('card.italy')}</span>}
+    <span class="meta">
+      {tool.platform.map((p) => t(`platform.${p}`)).join(' · ')}
+      {shownFormats.length > 0 && <> · {shownFormats.join(' ')}</>}
+    </span>
+    {
+      tool.source && tool.source !== tool.url && (
+        <a class="tc-src" href={tool.source} target="_blank" rel="noopener">
+          <Fragment set:html={use('code', 14)} />
+          <span>{t('card.source')}</span>
+          <span class="sr-only">: {tool.name} ({t('card.open')})</span>
+        </a>
+      )
+    }
+  </div>
+
+  <button
+    type="button"
+    class="icon-btn tc-fav"
+    aria-pressed="false"
+    aria-label={`${t('card.fav.add')}: ${tool.name}`}
+    data-fav={tool.id}
+    set:html={use('star', 18)}
+  />
+</article>
