@@ -14,6 +14,7 @@ Imhotep è un catalogo verificato di strumenti, siti e dati **gratuiti o open so
 - [Criteri di inclusione](#criteri-di-inclusione)
 - [Script di manutenzione](#script-di-manutenzione)
 - [Pubblicazione](#pubblicazione)
+- [Licenza](#licenza)
 - [Struttura del progetto](#struttura-del-progetto)
 - [Scelte tecniche](#scelte-tecniche)
 
@@ -136,15 +137,20 @@ Il sito è statico: qualsiasi hosting di file va bene. Prima di pubblicare impos
 
 ### GitHub Pages
 
-1. Crea un repository su GitHub e carica il progetto:
+Il sito è pubblicato da [github.com/protesiclaudio/imhotep](https://github.com/protesiclaudio/imhotep) all'indirizzo <https://protesiclaudio.github.io/imhotep/>.
+
+1. Crea su GitHub un repository **pubblico** e vuoto (senza README, licenza o .gitignore).
+2. Su GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. Collega il progetto e caricalo:
 
    ```bash
-   git remote add origin https://github.com/UTENTE/atlante-strumenti.git
+   git remote add origin https://github.com/protesiclaudio/imhotep.git
    git push -u origin main
    ```
 
-2. Su GitHub: **Settings → Pages → Source: GitHub Actions**.
-3. Il workflow `.github/workflows/deploy.yml` pubblica il sito a ogni push su `main`, all'indirizzo `https://UTENTE.github.io/atlante-strumenti/`. Imposta da solo `SITE_URL` e `BASE_PATH`; con un dominio personalizzato modifica le due variabili nel workflow (`BASE_PATH: /`).
+4. Il workflow `.github/workflows/deploy.yml` pubblica il sito a ogni push su `main` (avanzamento nella scheda **Actions**). Imposta da solo `SITE_URL` e `BASE_PATH` dal nome dell'account e del repository; con un dominio personalizzato modifica le due variabili nel workflow (`BASE_PATH: /`).
+
+Per aggiornare il sito basta un nuovo commit seguito da `git push`.
 
 ### Netlify
 
@@ -153,6 +159,12 @@ Collega il repository da [app.netlify.com](https://app.netlify.com): `netlify.to
 ### Vercel
 
 Importa il repository da [vercel.com/new](https://vercel.com/new): Astro viene riconosciuto in automatico e `vercel.json` aggiunge le intestazioni di cache. Imposta la variabile d'ambiente `SITE_URL` con l'indirizzo del progetto.
+
+## Licenza
+
+- **Codice**: [MIT](LICENSE).
+- **Contenuti del catalogo** (dati in `src/data/`, testi, `docs/scartati.md`): [CC BY 4.0](LICENSE-DATI.md), riutilizzabili citando la fonte.
+- Nomi, marchi e favicon degli strumenti appartengono ai rispettivi titolari.
 
 ## Struttura del progetto
 

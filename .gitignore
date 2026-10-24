@@ -5,3 +5,4 @@ dist/
 reports/
 *.log
 .DS_Store
+.claude/

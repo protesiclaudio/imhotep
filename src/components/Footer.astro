@@ -18,6 +18,10 @@ const updated = formatDate(lastVerified(tools), lang);
       <p class="font-semibold">{t('site.name')}</p>
       <p class="mt-2 text-sm text-muted">{t('footer.about')}</p>
       <p class="meta mt-4">{t('footer.updated', { date: updated })}</p>
+      <p class="meta mt-1">
+        {t('footer.license')}{' '}
+        <a class="underline hover:text-ink" href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">CC BY 4.0</a>
+      </p>
     </div>
     <ul class="space-y-2 text-sm">
       <li><a class="text-muted hover:text-ink" href={localizedPath(lang, 'tools')}>{t('nav.tools')}</a></li>

@@ -83,6 +83,7 @@ export const ui = {
     'footer.about': 'Catalogo indipendente di strumenti gratuiti e open source per il progetto di architettura e territorio.',
     'footer.updated': 'Link verificati il {date}',
     'footer.source': 'Codice e dati su GitHub',
+    'footer.license': 'Codice MIT · Contenuti',
     'notfound.title': 'Pagina non trovata',
     'notfound.text': 'La pagina che cerchi non esiste o è stata spostata.',
     'notfound.home': 'Torna alla home',
@@ -166,6 +167,7 @@ export const ui = {
     'footer.about': 'An independent catalogue of free and open-source tools for architecture and spatial design.',
     'footer.updated': 'Links checked on {date}',
     'footer.source': 'Code and data on GitHub',
+    'footer.license': 'Code MIT · Content',
     'notfound.title': 'Page not found',
     'notfound.text': 'The page you are looking for doesn’t exist or has moved.',
     'notfound.home': 'Back to home',
@@ -186,7 +188,7 @@ const routes = {
   favorites: { it: 'preferiti/', en: 'en/favorites/' },
   submit: { it: 'proponi/', en: 'en/submit/' },
   about: { it: 'informazioni/', en: 'en/about/' },
-  imhotep: { it: 'imhotep/', en: 'en/imhotep/' },
+  imhotep: { it: 'chi-era-imhotep/', en: 'en/who-was-imhotep/' },
   category: { it: 'categoria/', en: 'en/category/' },
 } as const;
 export type Route = keyof typeof routes;
