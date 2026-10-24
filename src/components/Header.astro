@@ -16,6 +16,7 @@ const links = [
   { href: localizedPath(lang, 'favorites'), label: t('nav.favorites'), fav: true },
   { href: localizedPath(lang, 'submit'), label: t('nav.submit') },
   { href: localizedPath(lang, 'about'), label: t('nav.about') },
+  { href: localizedPath(lang, 'imhotep'), label: t('nav.imhotep') },
 ];
 const isCurrent = (href: string) => !href.includes('#') && current.startsWith(href) && href !== localizedPath(lang, 'home');
 ---

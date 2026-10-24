@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Atlante degli strumenti gratuiti e open source per architettura, urbanistica e paesaggio.",
+  "description": "Imhotep: catalogo di strumenti gratuiti e open source per architettura, urbanistica e paesaggio.",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

@@ -18,7 +18,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" v
   <rect x="80" y="80" width="64" height="64" fill="none" stroke="#1d1f1c" stroke-width="4"/>
   <path d="M80 122 L102 100 L120 118 L130 108 L144 122" fill="none" stroke="#3e6b4f" stroke-width="5"/>
   <circle cx="130" cy="96" r="5" fill="#1d1f1c"/>
-  <text x="80" y="214" font-family="IBM Plex Mono, monospace" font-size="24" letter-spacing="3" fill="#555a52">ATLANTE DEGLI STRUMENTI</text>
+  <text x="80" y="214" font-family="IBM Plex Mono, monospace" font-size="24" letter-spacing="3" fill="#555a52">IMHOTEP · STRUMENTI PER IL PROGETTO</text>
   <text font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600" font-size="72" fill="#1d1f1c">
     <tspan x="80" y="320">Strumenti liberi per chi</tspan>
     <tspan x="80" y="404">progetta il territorio</tspan>

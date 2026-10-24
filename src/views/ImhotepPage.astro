@@ -1,0 +1,183 @@
+---
+import Base from '../layouts/Base.astro';
+import { localizedPath, useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const it = lang === 'it';
+
+const title = it ? 'Imhotep, il primo architetto conosciuto della storia' : 'Imhotep, the first architect known to history';
+const description = it
+  ? 'Chi era Imhotep, l’architetto della piramide a gradoni di Djoser a Saqqara, e perché questo catalogo porta il suo nome.'
+  : 'Who Imhotep was, the architect of Djoser’s Step Pyramid at Saqqara, and why this catalogue bears his name.';
+
+const facts = it
+  ? [
+      ['Epoca', 'III dinastia egizia, XXVII secolo a.C. circa'],
+      ['Al servizio di', 'Il faraone Djoser'],
+      ['Opera', 'Complesso funerario di Djoser e piramide a gradoni, Saqqara'],
+      ['Altezza della piramide', 'Circa 60 metri, su sei gradoni'],
+      ['Tomba', 'Mai identificata con certezza'],
+    ]
+  : [
+      ['Period', 'Third Dynasty of Egypt, around the 27th century BC'],
+      ['Served', 'Pharaoh Djoser'],
+      ['Work', 'Djoser’s funerary complex and Step Pyramid, Saqqara'],
+      ['Pyramid height', 'About 60 metres, in six steps'],
+      ['Tomb', 'Never identified with certainty'],
+    ];
+---
+
+<Base lang={lang} title={title} description={description} altPath={localizedPath(it ? 'en' : 'it', 'imhotep')}>
+  <div class="wrap pt-10 md:pt-14">
+    <header class="mb-10 max-w-3xl">
+      <p class="eyebrow">{it ? 'Perché questo nome' : 'Why this name'}</p>
+      <h1 class="mt-3 text-3xl font-semibold md:text-[2.75rem] md:leading-tight">{title}</h1>
+      <p class="mt-4 text-lg text-muted">
+        {
+          it
+            ? 'Quasi cinquemila anni fa un funzionario egizio sovrappose sei gradoni di pietra e cambiò per sempre il modo di costruire. Di lui conosciamo il nome: è il primo architetto della storia di cui ci sia giunta notizia.'
+            : 'Almost five thousand years ago an Egyptian official stacked six stone steps and changed the way people build forever. We know his name: he is the first architect in history whose identity has come down to us.'
+        }
+      </p>
+    </header>
+
+    <figure class="mb-12 border border-line bg-surface p-6 md:p-10">
+      <svg viewBox="0 0 640 224" class="block h-auto w-full" role="img" aria-labelledby="pyr-title">
+        <title id="pyr-title">{it ? 'Sezione schematica della piramide a gradoni di Djoser' : 'Schematic section of Djoser’s Step Pyramid'}</title>
+        <line x1="20" y1="190" x2="620" y2="190" stroke="var(--line-strong)" stroke-width="1" />
+        <path
+          d="M110 190 V165 H140 V140 H170 V115 H200 V90 H230 V65 H260 V40 H380 V65 H410 V90 H440 V115 H470 V140 H500 V165 H530 V190"
+          fill="var(--accent-soft)"
+          stroke="var(--ink)"
+          stroke-width="1.5"
+        />
+        <path d="M290 190 V205 M350 190 V205" stroke="var(--muted)" stroke-width="1" stroke-dasharray="3 3" />
+        <line x1="560" y1="40" x2="560" y2="190" stroke="var(--accent)" stroke-width="1.5" />
+        <path d="M554 46 L560 40 L566 46 M554 184 L560 190 L566 184" fill="none" stroke="var(--accent)" stroke-width="1.5" />
+        <text x="570" y="121" font-family="var(--font-mono)" font-size="17" fill="var(--muted)">~60 m</text>
+        <text x="20" y="216" font-family="var(--font-mono)" font-size="15" fill="var(--muted)">{it ? 'SAQQARA · XXVII SEC. A.C.' : 'SAQQARA · 27TH CENTURY BC'}</text>
+      </svg>
+      <figcaption class="meta mt-4">
+        {
+          it
+            ? 'Schema in sezione: sei gradoni sovrapposti, nati dall’ampliamento successivo di una mastaba quadrata. Disegno non in scala.'
+            : 'Schematic section: six stacked steps, grown from successive enlargements of a square mastaba. Not to scale.'
+        }
+      </figcaption>
+    </figure>
+
+    <div class="grid gap-12 lg:grid-cols-[minmax(0,44rem)_1fr]">
+      <article class="prose">
+        {
+          it ? (
+            <>
+              <h2>Chi era</h2>
+              <p>
+                Imhotep visse in Egitto durante la III dinastia, al servizio del faraone Djoser, intorno al XXVII secolo a.C. Non era soltanto un costruttore:
+                una base di statua del re ritrovata a Saqqara riporta il suo nome accanto a una serie di titoli che ne fanno uno degli uomini più potenti del
+                regno. Era cancelliere del re, amministratore del palazzo, sommo sacerdote di Eliopoli e, insieme, costruttore e scultore.
+              </p>
+              <p>
+                È proprio questa iscrizione, contemporanea alla sua vita, a renderlo il primo architetto di cui conosciamo con certezza il nome: di tutti i
+                costruttori precedenti non ci è arrivata alcuna identità.
+              </p>
+
+              <h2>La piramide a gradoni di Saqqara</h2>
+              <p>
+                A Imhotep la tradizione attribuisce il complesso funerario di Djoser, con al centro la piramide a gradoni: considerata la più antica grande
+                costruzione interamente in pietra squadrata. Prima di allora le tombe reali erano mastabe, basse costruzioni rettangolari in mattoni crudi.
+              </p>
+              <p>
+                Il progetto crebbe per fasi. Una prima mastaba quadrata in pietra venne ampliata più volte, fino a diventare una sovrapposizione di sei
+                gradoni alta circa sessanta metri. Intorno, un recinto con cortili, cappelle e colonnati traduce nella pietra forme nate da materiali deperibili:
+                colonne che imitano fasci di canne, soffitti che riproducono tronchi, porte scolpite in posizione aperta. È un’architettura che ripensa le
+                tecniche del proprio tempo e le porta su una scala mai vista: il primo passo verso le piramidi di Giza.
+              </p>
+
+              <h2>Dall’architetto al mito</h2>
+              <p>
+                La fama di Imhotep crebbe per secoli dopo la sua morte. Gli scribi lo consideravano un patrono del sapere, e nel periodo tardo fu venerato come
+                divinità della medicina e della saggezza; i Greci lo identificarono con Asclepio. Lo storico egizio Manetone, nel III secolo a.C., gli
+                attribuiva l’invenzione della costruzione in pietra tagliata. La sua tomba, che si ritiene sia a Saqqara, non è mai stata identificata con
+                certezza.
+              </p>
+
+              <h2>Perché questo nome</h2>
+              <p>
+                Questo catalogo raccoglie strumenti per chi progetta: per leggere un sito, disegnarlo, misurarlo, simularne il clima, costruirne il modello.
+                Imhotep è stato il primo a lasciare il proprio nome legato a un progetto, e il suo lavoro nasce proprio dal saper usare in modo nuovo gli
+                strumenti e i materiali disponibili. Ci è sembrato il nome giusto per un archivio di strumenti liberi, a disposizione di chiunque costruisca.
+              </p>
+              <p>
+                <a href={localizedPath(lang, 'tools')}>Esplora il catalogo</a> oppure leggi i <a href={localizedPath(lang, 'about')}>criteri di inclusione</a>.
+              </p>
+            </>
+          ) : (
+            <>
+              <h2>Who he was</h2>
+              <p>
+                Imhotep lived in Egypt during the Third Dynasty, serving Pharaoh Djoser around the 27th century BC. He was not only a builder: a statue base of
+                the king found at Saqqara bears his name alongside a list of titles that make him one of the most powerful men in the kingdom. He was the king’s
+                chancellor, administrator of the palace, high priest of Heliopolis and, at the same time, builder and sculptor.
+              </p>
+              <p>
+                That inscription, made during his lifetime, is what makes him the first architect whose name we know for certain: no earlier builder’s identity
+                has come down to us.
+              </p>
+
+              <h2>The Step Pyramid at Saqqara</h2>
+              <p>
+                Tradition credits Imhotep with Djoser’s funerary complex and its Step Pyramid, regarded as the oldest large building made entirely of dressed
+                stone. Until then royal tombs were mastabas, low rectangular structures of mud brick.
+              </p>
+              <p>
+                The design grew in phases. A first square stone mastaba was enlarged several times until it became a stack of six steps about sixty metres high.
+                Around it, an enclosure of courts, chapels and colonnades translates into stone forms born of perishable materials: columns imitating bundles of
+                reeds, ceilings carved like logs, doors sculpted standing open. It is architecture that rethinks the techniques of its time and takes them to an
+                unprecedented scale: the first step towards the pyramids of Giza.
+              </p>
+
+              <h2>From architect to legend</h2>
+              <p>
+                Imhotep’s fame kept growing for centuries after his death. Scribes saw him as a patron of learning, and in the Late Period he was worshipped as a
+                god of medicine and wisdom; the Greeks identified him with Asclepius. The Egyptian historian Manetho, in the 3rd century BC, credited him with
+                inventing building in cut stone. His tomb, believed to lie at Saqqara, has never been identified with certainty.
+              </p>
+
+              <h2>Why this name</h2>
+              <p>
+                This catalogue gathers tools for people who design: to read a site, draw it, measure it, simulate its climate, build its model. Imhotep was the
+                first to leave his name tied to a design, and his work grew out of using the tools and materials of his day in new ways. It felt like the right
+                name for an archive of free tools, open to anyone who builds.
+              </p>
+              <p>
+                <a href={localizedPath(lang, 'tools')}>Explore the catalogue</a> or read the <a href={localizedPath(lang, 'about')}>inclusion criteria</a>.
+              </p>
+            </>
+          )
+        }
+      </article>
+
+      <aside aria-labelledby="facts-title" class="self-start border border-line bg-surface p-6 lg:sticky lg:top-24">
+        <h2 id="facts-title" class="eyebrow">{it ? 'In breve' : 'At a glance'}</h2>
+        <dl class="mt-4 space-y-4">
+          {
+            facts.map(([k, v]) => (
+              <div>
+                <dt class="meta">{k}</dt>
+                <dd class="mt-0.5 text-sm">{v}</dd>
+              </div>
+            ))
+          }
+        </dl>
+        <p class="mt-6 border-t border-line pt-4 text-xs text-muted">
+          {it ? 'Le date dell’Antico Regno sono approssimative e variano tra le fonti.' : 'Old Kingdom dates are approximate and vary between sources.'}
+        </p>
+      </aside>
+    </div>
+  </div>
+</Base>

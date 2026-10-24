@@ -5,7 +5,7 @@ export const defaultLang: Lang = 'it';
 
 export const ui = {
   it: {
-    'site.name': 'Atlante degli strumenti',
+    'site.name': 'Imhotep',
     'site.tagline': 'Strumenti liberi e gratuiti per chi progetta il territorio',
     'site.description':
       'Catalogo verificato di oltre 400 strumenti gratuiti e open source per architetti, urbanisti, paesaggisti e ingegneri: GIS, CAD, BIM, clima, dati territoriali e risorse italiane.',
@@ -15,6 +15,7 @@ export const ui = {
     'nav.favorites': 'Preferiti',
     'nav.submit': 'Proponi',
     'nav.about': 'Informazioni',
+    'nav.imhotep': 'Chi era Imhotep',
     'nav.menu': 'Menu',
     'nav.main': 'Navigazione principale',
     'theme.toggle': 'Cambia tema',
@@ -22,7 +23,7 @@ export const ui = {
     'theme.light': 'Tema chiaro',
     'lang.switch': 'Read in English',
     'lang.short': 'EN',
-    'home.eyebrow': 'Atlante degli strumenti',
+    'home.eyebrow': 'Imhotep · strumenti per il progetto',
     'home.title': 'Strumenti liberi per chi progetta il territorio',
     'home.lead':
       'Un catalogo verificato di strumenti, siti e dati gratuiti o open source per architettura, urbanistica, paesaggio e ingegneria.',
@@ -87,7 +88,7 @@ export const ui = {
     'notfound.home': 'Torna alla home',
   },
   en: {
-    'site.name': 'Atlas of Tools',
+    'site.name': 'Imhotep',
     'site.tagline': 'Free and open tools for people who design places',
     'site.description':
       'A verified catalogue of over 400 free and open-source tools for architects, planners, landscape architects and engineers: GIS, CAD, BIM, climate, spatial data and Italian resources.',
@@ -97,6 +98,7 @@ export const ui = {
     'nav.favorites': 'Favourites',
     'nav.submit': 'Suggest',
     'nav.about': 'About',
+    'nav.imhotep': 'Who was Imhotep',
     'nav.menu': 'Menu',
     'nav.main': 'Main navigation',
     'theme.toggle': 'Toggle theme',
@@ -104,7 +106,7 @@ export const ui = {
     'theme.light': 'Light theme',
     'lang.switch': 'Leggi in italiano',
     'lang.short': 'IT',
-    'home.eyebrow': 'Atlas of Tools',
+    'home.eyebrow': 'Imhotep · tools for design',
     'home.title': 'Free tools for people who design places',
     'home.lead':
       'A verified catalogue of free and open-source tools, websites and data for architecture, planning, landscape and engineering.',
@@ -184,6 +186,7 @@ const routes = {
   favorites: { it: 'preferiti/', en: 'en/favorites/' },
   submit: { it: 'proponi/', en: 'en/submit/' },
   about: { it: 'informazioni/', en: 'en/about/' },
+  imhotep: { it: 'imhotep/', en: 'en/imhotep/' },
   category: { it: 'categoria/', en: 'en/category/' },
 } as const;
 export type Route = keyof typeof routes;

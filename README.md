@@ -1,6 +1,6 @@
-# Atlante degli strumenti
+# Imhotep
 
-Catalogo verificato di strumenti, siti e dati **gratuiti o open source** per chi progetta architettura, città e paesaggio: studenti, architetti, urbanisti, paesaggisti e ingegneri.
+Imhotep è un catalogo verificato di strumenti, siti e dati **gratuiti o open source** per chi progetta architettura, città e paesaggio: studenti, architetti, urbanisti, paesaggisti e ingegneri.
 
 - **409 risorse** in 18 categorie, tutte con link verificato e licenza controllata (157 open source, 205 gratuite, 47 freemium)
 - **52 risorse italiane**: geoportali regionali, catasto, ISTAT, ISPRA, INGV, normativa, prezzari
