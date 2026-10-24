@@ -689,7 +689,6 @@
     "id": "openfoam",
     "name": "OpenFOAM",
     "url": "https://www.openfoam.com",
-    "source": "https://develop.openfoam.com/Development/openfoam",
     "description_it": "Software di fluidodinamica computazionale (CFD) per simulare vento e ventilazione attorno e dentro gli edifici.",
     "description_en": "Computational fluid dynamics (CFD) software for simulating wind and ventilation around and inside buildings.",
     "category": "clima-energia",

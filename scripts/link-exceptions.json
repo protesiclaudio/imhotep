@@ -26,6 +26,7 @@
     "placesjournal.org": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
     "www.oldmapsonline.org": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
     "gallica.bnf.fr": "Protezione Cloudflare; verificato nel browser il 2026-10-23",
-    "www.mrcutout.com": "Redirect anti-bot; verificato nel browser il 2026-10-23"
+    "www.mrcutout.com": "Redirect anti-bot; verificato nel browser il 2026-10-23",
+    "www.whiteboxgeo.com": "Redirect 307 ai client automatici; verificato nel browser il 2026-10-24"
   }
 }

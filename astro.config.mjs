@@ -16,6 +16,8 @@ export default defineConfig({
   integrations: [
     sitemap({
       i18n: { defaultLocale: 'it', locales: { it: 'it-IT', en: 'en-GB' } },
+      // I preferiti dipendono dal browser di chi visita: niente indicizzazione.
+      filter: (page) => !/\/(preferiti|favorites)\/$/.test(page),
     }),
   ],
   vite: {

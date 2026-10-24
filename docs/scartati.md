@@ -55,4 +55,5 @@ Utile per non rivalutarle ogni volta e per riconsiderarle se cambiano le condizi
 | Mies van der Rohe Award (archivio) | https://miesarch.com | Connessione rifiutata | 2026-10-23 |
 | Atlante architetture contemporanee (MiC) | https://www.atlantearchitetture.beniculturali.it | Dominio non risolvibile | 2026-10-23 |
 | Catalogo generale dei Beni Culturali | https://catalogo.beniculturali.it | Verifica anti-robot: non verificabile automaticamente | 2026-10-23 |
+| Socks (socks-studio.com) | https://socks-studio.com | Non raggiungibile (timeout) né da script né dal browser al controllo del 24 ottobre 2026 | 2026-10-24 |
 | Map to Image | — | Nessuno strumento con questo nome trovato e verificabile | 2026-10-23 |
