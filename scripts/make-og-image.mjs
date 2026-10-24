@@ -15,9 +15,11 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" v
   <g stroke="#d9dad2" stroke-width="1">
     ${Array.from({ length: 11 }, (_, i) => `<line x1="${80 + i * 104}" y1="0" x2="${80 + i * 104}" y2="630"/>`).join('')}
   </g>
-  <rect x="80" y="80" width="64" height="64" fill="none" stroke="#1d1f1c" stroke-width="4"/>
-  <path d="M80 122 L102 100 L120 118 L130 108 L144 122" fill="none" stroke="#3e6b4f" stroke-width="5"/>
-  <circle cx="130" cy="96" r="5" fill="#1d1f1c"/>
+  <g transform="translate(80 80) scale(2)">
+    <path d="M2 28V23H6V18H10V13H22V18H26V23H30V28Z" fill="none" stroke="#1d1f1c" stroke-width="2"/>
+    <path d="M1 28H31" stroke="#1d1f1c" stroke-width="2"/>
+    <circle cx="25" cy="6.5" r="3.2" fill="#3e6b4f"/>
+  </g>
   <text x="80" y="214" font-family="IBM Plex Mono, monospace" font-size="24" letter-spacing="3" fill="#555a52">IMHOTEP · STRUMENTI PER IL PROGETTO</text>
   <text font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600" font-size="72" fill="#1d1f1c">
     <tspan x="80" y="320">Strumenti liberi per chi</tspan>

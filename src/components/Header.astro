@@ -24,10 +24,11 @@ const isCurrent = (href: string) => !href.includes('#') && current.startsWith(hr
 <header class="sticky top-0 z-40 border-b border-line bg-bg/95 backdrop-blur-sm">
   <div class="wrap flex h-16 items-center gap-4">
     <a href={localizedPath(lang, 'home')} class="flex items-center gap-2.5 no-underline" aria-label={t('site.name')}>
+      {/* Logo: piramide a gradoni di Djoser e sole */}
       <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true">
-        <rect x="1" y="1" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"></rect>
-        <path d="M1 21 L11 11 L19 19 L23 15 L31 23" fill="none" stroke="var(--accent)" stroke-width="2.5"></path>
-        <circle cx="23" cy="8" r="2.5" fill="currentColor"></circle>
+        <path d="M2 28V23H6V18H10V13H22V18H26V23H30V28Z" fill="none" stroke="currentColor" stroke-width="2"></path>
+        <path d="M1 28H31" stroke="currentColor" stroke-width="2"></path>
+        <circle cx="25" cy="6.5" r="3.2" fill="var(--accent)"></circle>
       </svg>
       <span class="text-[0.9375rem] font-semibold tracking-tight">{t('site.name')}</span>
     </a>
